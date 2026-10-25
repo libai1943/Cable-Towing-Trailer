@@ -1,0 +1,1933 @@
+{
+  "passed": true,
+  "recordCount": 214,
+  "records": [
+    {
+      "file": "confined_main_W01_complementarity.mat",
+      "group": "main",
+      "retainedAccepted": true,
+      "rawAccepted": false,
+      "nativeAccepted": false,
+      "cost": 13.28916361020797,
+      "fineClearance": 0.12633211077715997
+    },
+    {
+      "file": "confined_main_W01_fixed.mat",
+      "group": "main",
+      "retainedAccepted": true,
+      "rawAccepted": false,
+      "nativeAccepted": false,
+      "cost": 13.28916361020797,
+      "fineClearance": 0.12633211077715997
+    },
+    {
+      "file": "confined_main_W01_logic.mat",
+      "group": "main",
+      "retainedAccepted": true,
+      "rawAccepted": false,
+      "nativeAccepted": false,
+      "cost": 13.28916361020797,
+      "fineClearance": 0.12633211077715997
+    },
+    {
+      "file": "confined_main_W01_max.mat",
+      "group": "main",
+      "retainedAccepted": true,
+      "rawAccepted": true,
+      "nativeAccepted": true,
+      "cost": 13.152762854207058,
+      "fineClearance": 0.14853915059145356
+    },
+    {
+      "file": "confined_main_W01_minlp.mat",
+      "group": "main",
+      "retainedAccepted": true,
+      "rawAccepted": false,
+      "nativeAccepted": false,
+      "cost": 13.28916361020797,
+      "fineClearance": 0.12633211077715997
+    },
+    {
+      "file": "confined_main_W01_rgr.mat",
+      "group": "main",
+      "retainedAccepted": true,
+      "rawAccepted": true,
+      "nativeAccepted": true,
+      "cost": 12.83293799280977,
+      "fineClearance": 0.1333448609255261
+    },
+    {
+      "file": "confined_main_W02_complementarity.mat",
+      "group": "main",
+      "retainedAccepted": true,
+      "rawAccepted": false,
+      "nativeAccepted": false,
+      "cost": 19.009629060441842,
+      "fineClearance": 0.19597243997178396
+    },
+    {
+      "file": "confined_main_W02_fixed.mat",
+      "group": "main",
+      "retainedAccepted": true,
+      "rawAccepted": true,
+      "nativeAccepted": true,
+      "cost": 18.309831423040045,
+      "fineClearance": 0.17465517665421362
+    },
+    {
+      "file": "confined_main_W02_logic.mat",
+      "group": "main",
+      "retainedAccepted": true,
+      "rawAccepted": true,
+      "nativeAccepted": true,
+      "cost": 17.657602554043045,
+      "fineClearance": 0.11790728213409764
+    },
+    {
+      "file": "confined_main_W02_max.mat",
+      "group": "main",
+      "retainedAccepted": true,
+      "rawAccepted": true,
+      "nativeAccepted": true,
+      "cost": 18.801950216772696,
+      "fineClearance": 0.2202009408487201
+    },
+    {
+      "file": "confined_main_W02_minlp.mat",
+      "group": "main",
+      "retainedAccepted": true,
+      "rawAccepted": false,
+      "nativeAccepted": false,
+      "cost": 19.009629060441842,
+      "fineClearance": 0.19597243997178396
+    },
+    {
+      "file": "confined_main_W02_rgr.mat",
+      "group": "main",
+      "retainedAccepted": true,
+      "rawAccepted": false,
+      "nativeAccepted": false,
+      "cost": 19.009629060441842,
+      "fineClearance": 0.19597243997178396
+    },
+    {
+      "file": "confined_main_W03_complementarity.mat",
+      "group": "main",
+      "retainedAccepted": true,
+      "rawAccepted": false,
+      "nativeAccepted": false,
+      "cost": 13.227225213876972,
+      "fineClearance": 0.13659670665547233
+    },
+    {
+      "file": "confined_main_W03_fixed.mat",
+      "group": "main",
+      "retainedAccepted": true,
+      "rawAccepted": false,
+      "nativeAccepted": false,
+      "cost": 13.227225213876972,
+      "fineClearance": 0.13659670665547233
+    },
+    {
+      "file": "confined_main_W03_logic.mat",
+      "group": "main",
+      "retainedAccepted": true,
+      "rawAccepted": false,
+      "nativeAccepted": false,
+      "cost": 13.227225213876972,
+      "fineClearance": 0.13659670665547233
+    },
+    {
+      "file": "confined_main_W03_max.mat",
+      "group": "main",
+      "retainedAccepted": true,
+      "rawAccepted": true,
+      "nativeAccepted": true,
+      "cost": 13.089630070746894,
+      "fineClearance": 0.13365833157848037
+    },
+    {
+      "file": "confined_main_W03_minlp.mat",
+      "group": "main",
+      "retainedAccepted": true,
+      "rawAccepted": false,
+      "nativeAccepted": false,
+      "cost": 13.227225213876972,
+      "fineClearance": 0.13659670665547233
+    },
+    {
+      "file": "confined_main_W03_rgr.mat",
+      "group": "main",
+      "retainedAccepted": true,
+      "rawAccepted": true,
+      "nativeAccepted": true,
+      "cost": 12.130703239962273,
+      "fineClearance": 0.12277559449752706
+    },
+    {
+      "file": "confined_main_W04_complementarity.mat",
+      "group": "main",
+      "retainedAccepted": true,
+      "rawAccepted": false,
+      "nativeAccepted": false,
+      "cost": 20.206751414753032,
+      "fineClearance": 0.17029390848429443
+    },
+    {
+      "file": "confined_main_W04_fixed.mat",
+      "group": "main",
+      "retainedAccepted": true,
+      "rawAccepted": true,
+      "nativeAccepted": true,
+      "cost": 19.6581754347514,
+      "fineClearance": 0.11433077236962917
+    },
+    {
+      "file": "confined_main_W04_logic.mat",
+      "group": "main",
+      "retainedAccepted": true,
+      "rawAccepted": true,
+      "nativeAccepted": true,
+      "cost": 19.65767293462199,
+      "fineClearance": 0.11427467633471963
+    },
+    {
+      "file": "confined_main_W04_max.mat",
+      "group": "main",
+      "retainedAccepted": true,
+      "rawAccepted": true,
+      "nativeAccepted": true,
+      "cost": 20.134513131819023,
+      "fineClearance": 0.15285499311044215
+    },
+    {
+      "file": "confined_main_W04_minlp.mat",
+      "group": "main",
+      "retainedAccepted": true,
+      "rawAccepted": false,
+      "nativeAccepted": false,
+      "cost": 20.206751414753032,
+      "fineClearance": 0.17029390848429443
+    },
+    {
+      "file": "confined_main_W04_rgr.mat",
+      "group": "main",
+      "retainedAccepted": true,
+      "rawAccepted": true,
+      "nativeAccepted": true,
+      "cost": 20.16709845418757,
+      "fineClearance": 0.17725945854079408
+    },
+    {
+      "file": "confined_main_W05_complementarity.mat",
+      "group": "main",
+      "retainedAccepted": true,
+      "rawAccepted": false,
+      "nativeAccepted": false,
+      "cost": 13.328135490398564,
+      "fineClearance": 0.10253318554404668
+    },
+    {
+      "file": "confined_main_W05_fixed.mat",
+      "group": "main",
+      "retainedAccepted": true,
+      "rawAccepted": false,
+      "nativeAccepted": false,
+      "cost": 13.328135490398564,
+      "fineClearance": 0.10253318554404668
+    },
+    {
+      "file": "confined_main_W05_logic.mat",
+      "group": "main",
+      "retainedAccepted": true,
+      "rawAccepted": false,
+      "nativeAccepted": false,
+      "cost": 13.328135490398564,
+      "fineClearance": 0.10253318554404668
+    },
+    {
+      "file": "confined_main_W05_max.mat",
+      "group": "main",
+      "retainedAccepted": true,
+      "rawAccepted": true,
+      "nativeAccepted": true,
+      "cost": 13.130158070795222,
+      "fineClearance": 0.1110516317315412
+    },
+    {
+      "file": "confined_main_W05_minlp.mat",
+      "group": "main",
+      "retainedAccepted": true,
+      "rawAccepted": false,
+      "nativeAccepted": false,
+      "cost": 13.328135490398564,
+      "fineClearance": 0.10253318554404668
+    },
+    {
+      "file": "confined_main_W05_rgr.mat",
+      "group": "main",
+      "retainedAccepted": true,
+      "rawAccepted": true,
+      "nativeAccepted": true,
+      "cost": 12.780077373583575,
+      "fineClearance": 0.12118966450343707
+    },
+    {
+      "file": "confined_main_W06_complementarity.mat",
+      "group": "main",
+      "retainedAccepted": true,
+      "rawAccepted": false,
+      "nativeAccepted": false,
+      "cost": 12.276287642049304,
+      "fineClearance": 0.16158368804589074
+    },
+    {
+      "file": "confined_main_W06_fixed.mat",
+      "group": "main",
+      "retainedAccepted": true,
+      "rawAccepted": false,
+      "nativeAccepted": false,
+      "cost": 12.276287642049304,
+      "fineClearance": 0.16158368804589074
+    },
+    {
+      "file": "confined_main_W06_logic.mat",
+      "group": "main",
+      "retainedAccepted": true,
+      "rawAccepted": false,
+      "nativeAccepted": false,
+      "cost": 12.276287642049304,
+      "fineClearance": 0.16158368804589074
+    },
+    {
+      "file": "confined_main_W06_max.mat",
+      "group": "main",
+      "retainedAccepted": true,
+      "rawAccepted": false,
+      "nativeAccepted": false,
+      "cost": 12.276287642049304,
+      "fineClearance": 0.16158368804589074
+    },
+    {
+      "file": "confined_main_W06_minlp.mat",
+      "group": "main",
+      "retainedAccepted": true,
+      "rawAccepted": false,
+      "nativeAccepted": false,
+      "cost": 12.276287642049304,
+      "fineClearance": 0.16158368804589074
+    },
+    {
+      "file": "confined_main_W06_rgr.mat",
+      "group": "main",
+      "retainedAccepted": true,
+      "rawAccepted": true,
+      "nativeAccepted": true,
+      "cost": 12.276287642049304,
+      "fineClearance": 0.16158368804589074
+    },
+    {
+      "file": "confined_main_W07_complementarity.mat",
+      "group": "main",
+      "retainedAccepted": true,
+      "rawAccepted": false,
+      "nativeAccepted": false,
+      "cost": 13.071144746744316,
+      "fineClearance": 0.11146918149772467
+    },
+    {
+      "file": "confined_main_W07_fixed.mat",
+      "group": "main",
+      "retainedAccepted": true,
+      "rawAccepted": false,
+      "nativeAccepted": false,
+      "cost": 13.071144746744316,
+      "fineClearance": 0.11146918149772467
+    },
+    {
+      "file": "confined_main_W07_logic.mat",
+      "group": "main",
+      "retainedAccepted": true,
+      "rawAccepted": false,
+      "nativeAccepted": false,
+      "cost": 13.071144746744316,
+      "fineClearance": 0.11146918149772467
+    },
+    {
+      "file": "confined_main_W07_max.mat",
+      "group": "main",
+      "retainedAccepted": true,
+      "rawAccepted": true,
+      "nativeAccepted": true,
+      "cost": 12.97894851979248,
+      "fineClearance": 0.136394378597657
+    },
+    {
+      "file": "confined_main_W07_minlp.mat",
+      "group": "main",
+      "retainedAccepted": true,
+      "rawAccepted": false,
+      "nativeAccepted": false,
+      "cost": 13.071144746744316,
+      "fineClearance": 0.11146918149772467
+    },
+    {
+      "file": "confined_main_W07_rgr.mat",
+      "group": "main",
+      "retainedAccepted": true,
+      "rawAccepted": true,
+      "nativeAccepted": true,
+      "cost": 12.253434369373549,
+      "fineClearance": 0.10689261927846537
+    },
+    {
+      "file": "confined_main_W08_complementarity.mat",
+      "group": "main",
+      "retainedAccepted": true,
+      "rawAccepted": true,
+      "nativeAccepted": true,
+      "cost": 14.406860579996868,
+      "fineClearance": 0.114678833393228
+    },
+    {
+      "file": "confined_main_W08_fixed.mat",
+      "group": "main",
+      "retainedAccepted": true,
+      "rawAccepted": false,
+      "nativeAccepted": false,
+      "cost": 15.439871799967325,
+      "fineClearance": 0.1968496255374992
+    },
+    {
+      "file": "confined_main_W08_logic.mat",
+      "group": "main",
+      "retainedAccepted": true,
+      "rawAccepted": false,
+      "nativeAccepted": false,
+      "cost": 15.439871799967325,
+      "fineClearance": 0.1968496255374992
+    },
+    {
+      "file": "confined_main_W08_max.mat",
+      "group": "main",
+      "retainedAccepted": true,
+      "rawAccepted": true,
+      "nativeAccepted": true,
+      "cost": 15.203618409759724,
+      "fineClearance": 0.17052855897509095
+    },
+    {
+      "file": "confined_main_W08_minlp.mat",
+      "group": "main",
+      "retainedAccepted": true,
+      "rawAccepted": false,
+      "nativeAccepted": false,
+      "cost": 15.439871799967325,
+      "fineClearance": 0.1968496255374992
+    },
+    {
+      "file": "confined_main_W08_rgr.mat",
+      "group": "main",
+      "retainedAccepted": true,
+      "rawAccepted": false,
+      "nativeAccepted": false,
+      "cost": 15.439871799967325,
+      "fineClearance": 0.1968496255374992
+    },
+    {
+      "file": "confined_main_W09_complementarity.mat",
+      "group": "main",
+      "retainedAccepted": true,
+      "rawAccepted": true,
+      "nativeAccepted": true,
+      "cost": 31.11346068482461,
+      "fineClearance": 0.18096289407582547
+    },
+    {
+      "file": "confined_main_W09_fixed.mat",
+      "group": "main",
+      "retainedAccepted": true,
+      "rawAccepted": false,
+      "nativeAccepted": false,
+      "cost": 31.6007934948458,
+      "fineClearance": 0.14180047593145065
+    },
+    {
+      "file": "confined_main_W09_logic.mat",
+      "group": "main",
+      "retainedAccepted": true,
+      "rawAccepted": false,
+      "nativeAccepted": false,
+      "cost": 31.6007934948458,
+      "fineClearance": 0.14180047593145065
+    },
+    {
+      "file": "confined_main_W09_max.mat",
+      "group": "main",
+      "retainedAccepted": true,
+      "rawAccepted": true,
+      "nativeAccepted": true,
+      "cost": 30.978391331408023,
+      "fineClearance": 0.15309403250181639
+    },
+    {
+      "file": "confined_main_W09_minlp.mat",
+      "group": "main",
+      "retainedAccepted": true,
+      "rawAccepted": false,
+      "nativeAccepted": false,
+      "cost": 31.6007934948458,
+      "fineClearance": 0.14180047593145065
+    },
+    {
+      "file": "confined_main_W09_rgr.mat",
+      "group": "main",
+      "retainedAccepted": true,
+      "rawAccepted": true,
+      "nativeAccepted": true,
+      "cost": 30.007993598299425,
+      "fineClearance": 0.12390972966079124
+    },
+    {
+      "file": "confined_final_W01_recover_feasible.mat",
+      "group": "final",
+      "retainedAccepted": true,
+      "rawAccepted": true,
+      "nativeAccepted": true,
+      "cost": 12.116095374164829,
+      "fineClearance": 0.10356298703838034
+    },
+    {
+      "file": "confined_final_W02_recover_feasible.mat",
+      "group": "final",
+      "retainedAccepted": true,
+      "rawAccepted": true,
+      "nativeAccepted": true,
+      "cost": 16.99332083222871,
+      "fineClearance": 0.16792011538113272
+    },
+    {
+      "file": "confined_final_W03_recover_feasible.mat",
+      "group": "final",
+      "retainedAccepted": true,
+      "rawAccepted": true,
+      "nativeAccepted": true,
+      "cost": 12.88830671514322,
+      "fineClearance": 0.1318461706521426
+    },
+    {
+      "file": "confined_final_W04_recover_feasible.mat",
+      "group": "final",
+      "retainedAccepted": true,
+      "rawAccepted": true,
+      "nativeAccepted": true,
+      "cost": 19.801034326878955,
+      "fineClearance": 0.20616873701304175
+    },
+    {
+      "file": "confined_final_W05_recover_feasible.mat",
+      "group": "final",
+      "retainedAccepted": true,
+      "rawAccepted": true,
+      "nativeAccepted": true,
+      "cost": 13.026993483270608,
+      "fineClearance": 0.1036630335076315
+    },
+    {
+      "file": "confined_final_W06_recover_feasible.mat",
+      "group": "final",
+      "retainedAccepted": true,
+      "rawAccepted": true,
+      "nativeAccepted": false,
+      "cost": 11.846894679256613,
+      "fineClearance": 0.13440862906301554
+    },
+    {
+      "file": "confined_final_W07_recover_feasible.mat",
+      "group": "final",
+      "retainedAccepted": true,
+      "rawAccepted": true,
+      "nativeAccepted": true,
+      "cost": 12.658413505636261,
+      "fineClearance": 0.10685966275771679
+    },
+    {
+      "file": "confined_final_W08_recover_feasible.mat",
+      "group": "final",
+      "retainedAccepted": true,
+      "rawAccepted": true,
+      "nativeAccepted": true,
+      "cost": 14.934105545105929,
+      "fineClearance": 0.18087643584936236
+    },
+    {
+      "file": "confined_final_W09_recover_feasible.mat",
+      "group": "final",
+      "retainedAccepted": true,
+      "rawAccepted": true,
+      "nativeAccepted": true,
+      "cost": 31.11067655531624,
+      "fineClearance": 0.17680478773549563
+    },
+    {
+      "file": "confined_confirm_W01_fi_no_cap.mat",
+      "group": "confirm",
+      "retainedAccepted": true,
+      "rawAccepted": true,
+      "nativeAccepted": true,
+      "cost": 12.12195186173379,
+      "fineClearance": 0.11293186434655547
+    },
+    {
+      "file": "confined_confirm_W02_fi_no_cap.mat",
+      "group": "confirm",
+      "retainedAccepted": true,
+      "rawAccepted": true,
+      "nativeAccepted": true,
+      "cost": 16.992999128487593,
+      "fineClearance": 0.16775722793715864
+    },
+    {
+      "file": "confined_confirm_W03_fi_no_cap.mat",
+      "group": "confirm",
+      "retainedAccepted": true,
+      "rawAccepted": true,
+      "nativeAccepted": true,
+      "cost": 12.466206625317236,
+      "fineClearance": 0.12571017587287084
+    },
+    {
+      "file": "confined_confirm_W04_fi_no_cap.mat",
+      "group": "confirm",
+      "retainedAccepted": true,
+      "rawAccepted": true,
+      "nativeAccepted": true,
+      "cost": 19.40647917793611,
+      "fineClearance": 0.15910544823529968
+    },
+    {
+      "file": "confined_confirm_W05_fi_no_cap.mat",
+      "group": "confirm",
+      "retainedAccepted": true,
+      "rawAccepted": true,
+      "nativeAccepted": true,
+      "cost": 13.093390204092824,
+      "fineClearance": 0.12244761968376172
+    },
+    {
+      "file": "confined_confirm_W06_fi_no_cap.mat",
+      "group": "confirm",
+      "retainedAccepted": true,
+      "rawAccepted": true,
+      "nativeAccepted": false,
+      "cost": 11.861525237263796,
+      "fineClearance": 0.11857604010022094
+    },
+    {
+      "file": "confined_confirm_W07_fi_no_cap.mat",
+      "group": "confirm",
+      "retainedAccepted": true,
+      "rawAccepted": true,
+      "nativeAccepted": false,
+      "cost": 12.801676426632085,
+      "fineClearance": 0.12700847622074848
+    },
+    {
+      "file": "confined_confirm_W08_fi_no_cap.mat",
+      "group": "confirm",
+      "retainedAccepted": true,
+      "rawAccepted": true,
+      "nativeAccepted": true,
+      "cost": 15.050726521158394,
+      "fineClearance": 0.18169362746218576
+    },
+    {
+      "file": "confined_confirm_W09_fi_no_cap.mat",
+      "group": "confirm",
+      "retainedAccepted": true,
+      "rawAccepted": true,
+      "nativeAccepted": true,
+      "cost": 31.231960308339904,
+      "fineClearance": 0.20749401123324962
+    },
+    {
+      "file": "confined_unique_W01_portfolio_unique.mat",
+      "group": "unique",
+      "retainedAccepted": true,
+      "rawAccepted": false,
+      "nativeAccepted": false,
+      "cost": 13.28916361020797,
+      "fineClearance": 0.12633211077715997
+    },
+    {
+      "file": "confined_unique_W02_portfolio_unique.mat",
+      "group": "unique",
+      "retainedAccepted": true,
+      "rawAccepted": true,
+      "nativeAccepted": true,
+      "cost": 18.310988800951044,
+      "fineClearance": 0.17471361190409931
+    },
+    {
+      "file": "confined_unique_W03_portfolio_unique.mat",
+      "group": "unique",
+      "retainedAccepted": true,
+      "rawAccepted": false,
+      "nativeAccepted": false,
+      "cost": 13.227225213876972,
+      "fineClearance": 0.13659670665547233
+    },
+    {
+      "file": "confined_unique_W04_portfolio_unique.mat",
+      "group": "unique",
+      "retainedAccepted": true,
+      "rawAccepted": true,
+      "nativeAccepted": true,
+      "cost": 19.66160521899015,
+      "fineClearance": 0.1146937349470932
+    },
+    {
+      "file": "confined_unique_W05_portfolio_unique.mat",
+      "group": "unique",
+      "retainedAccepted": true,
+      "rawAccepted": false,
+      "nativeAccepted": false,
+      "cost": 13.328135490398564,
+      "fineClearance": 0.10253318554404668
+    },
+    {
+      "file": "confined_unique_W06_portfolio_unique.mat",
+      "group": "unique",
+      "retainedAccepted": true,
+      "rawAccepted": false,
+      "nativeAccepted": false,
+      "cost": 12.276287642049304,
+      "fineClearance": 0.16158368804589074
+    },
+    {
+      "file": "confined_unique_W07_portfolio_unique.mat",
+      "group": "unique",
+      "retainedAccepted": true,
+      "rawAccepted": false,
+      "nativeAccepted": false,
+      "cost": 13.071144746744316,
+      "fineClearance": 0.11146918149772467
+    },
+    {
+      "file": "confined_unique_W08_portfolio_unique.mat",
+      "group": "unique",
+      "retainedAccepted": true,
+      "rawAccepted": false,
+      "nativeAccepted": false,
+      "cost": 15.439871799967325,
+      "fineClearance": 0.1968496255374992
+    },
+    {
+      "file": "confined_unique_W09_portfolio_unique.mat",
+      "group": "unique",
+      "retainedAccepted": true,
+      "rawAccepted": true,
+      "nativeAccepted": true,
+      "cost": 31.40638696022886,
+      "fineClearance": 0.1987121754526976
+    },
+    {
+      "file": "confined_ablations_W01_max_recover_priority.mat",
+      "group": "ablations",
+      "retainedAccepted": true,
+      "rawAccepted": true,
+      "nativeAccepted": true,
+      "cost": 13.15374691273136,
+      "fineClearance": 0.14857147789060454
+    },
+    {
+      "file": "confined_ablations_W01_rrp.mat",
+      "group": "ablations",
+      "retainedAccepted": true,
+      "rawAccepted": false,
+      "nativeAccepted": false,
+      "cost": 13.28916361020797,
+      "fineClearance": 0.12633211077715997
+    },
+    {
+      "file": "confined_ablations_W02_max_recover_priority.mat",
+      "group": "ablations",
+      "retainedAccepted": true,
+      "rawAccepted": true,
+      "nativeAccepted": true,
+      "cost": 18.80537679131885,
+      "fineClearance": 0.2205002375955881
+    },
+    {
+      "file": "confined_ablations_W02_rrp.mat",
+      "group": "ablations",
+      "retainedAccepted": true,
+      "rawAccepted": false,
+      "nativeAccepted": false,
+      "cost": 19.009629060441842,
+      "fineClearance": 0.19597243997178396
+    },
+    {
+      "file": "confined_ablations_W03_max_recover_priority.mat",
+      "group": "ablations",
+      "retainedAccepted": true,
+      "rawAccepted": true,
+      "nativeAccepted": true,
+      "cost": 13.091017744357027,
+      "fineClearance": 0.13369801098158227
+    },
+    {
+      "file": "confined_ablations_W03_rrp.mat",
+      "group": "ablations",
+      "retainedAccepted": true,
+      "rawAccepted": false,
+      "nativeAccepted": false,
+      "cost": 13.227225213876972,
+      "fineClearance": 0.13659670665547233
+    },
+    {
+      "file": "confined_ablations_W04_max_recover_priority.mat",
+      "group": "ablations",
+      "retainedAccepted": true,
+      "rawAccepted": true,
+      "nativeAccepted": true,
+      "cost": 20.135861707369433,
+      "fineClearance": 0.15288855635185358
+    },
+    {
+      "file": "confined_ablations_W04_rrp.mat",
+      "group": "ablations",
+      "retainedAccepted": true,
+      "rawAccepted": false,
+      "nativeAccepted": false,
+      "cost": 20.206751414753032,
+      "fineClearance": 0.17029390848429443
+    },
+    {
+      "file": "confined_ablations_W05_max_recover_priority.mat",
+      "group": "ablations",
+      "retainedAccepted": true,
+      "rawAccepted": true,
+      "nativeAccepted": true,
+      "cost": 13.130158341089064,
+      "fineClearance": 0.1110516439313932
+    },
+    {
+      "file": "confined_ablations_W05_rrp.mat",
+      "group": "ablations",
+      "retainedAccepted": true,
+      "rawAccepted": false,
+      "nativeAccepted": false,
+      "cost": 13.328135490398564,
+      "fineClearance": 0.10253318554404668
+    },
+    {
+      "file": "confined_ablations_W06_max_recover_priority.mat",
+      "group": "ablations",
+      "retainedAccepted": true,
+      "rawAccepted": true,
+      "nativeAccepted": false,
+      "cost": 12.152556880563008,
+      "fineClearance": 0.16446876715611963
+    },
+    {
+      "file": "confined_ablations_W06_rrp.mat",
+      "group": "ablations",
+      "retainedAccepted": true,
+      "rawAccepted": false,
+      "nativeAccepted": false,
+      "cost": 12.276287642049304,
+      "fineClearance": 0.16158368804589074
+    },
+    {
+      "file": "confined_ablations_W07_max_recover_priority.mat",
+      "group": "ablations",
+      "retainedAccepted": true,
+      "rawAccepted": true,
+      "nativeAccepted": true,
+      "cost": 12.980180918000402,
+      "fineClearance": 0.1364475796861979
+    },
+    {
+      "file": "confined_ablations_W07_rrp.mat",
+      "group": "ablations",
+      "retainedAccepted": true,
+      "rawAccepted": false,
+      "nativeAccepted": false,
+      "cost": 13.071144746744316,
+      "fineClearance": 0.11146918149772467
+    },
+    {
+      "file": "confined_ablations_W08_max_recover_priority.mat",
+      "group": "ablations",
+      "retainedAccepted": true,
+      "rawAccepted": true,
+      "nativeAccepted": true,
+      "cost": 15.20460900337323,
+      "fineClearance": 0.17054294946000692
+    },
+    {
+      "file": "confined_ablations_W08_rrp.mat",
+      "group": "ablations",
+      "retainedAccepted": true,
+      "rawAccepted": false,
+      "nativeAccepted": false,
+      "cost": 15.439871799967325,
+      "fineClearance": 0.1968496255374992
+    },
+    {
+      "file": "confined_ablations_W09_max_recover_priority.mat",
+      "group": "ablations",
+      "retainedAccepted": true,
+      "rawAccepted": true,
+      "nativeAccepted": true,
+      "cost": 30.978987136644015,
+      "fineClearance": 0.15372049657558864
+    },
+    {
+      "file": "confined_ablations_W09_rrp.mat",
+      "group": "ablations",
+      "retainedAccepted": true,
+      "rawAccepted": false,
+      "nativeAccepted": false,
+      "cost": 31.6007934948458,
+      "fineClearance": 0.14180047593145065
+    },
+    {
+      "file": "confined_matched_W01_fi_no_cap.mat",
+      "group": "matched",
+      "retainedAccepted": true,
+      "rawAccepted": true,
+      "nativeAccepted": true,
+      "cost": 12.12415596805822,
+      "fineClearance": 0.11299423256148303
+    },
+    {
+      "file": "confined_matched_W01_fi_no_initial.mat",
+      "group": "matched",
+      "retainedAccepted": true,
+      "rawAccepted": true,
+      "nativeAccepted": true,
+      "cost": 12.21747601563174,
+      "fineClearance": 0.10722101248685531
+    },
+    {
+      "file": "confined_matched_W01_fi_no_reserve.mat",
+      "group": "matched",
+      "retainedAccepted": true,
+      "rawAccepted": true,
+      "nativeAccepted": true,
+      "cost": 12.79846285719304,
+      "fineClearance": 0.14250003907581543
+    },
+    {
+      "file": "confined_matched_W02_fi_no_cap.mat",
+      "group": "matched",
+      "retainedAccepted": true,
+      "rawAccepted": true,
+      "nativeAccepted": true,
+      "cost": 16.993033120155406,
+      "fineClearance": 0.16799208801146132
+    },
+    {
+      "file": "confined_matched_W02_fi_no_initial.mat",
+      "group": "matched",
+      "retainedAccepted": true,
+      "rawAccepted": true,
+      "nativeAccepted": true,
+      "cost": 17.21255228884372,
+      "fineClearance": 0.195843134237756
+    },
+    {
+      "file": "confined_matched_W02_fi_no_reserve.mat",
+      "group": "matched",
+      "retainedAccepted": true,
+      "rawAccepted": true,
+      "nativeAccepted": true,
+      "cost": 16.98815809129078,
+      "fineClearance": 0.1567856259160274
+    },
+    {
+      "file": "confined_matched_W03_fi_no_cap.mat",
+      "group": "matched",
+      "retainedAccepted": true,
+      "rawAccepted": true,
+      "nativeAccepted": true,
+      "cost": 12.466335043098303,
+      "fineClearance": 0.12571228345855287
+    },
+    {
+      "file": "confined_matched_W03_fi_no_initial.mat",
+      "group": "matched",
+      "retainedAccepted": true,
+      "rawAccepted": true,
+      "nativeAccepted": true,
+      "cost": 13.09851969428747,
+      "fineClearance": 0.14314024523481686
+    },
+    {
+      "file": "confined_matched_W03_fi_no_reserve.mat",
+      "group": "matched",
+      "retainedAccepted": true,
+      "rawAccepted": true,
+      "nativeAccepted": true,
+      "cost": 12.88199746527429,
+      "fineClearance": 0.12318011989540423
+    },
+    {
+      "file": "confined_matched_W04_fi_no_cap.mat",
+      "group": "matched",
+      "retainedAccepted": true,
+      "rawAccepted": true,
+      "nativeAccepted": true,
+      "cost": 19.405791927288384,
+      "fineClearance": 0.15900757239018093
+    },
+    {
+      "file": "confined_matched_W04_fi_no_initial.mat",
+      "group": "matched",
+      "retainedAccepted": true,
+      "rawAccepted": true,
+      "nativeAccepted": true,
+      "cost": 19.970542238956302,
+      "fineClearance": 0.15730894447386326
+    },
+    {
+      "file": "confined_matched_W04_fi_no_reserve.mat",
+      "group": "matched",
+      "retainedAccepted": true,
+      "rawAccepted": true,
+      "nativeAccepted": true,
+      "cost": 19.66112737431629,
+      "fineClearance": 0.20640321964732858
+    },
+    {
+      "file": "confined_matched_W05_fi_no_cap.mat",
+      "group": "matched",
+      "retainedAccepted": true,
+      "rawAccepted": true,
+      "nativeAccepted": true,
+      "cost": 13.093000119171274,
+      "fineClearance": 0.12238964952245246
+    },
+    {
+      "file": "confined_matched_W05_fi_no_initial.mat",
+      "group": "matched",
+      "retainedAccepted": true,
+      "rawAccepted": true,
+      "nativeAccepted": false,
+      "cost": 13.215343065844188,
+      "fineClearance": 0.15665193446409972
+    },
+    {
+      "file": "confined_matched_W05_fi_no_reserve.mat",
+      "group": "matched",
+      "retainedAccepted": true,
+      "rawAccepted": true,
+      "nativeAccepted": false,
+      "cost": 13.13919921616928,
+      "fineClearance": 0.10202308986944579
+    },
+    {
+      "file": "confined_matched_W06_fi_no_cap.mat",
+      "group": "matched",
+      "retainedAccepted": true,
+      "rawAccepted": true,
+      "nativeAccepted": false,
+      "cost": 11.861525237263796,
+      "fineClearance": 0.11857604010022094
+    },
+    {
+      "file": "confined_matched_W06_fi_no_initial.mat",
+      "group": "matched",
+      "retainedAccepted": true,
+      "rawAccepted": true,
+      "nativeAccepted": false,
+      "cost": 12.05700632701075,
+      "fineClearance": 0.16121742414987825
+    },
+    {
+      "file": "confined_matched_W06_fi_no_reserve.mat",
+      "group": "matched",
+      "retainedAccepted": true,
+      "rawAccepted": true,
+      "nativeAccepted": false,
+      "cost": 11.942075800605302,
+      "fineClearance": 0.150406512650207
+    },
+    {
+      "file": "confined_matched_W07_fi_no_cap.mat",
+      "group": "matched",
+      "retainedAccepted": true,
+      "rawAccepted": true,
+      "nativeAccepted": true,
+      "cost": 12.63861815945543,
+      "fineClearance": 0.12664510271774923
+    },
+    {
+      "file": "confined_matched_W07_fi_no_initial.mat",
+      "group": "matched",
+      "retainedAccepted": true,
+      "rawAccepted": true,
+      "nativeAccepted": true,
+      "cost": 12.997672172634827,
+      "fineClearance": 0.14645994899317846
+    },
+    {
+      "file": "confined_matched_W07_fi_no_reserve.mat",
+      "group": "matched",
+      "retainedAccepted": true,
+      "rawAccepted": true,
+      "nativeAccepted": true,
+      "cost": 12.770076093947598,
+      "fineClearance": 0.11417172098296091
+    },
+    {
+      "file": "confined_matched_W08_fi_no_cap.mat",
+      "group": "matched",
+      "retainedAccepted": true,
+      "rawAccepted": true,
+      "nativeAccepted": true,
+      "cost": 15.050751515792374,
+      "fineClearance": 0.18169391384730027
+    },
+    {
+      "file": "confined_matched_W08_fi_no_initial.mat",
+      "group": "matched",
+      "retainedAccepted": true,
+      "rawAccepted": true,
+      "nativeAccepted": true,
+      "cost": 15.048066046522663,
+      "fineClearance": 0.18167683770168372
+    },
+    {
+      "file": "confined_matched_W08_fi_no_reserve.mat",
+      "group": "matched",
+      "retainedAccepted": true,
+      "rawAccepted": true,
+      "nativeAccepted": true,
+      "cost": 14.957006994182638,
+      "fineClearance": 0.1817827068496695
+    },
+    {
+      "file": "confined_matched_W09_fi_no_cap.mat",
+      "group": "matched",
+      "retainedAccepted": true,
+      "rawAccepted": true,
+      "nativeAccepted": true,
+      "cost": 31.241671959094187,
+      "fineClearance": 0.2074256493799196
+    },
+    {
+      "file": "confined_matched_W09_fi_no_initial.mat",
+      "group": "matched",
+      "retainedAccepted": true,
+      "rawAccepted": false,
+      "nativeAccepted": false,
+      "cost": 31.6007934948458,
+      "fineClearance": 0.14180047593145065
+    },
+    {
+      "file": "confined_matched_W09_fi_no_reserve.mat",
+      "group": "matched",
+      "retainedAccepted": true,
+      "rawAccepted": true,
+      "nativeAccepted": true,
+      "cost": 31.140157441713598,
+      "fineClearance": 0.17662745814654024
+    },
+    {
+      "file": "confined_factorial_W01_fx_no_initial_no_cap.mat",
+      "group": "factorial",
+      "retainedAccepted": true,
+      "rawAccepted": true,
+      "nativeAccepted": true,
+      "cost": 12.834276807973183,
+      "fineClearance": 0.1335667037628586
+    },
+    {
+      "file": "confined_factorial_W01_fx_no_initial_no_reserve.mat",
+      "group": "factorial",
+      "retainedAccepted": true,
+      "rawAccepted": true,
+      "nativeAccepted": true,
+      "cost": 13.154340316968364,
+      "fineClearance": 0.14859101633869504
+    },
+    {
+      "file": "confined_factorial_W02_fx_no_initial_no_cap.mat",
+      "group": "factorial",
+      "retainedAccepted": true,
+      "rawAccepted": true,
+      "nativeAccepted": true,
+      "cost": 17.213884230787603,
+      "fineClearance": 0.19584762246515774
+    },
+    {
+      "file": "confined_factorial_W02_fx_no_initial_no_reserve.mat",
+      "group": "factorial",
+      "retainedAccepted": true,
+      "rawAccepted": true,
+      "nativeAccepted": true,
+      "cost": 17.232632386347557,
+      "fineClearance": 0.19105309587889252
+    },
+    {
+      "file": "confined_factorial_W03_fx_no_initial_no_cap.mat",
+      "group": "factorial",
+      "retainedAccepted": true,
+      "rawAccepted": true,
+      "nativeAccepted": true,
+      "cost": 12.903296297552707,
+      "fineClearance": 0.1336309277560366
+    },
+    {
+      "file": "confined_factorial_W03_fx_no_initial_no_reserve.mat",
+      "group": "factorial",
+      "retainedAccepted": true,
+      "rawAccepted": true,
+      "nativeAccepted": true,
+      "cost": 13.092166619168994,
+      "fineClearance": 0.1337331559522611
+    },
+    {
+      "file": "confined_factorial_W04_fx_no_initial_no_cap.mat",
+      "group": "factorial",
+      "retainedAccepted": true,
+      "rawAccepted": true,
+      "nativeAccepted": true,
+      "cost": 19.63101902908894,
+      "fineClearance": 0.16930763064610763
+    },
+    {
+      "file": "confined_factorial_W04_fx_no_initial_no_reserve.mat",
+      "group": "factorial",
+      "retainedAccepted": true,
+      "rawAccepted": true,
+      "nativeAccepted": true,
+      "cost": 20.136819436537834,
+      "fineClearance": 0.15291222813768496
+    },
+    {
+      "file": "confined_factorial_W05_fx_no_initial_no_cap.mat",
+      "group": "factorial",
+      "retainedAccepted": true,
+      "rawAccepted": true,
+      "nativeAccepted": true,
+      "cost": 13.045677585088738,
+      "fineClearance": 0.12819943255124058
+    },
+    {
+      "file": "confined_factorial_W05_fx_no_initial_no_reserve.mat",
+      "group": "factorial",
+      "retainedAccepted": true,
+      "rawAccepted": true,
+      "nativeAccepted": true,
+      "cost": 13.130158514104261,
+      "fineClearance": 0.11105165221490022
+    },
+    {
+      "file": "confined_factorial_W06_fx_no_initial_no_cap.mat",
+      "group": "factorial",
+      "retainedAccepted": true,
+      "rawAccepted": true,
+      "nativeAccepted": false,
+      "cost": 12.160363152416773,
+      "fineClearance": 0.17018214564993603
+    },
+    {
+      "file": "confined_factorial_W06_fx_no_initial_no_reserve.mat",
+      "group": "factorial",
+      "retainedAccepted": true,
+      "rawAccepted": true,
+      "nativeAccepted": false,
+      "cost": 12.15316854301287,
+      "fineClearance": 0.1645126799290295
+    },
+    {
+      "file": "confined_factorial_W07_fx_no_initial_no_cap.mat",
+      "group": "factorial",
+      "retainedAccepted": true,
+      "rawAccepted": true,
+      "nativeAccepted": true,
+      "cost": 12.934864598742013,
+      "fineClearance": 0.1362685988294655
+    },
+    {
+      "file": "confined_factorial_W07_fx_no_initial_no_reserve.mat",
+      "group": "factorial",
+      "retainedAccepted": true,
+      "rawAccepted": true,
+      "nativeAccepted": true,
+      "cost": 12.981045491413425,
+      "fineClearance": 0.1364791562714684
+    },
+    {
+      "file": "confined_factorial_W08_fx_no_initial_no_cap.mat",
+      "group": "factorial",
+      "retainedAccepted": true,
+      "rawAccepted": true,
+      "nativeAccepted": true,
+      "cost": 14.901590763120215,
+      "fineClearance": 0.1638556361446857
+    },
+    {
+      "file": "confined_factorial_W08_fx_no_initial_no_reserve.mat",
+      "group": "factorial",
+      "retainedAccepted": true,
+      "rawAccepted": true,
+      "nativeAccepted": true,
+      "cost": 15.205327769518728,
+      "fineClearance": 0.170553533896815
+    },
+    {
+      "file": "confined_factorial_W09_fx_no_initial_no_cap.mat",
+      "group": "factorial",
+      "retainedAccepted": true,
+      "rawAccepted": true,
+      "nativeAccepted": true,
+      "cost": 31.39473792788313,
+      "fineClearance": 0.19323472254229826
+    },
+    {
+      "file": "confined_factorial_W09_fx_no_initial_no_reserve.mat",
+      "group": "factorial",
+      "retainedAccepted": true,
+      "rawAccepted": true,
+      "nativeAccepted": true,
+      "cost": 30.99439185271577,
+      "fineClearance": 0.1541616557231103
+    },
+    {
+      "file": "confined_paired_W01_no_terminal_fi_no_cap.mat",
+      "group": "paired",
+      "retainedAccepted": true,
+      "rawAccepted": true,
+      "nativeAccepted": true,
+      "cost": 12.583767202377233,
+      "fineClearance": 0.14845519656735
+    },
+    {
+      "file": "confined_paired_W02_no_terminal_fi_no_cap.mat",
+      "group": "paired",
+      "retainedAccepted": true,
+      "rawAccepted": true,
+      "nativeAccepted": true,
+      "cost": 18.357635585036306,
+      "fineClearance": 0.2410679910681077
+    },
+    {
+      "file": "confined_paired_W03_no_terminal_fi_no_cap.mat",
+      "group": "paired",
+      "retainedAccepted": true,
+      "rawAccepted": true,
+      "nativeAccepted": true,
+      "cost": 12.466206625317236,
+      "fineClearance": 0.12571017587287084
+    },
+    {
+      "file": "confined_paired_W04_no_terminal_fi_no_cap.mat",
+      "group": "paired",
+      "retainedAccepted": true,
+      "rawAccepted": true,
+      "nativeAccepted": true,
+      "cost": 19.40647917793611,
+      "fineClearance": 0.15910544823529968
+    },
+    {
+      "file": "confined_paired_W05_no_terminal_fi_no_cap.mat",
+      "group": "paired",
+      "retainedAccepted": true,
+      "rawAccepted": true,
+      "nativeAccepted": true,
+      "cost": 13.093390204092824,
+      "fineClearance": 0.12244761968376172
+    },
+    {
+      "file": "confined_paired_W06_no_terminal_fi_no_cap.mat",
+      "group": "paired",
+      "retainedAccepted": true,
+      "rawAccepted": true,
+      "nativeAccepted": false,
+      "cost": 11.871314927240523,
+      "fineClearance": 0.17516424701950584
+    },
+    {
+      "file": "confined_paired_W07_no_terminal_fi_no_cap.mat",
+      "group": "paired",
+      "retainedAccepted": true,
+      "rawAccepted": true,
+      "nativeAccepted": false,
+      "cost": 12.788371989998877,
+      "fineClearance": 0.1172516336498933
+    },
+    {
+      "file": "confined_paired_W08_no_terminal_fi_no_cap.mat",
+      "group": "paired",
+      "retainedAccepted": true,
+      "rawAccepted": true,
+      "nativeAccepted": true,
+      "cost": 15.050726521158394,
+      "fineClearance": 0.18169362746218576
+    },
+    {
+      "file": "confined_paired_W09_no_terminal_fi_no_cap.mat",
+      "group": "paired",
+      "retainedAccepted": true,
+      "rawAccepted": true,
+      "nativeAccepted": true,
+      "cost": 31.231960308339904,
+      "fineClearance": 0.20749401123324962
+    },
+    {
+      "file": "confined_rigid_W01_rigid.mat",
+      "group": "rigid",
+      "retainedAccepted": false,
+      "rawAccepted": false,
+      "nativeAccepted": false,
+      "cost": 13.28916361020797,
+      "fineClearance": 0
+    },
+    {
+      "file": "confined_rigid_W02_rigid.mat",
+      "group": "rigid",
+      "retainedAccepted": false,
+      "rawAccepted": false,
+      "nativeAccepted": false,
+      "cost": 19.009629060441842,
+      "fineClearance": 0
+    },
+    {
+      "file": "confined_rigid_W03_rigid.mat",
+      "group": "rigid",
+      "retainedAccepted": false,
+      "rawAccepted": false,
+      "nativeAccepted": false,
+      "cost": 13.227225213876972,
+      "fineClearance": 0
+    },
+    {
+      "file": "confined_rigid_W04_rigid.mat",
+      "group": "rigid",
+      "retainedAccepted": false,
+      "rawAccepted": false,
+      "nativeAccepted": false,
+      "cost": 20.206751414753032,
+      "fineClearance": 0
+    },
+    {
+      "file": "confined_rigid_W05_rigid.mat",
+      "group": "rigid",
+      "retainedAccepted": false,
+      "rawAccepted": false,
+      "nativeAccepted": false,
+      "cost": 13.328135490398564,
+      "fineClearance": 0
+    },
+    {
+      "file": "confined_rigid_W06_rigid.mat",
+      "group": "rigid",
+      "retainedAccepted": false,
+      "rawAccepted": false,
+      "nativeAccepted": false,
+      "cost": 12.276287642049304,
+      "fineClearance": 0
+    },
+    {
+      "file": "confined_rigid_W07_rigid.mat",
+      "group": "rigid",
+      "retainedAccepted": false,
+      "rawAccepted": false,
+      "nativeAccepted": false,
+      "cost": 13.071144746744316,
+      "fineClearance": 0
+    },
+    {
+      "file": "confined_rigid_W08_rigid.mat",
+      "group": "rigid",
+      "retainedAccepted": false,
+      "rawAccepted": false,
+      "nativeAccepted": false,
+      "cost": 15.439871799967325,
+      "fineClearance": 0
+    },
+    {
+      "file": "confined_rigid_W09_rigid.mat",
+      "group": "rigid",
+      "retainedAccepted": false,
+      "rawAccepted": false,
+      "nativeAccepted": false,
+      "cost": 31.6007934948458,
+      "fineClearance": 0
+    },
+    {
+      "file": "confined_smoothing_W02_lse100.mat",
+      "group": "smoothing",
+      "retainedAccepted": true,
+      "rawAccepted": false,
+      "nativeAccepted": false,
+      "cost": 19.009629060441842,
+      "fineClearance": 0.19597243997178396
+    },
+    {
+      "file": "confined_smoothing_W02_lse1000.mat",
+      "group": "smoothing",
+      "retainedAccepted": true,
+      "rawAccepted": false,
+      "nativeAccepted": false,
+      "cost": 19.009629060441842,
+      "fineClearance": 0.19597243997178396
+    },
+    {
+      "file": "confined_smoothing_W05_lse100.mat",
+      "group": "smoothing",
+      "retainedAccepted": true,
+      "rawAccepted": false,
+      "nativeAccepted": false,
+      "cost": 13.328135490398564,
+      "fineClearance": 0.10253318554404668
+    },
+    {
+      "file": "confined_smoothing_W05_lse1000.mat",
+      "group": "smoothing",
+      "retainedAccepted": true,
+      "rawAccepted": false,
+      "nativeAccepted": false,
+      "cost": 13.328135490398564,
+      "fineClearance": 0.10253318554404668
+    },
+    {
+      "file": "confined_smoothing_W09_lse100.mat",
+      "group": "smoothing",
+      "retainedAccepted": true,
+      "rawAccepted": false,
+      "nativeAccepted": false,
+      "cost": 31.6007934948458,
+      "fineClearance": 0.14180047593145065
+    },
+    {
+      "file": "confined_smoothing_W09_lse1000.mat",
+      "group": "smoothing",
+      "retainedAccepted": true,
+      "rawAccepted": false,
+      "nativeAccepted": false,
+      "cost": 31.6007934948458,
+      "fineClearance": 0.14180047593145065
+    },
+    {
+      "file": "confined_repeat1_W02_fi_no_cap.mat",
+      "group": "repeat1",
+      "retainedAccepted": true,
+      "rawAccepted": true,
+      "nativeAccepted": true,
+      "cost": 17.000741392684397,
+      "fineClearance": 0.16603568949710665
+    },
+    {
+      "file": "confined_repeat1_W02_max.mat",
+      "group": "repeat1",
+      "retainedAccepted": true,
+      "rawAccepted": true,
+      "nativeAccepted": true,
+      "cost": 18.802829426795398,
+      "fineClearance": 0.2202782762543796
+    },
+    {
+      "file": "confined_repeat1_W05_fi_no_cap.mat",
+      "group": "repeat1",
+      "retainedAccepted": true,
+      "rawAccepted": true,
+      "nativeAccepted": true,
+      "cost": 13.092786963526748,
+      "fineClearance": 0.12253510095313934
+    },
+    {
+      "file": "confined_repeat1_W05_max.mat",
+      "group": "repeat1",
+      "retainedAccepted": true,
+      "rawAccepted": true,
+      "nativeAccepted": true,
+      "cost": 13.1301580793875,
+      "fineClearance": 0.11105163205032495
+    },
+    {
+      "file": "confined_repeat1_W09_fi_no_cap.mat",
+      "group": "repeat1",
+      "retainedAccepted": true,
+      "rawAccepted": true,
+      "nativeAccepted": true,
+      "cost": 31.171312269488784,
+      "fineClearance": 0.19678119323066073
+    },
+    {
+      "file": "confined_repeat1_W09_max.mat",
+      "group": "repeat1",
+      "retainedAccepted": true,
+      "rawAccepted": true,
+      "nativeAccepted": true,
+      "cost": 30.9780584047263,
+      "fineClearance": 0.15306830986311148
+    },
+    {
+      "file": "confined_repeat2_W02_fi_no_cap.mat",
+      "group": "repeat2",
+      "retainedAccepted": true,
+      "rawAccepted": true,
+      "nativeAccepted": true,
+      "cost": 16.99268801644954,
+      "fineClearance": 0.16801639621589784
+    },
+    {
+      "file": "confined_repeat2_W02_max.mat",
+      "group": "repeat2",
+      "retainedAccepted": true,
+      "rawAccepted": true,
+      "nativeAccepted": true,
+      "cost": 18.802389677019963,
+      "fineClearance": 0.2202394686580325
+    },
+    {
+      "file": "confined_repeat2_W05_fi_no_cap.mat",
+      "group": "repeat2",
+      "retainedAccepted": true,
+      "rawAccepted": true,
+      "nativeAccepted": true,
+      "cost": 13.093452996554513,
+      "fineClearance": 0.12305604940181762
+    },
+    {
+      "file": "confined_repeat2_W05_max.mat",
+      "group": "repeat2",
+      "retainedAccepted": true,
+      "rawAccepted": true,
+      "nativeAccepted": true,
+      "cost": 13.130158082406139,
+      "fineClearance": 0.11105163205532405
+    },
+    {
+      "file": "confined_repeat2_W09_fi_no_cap.mat",
+      "group": "repeat2",
+      "retainedAccepted": true,
+      "rawAccepted": true,
+      "nativeAccepted": true,
+      "cost": 31.171303407456243,
+      "fineClearance": 0.19678066956673404
+    },
+    {
+      "file": "confined_repeat2_W09_max.mat",
+      "group": "repeat2",
+      "retainedAccepted": true,
+      "rawAccepted": true,
+      "nativeAccepted": true,
+      "cost": 30.97918029756073,
+      "fineClearance": 0.15315530736549943
+    },
+    {
+      "file": "confined_repeat3_W02_fi_no_cap.mat",
+      "group": "repeat3",
+      "retainedAccepted": true,
+      "rawAccepted": true,
+      "nativeAccepted": true,
+      "cost": 16.988271549249422,
+      "fineClearance": 0.16787326998242544
+    },
+    {
+      "file": "confined_repeat3_W02_max.mat",
+      "group": "repeat3",
+      "retainedAccepted": true,
+      "rawAccepted": true,
+      "nativeAccepted": true,
+      "cost": 18.802034971028192,
+      "fineClearance": 0.2202086746782189
+    },
+    {
+      "file": "confined_repeat3_W05_fi_no_cap.mat",
+      "group": "repeat3",
+      "retainedAccepted": true,
+      "rawAccepted": true,
+      "nativeAccepted": true,
+      "cost": 13.093454040251238,
+      "fineClearance": 0.1230562862387326
+    },
+    {
+      "file": "confined_repeat3_W05_max.mat",
+      "group": "repeat3",
+      "retainedAccepted": true,
+      "rawAccepted": true,
+      "nativeAccepted": true,
+      "cost": 13.13015808696738,
+      "fineClearance": 0.11105163200142561
+    },
+    {
+      "file": "confined_repeat3_W09_fi_no_cap.mat",
+      "group": "repeat3",
+      "retainedAccepted": true,
+      "rawAccepted": true,
+      "nativeAccepted": true,
+      "cost": 31.23657763471619,
+      "fineClearance": 0.2071306542991789
+    },
+    {
+      "file": "confined_repeat3_W09_max.mat",
+      "group": "repeat3",
+      "retainedAccepted": true,
+      "rawAccepted": true,
+      "nativeAccepted": true,
+      "cost": 30.97979892629785,
+      "fineClearance": 0.15320341828850448
+    },
+    {
+      "file": "confined_shapes_S01_fi_no_cap.mat",
+      "group": "shapes",
+      "retainedAccepted": true,
+      "rawAccepted": true,
+      "nativeAccepted": true,
+      "cost": 16.99998623349147,
+      "fineClearance": 0.16591499232850757
+    },
+    {
+      "file": "confined_shapes_S01_max.mat",
+      "group": "shapes",
+      "retainedAccepted": true,
+      "rawAccepted": true,
+      "nativeAccepted": true,
+      "cost": 18.802468596917095,
+      "fineClearance": 0.220246542827979
+    },
+    {
+      "file": "confined_shapes_S02_fi_no_cap.mat",
+      "group": "shapes",
+      "retainedAccepted": true,
+      "rawAccepted": true,
+      "nativeAccepted": true,
+      "cost": 18.236957576272307,
+      "fineClearance": 0.3076255565476824
+    },
+    {
+      "file": "confined_shapes_S02_max.mat",
+      "group": "shapes",
+      "retainedAccepted": true,
+      "rawAccepted": true,
+      "nativeAccepted": true,
+      "cost": 18.815253774916922,
+      "fineClearance": 0.37640531438197217
+    },
+    {
+      "file": "confined_shapes_S03_fi_no_cap.mat",
+      "group": "shapes",
+      "retainedAccepted": true,
+      "rawAccepted": true,
+      "nativeAccepted": true,
+      "cost": 16.53575339759943,
+      "fineClearance": 0.13010089425414506
+    },
+    {
+      "file": "confined_shapes_S03_max.mat",
+      "group": "shapes",
+      "retainedAccepted": true,
+      "rawAccepted": true,
+      "nativeAccepted": true,
+      "cost": 18.802501623254884,
+      "fineClearance": 0.3201128956047793
+    },
+    {
+      "file": "confined_shapes_S04_fi_no_cap.mat",
+      "group": "shapes",
+      "retainedAccepted": true,
+      "rawAccepted": true,
+      "nativeAccepted": true,
+      "cost": 17.002518637051732,
+      "fineClearance": 0.10682375440589274
+    },
+    {
+      "file": "confined_shapes_S04_max.mat",
+      "group": "shapes",
+      "retainedAccepted": true,
+      "rawAccepted": true,
+      "nativeAccepted": true,
+      "cost": 18.812447254895194,
+      "fineClearance": 0.22117068907333176
+    },
+    {
+      "file": "confined_shapes_S05_fi_no_cap.mat",
+      "group": "shapes",
+      "retainedAccepted": true,
+      "rawAccepted": true,
+      "nativeAccepted": true,
+      "cost": 17.05396815227866,
+      "fineClearance": 0.163947422384194
+    },
+    {
+      "file": "confined_shapes_S05_max.mat",
+      "group": "shapes",
+      "retainedAccepted": true,
+      "rawAccepted": true,
+      "nativeAccepted": true,
+      "cost": 18.696730489536705,
+      "fineClearance": 0.16622280333000122
+    },
+    {
+      "file": "confined_budget15_W02_fi_no_cap.mat",
+      "group": "budgets",
+      "retainedAccepted": true,
+      "rawAccepted": true,
+      "nativeAccepted": true,
+      "cost": 17.002332861327464,
+      "fineClearance": 0.16573163317023074
+    },
+    {
+      "file": "confined_budget15_W02_max.mat",
+      "group": "budgets",
+      "retainedAccepted": true,
+      "rawAccepted": true,
+      "nativeAccepted": true,
+      "cost": 18.81000904610637,
+      "fineClearance": 0.22090445874674355
+    },
+    {
+      "file": "confined_budget15_W02_minlp.mat",
+      "group": "budgets",
+      "retainedAccepted": true,
+      "rawAccepted": false,
+      "nativeAccepted": false,
+      "cost": 19.009629060441842,
+      "fineClearance": 0.19597243997178396
+    },
+    {
+      "file": "confined_budget15_W05_fi_no_cap.mat",
+      "group": "budgets",
+      "retainedAccepted": true,
+      "rawAccepted": true,
+      "nativeAccepted": true,
+      "cost": 13.093643518664335,
+      "fineClearance": 0.12309960206968552
+    },
+    {
+      "file": "confined_budget15_W05_max.mat",
+      "group": "budgets",
+      "retainedAccepted": true,
+      "rawAccepted": false,
+      "nativeAccepted": false,
+      "cost": 13.328135490398564,
+      "fineClearance": 0.10253318554404668
+    },
+    {
+      "file": "confined_budget15_W05_minlp.mat",
+      "group": "budgets",
+      "retainedAccepted": true,
+      "rawAccepted": false,
+      "nativeAccepted": false,
+      "cost": 13.328135490398564,
+      "fineClearance": 0.10253318554404668
+    },
+    {
+      "file": "confined_budget15_W09_fi_no_cap.mat",
+      "group": "budgets",
+      "retainedAccepted": true,
+      "rawAccepted": true,
+      "nativeAccepted": false,
+      "cost": 31.34991766645924,
+      "fineClearance": 0.14903010633248587
+    },
+    {
+      "file": "confined_budget15_W09_max.mat",
+      "group": "budgets",
+      "retainedAccepted": true,
+      "rawAccepted": true,
+      "nativeAccepted": true,
+      "cost": 30.997929415173996,
+      "fineClearance": 0.15435294244086403
+    },
+    {
+      "file": "confined_budget15_W09_minlp.mat",
+      "group": "budgets",
+      "retainedAccepted": true,
+      "rawAccepted": false,
+      "nativeAccepted": false,
+      "cost": 31.6007934948458,
+      "fineClearance": 0.14180047593145065
+    },
+    {
+      "file": "confined_budget60_W02_fi_no_cap.mat",
+      "group": "budgets",
+      "retainedAccepted": true,
+      "rawAccepted": true,
+      "nativeAccepted": true,
+      "cost": 16.991530083189133,
+      "fineClearance": 0.16864824884362445
+    },
+    {
+      "file": "confined_budget60_W02_max.mat",
+      "group": "budgets",
+      "retainedAccepted": true,
+      "rawAccepted": true,
+      "nativeAccepted": true,
+      "cost": 18.78615729364559,
+      "fineClearance": 0.21882684689217174
+    },
+    {
+      "file": "confined_budget60_W02_minlp.mat",
+      "group": "budgets",
+      "retainedAccepted": true,
+      "rawAccepted": false,
+      "nativeAccepted": false,
+      "cost": 19.009629060441842,
+      "fineClearance": 0.19597243997178396
+    },
+    {
+      "file": "confined_budget60_W05_fi_no_cap.mat",
+      "group": "budgets",
+      "retainedAccepted": true,
+      "rawAccepted": true,
+      "nativeAccepted": true,
+      "cost": 13.060924802760953,
+      "fineClearance": 0.10616350550506316
+    },
+    {
+      "file": "confined_budget60_W05_max.mat",
+      "group": "budgets",
+      "retainedAccepted": true,
+      "rawAccepted": true,
+      "nativeAccepted": true,
+      "cost": 13.130156714315827,
+      "fineClearance": 0.11105156686481374
+    },
+    {
+      "file": "confined_budget60_W05_minlp.mat",
+      "group": "budgets",
+      "retainedAccepted": true,
+      "rawAccepted": false,
+      "nativeAccepted": false,
+      "cost": 13.328135490398564,
+      "fineClearance": 0.10253318554404668
+    },
+    {
+      "file": "confined_budget60_W09_fi_no_cap.mat",
+      "group": "budgets",
+      "retainedAccepted": true,
+      "rawAccepted": true,
+      "nativeAccepted": true,
+      "cost": 31.15895476730338,
+      "fineClearance": 0.19591574879419085
+    },
+    {
+      "file": "confined_budget60_W09_max.mat",
+      "group": "budgets",
+      "retainedAccepted": true,
+      "rawAccepted": true,
+      "nativeAccepted": true,
+      "cost": 30.93964748815456,
+      "fineClearance": 0.1497806980545364
+    },
+    {
+      "file": "confined_budget60_W09_minlp.mat",
+      "group": "budgets",
+      "retainedAccepted": true,
+      "rawAccepted": false,
+      "nativeAccepted": false,
+      "cost": 31.6007934948458,
+      "fineClearance": 0.14180047593145065
+    }
+  ],
+  "trainSavedAuditAccepted": true
+}

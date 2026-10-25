@@ -1,0 +1,237 @@
+{
+  "method": "minlp",
+  "options": {
+    "label": "confined_budget15_W02_minlp",
+    "timeLimit": 15,
+    "nlpTimeLimit": 13,
+    "epscomp": 0,
+    "beta": 100,
+    "maxIter": 3000,
+    "solutionLimit": 1.0E+6,
+    "disablePump": false
+  },
+  "seconds": 15.9131359,
+  "exitCode": 0,
+  "P": {
+    "L": 1.335,
+    "a": 0.7,
+    "Lf": 0.4,
+    "front": [
+      0.6,
+      0,
+      0.35
+    ],
+    "rear": [
+      0.7,
+      0.35,
+      0.55
+    ],
+    "rho": 1,
+    "deltaMax": 0.78539816339744828,
+    "vMax": 0.5,
+    "aMax": 0.5,
+    "wMax": 0.8,
+    "clearance": 0.1,
+    "extra": 0.065,
+    "scale": 1,
+    "planBuffer": 0.02,
+    "B": 2.035,
+    "radius": 0.40000000000000008,
+    "left": 0,
+    "right": 16,
+    "ymin": 0,
+    "ymax": 16,
+    "pull": 9,
+    "sample": 0.01,
+    "obstacles": [
+      [
+        0.5,
+        2.5,
+        3.2,
+        6
+      ],
+      [
+        0.5,
+        2.5,
+        9.8,
+        14.6
+      ],
+      [
+        4.1999999999999993,
+        6.2,
+        3.2,
+        6
+      ],
+      [
+        4.1999999999999993,
+        6.2,
+        9.8,
+        14.6
+      ],
+      [
+        7.8999999999999995,
+        9.9,
+        3.2,
+        6
+      ],
+      [
+        7.8999999999999995,
+        9.9,
+        9.8,
+        14.6
+      ],
+      [
+        11.6,
+        13.6,
+        3.2,
+        6
+      ],
+      [
+        11.6,
+        13.6,
+        9.8,
+        14.6
+      ]
+    ],
+    "initial": [
+      3.35,
+      3.6,
+      1.5707963267948966,
+      3.35,
+      2.265,
+      1.5707963267948966
+    ],
+    "goalY": 6.1,
+    "goalAngle": -1.5707963267948963,
+    "goalTolerance": 0.008,
+    "taskGoalY": 6,
+    "taskGoalTolerance": 0.025,
+    "smax": 0.18,
+    "mesh": 100,
+    "regularization": 0.002,
+    "vertices": [
+      [
+        [
+          0.6,
+          0.35
+        ],
+        [
+          0,
+          0.35
+        ],
+        [
+          0,
+          -0.35
+        ],
+        [
+          0.6,
+          -0.35
+        ]
+      ],
+      [
+        [
+          0.7,
+          0.55
+        ],
+        [
+          -0.35,
+          0.55
+        ],
+        [
+          -0.35,
+          -0.55
+        ],
+        [
+          0.7,
+          -0.55
+        ]
+      ]
+    ],
+    "goalXYTolerance": [
+      0.12,
+      0.12
+    ],
+    "replayTolerance": 0.15,
+    "caseName": "W02",
+    "name": "Rack-end transfer",
+    "goal": [
+      10.713980024250091,
+      4.5917819613134974
+    ],
+    "obstacleKinds": [
+      "rack",
+      "rack",
+      "rack",
+      "rack",
+      "rack",
+      "rack",
+      "rack",
+      "rack"
+    ],
+    "layoutFamily": 2,
+    "zones": [
+      [
+        0.5,
+        14,
+        0.25,
+        2.6
+      ],
+      [
+        0.4,
+        15.5,
+        7.3,
+        9.7
+      ]
+    ],
+    "zoneNames": [
+      "Receiving",
+      "Cross aisle"
+    ],
+    "nominalAisleWidth": 1.7,
+    "layoutArea": 60.800000000000011
+  },
+  "rawVerified": false,
+  "status": "missing_output",
+  "cost": null,
+  "process": {
+    "budget": 15,
+    "wallSeconds": 15.590361199999998,
+    "timedOut": true,
+    "exitCode": []
+  },
+  "totalSeconds": 16.6665805,
+  "stageAudits": [
+    []
+  ],
+  "rawSolverAccepted": false,
+  "seedAudit": {
+    "accepted": true,
+    "stateAccepted": true,
+    "boundsViolation": 4.4408920985006262E-16,
+    "stateBoundsViolation": 1.5543122344752192E-15,
+    "initialClearance": 0.49999999999999911,
+    "cost": 19.009629060441842,
+    "travel": 18.95943381566612,
+    "cableAccepted": true,
+    "cableHits": 0,
+    "cableLengthError": 1.5543122344752192E-15,
+    "cableSideChanges": 0,
+    "fineStateAccepted": true,
+    "fineHeadingError": 0.0079779971298892249,
+    "fineGoalError": [
+      0.0098404178084301464,
+      0.049973321866226605
+    ],
+    "fineNodeDifference": 0.057742113724676969,
+    "fineClearance": 0.19597243997178396,
+    "discreteNodeResidual": 0,
+    "modeResidual": 0,
+    "coarseClearance": 0.20662595458864885
+  },
+  "selectedSource": "search_seed",
+  "retainedVerified": true,
+  "retainedCost": 19.009629060441842,
+  "retainedTravel": 18.95943381566612,
+  "improved": false,
+  "recoverySelected": false
+}

@@ -1,0 +1,1500 @@
+[
+  {
+    "file": "results/warehouse_v6/main/confined_main_W01_complementarity.json",
+    "method": "complementarity",
+    "new": false,
+    "retained": true,
+    "objective": 13.28916361020797
+  },
+  {
+    "file": "results/warehouse_v6/main/confined_main_W01_fixed.json",
+    "method": "fixed",
+    "new": false,
+    "retained": true,
+    "objective": 13.28916361020797
+  },
+  {
+    "file": "results/warehouse_v6/main/confined_main_W01_logic.json",
+    "method": "logic",
+    "new": false,
+    "retained": true,
+    "objective": 13.28916361020797
+  },
+  {
+    "file": "results/warehouse_v6/main/confined_main_W01_max.json",
+    "method": "max",
+    "new": true,
+    "retained": true,
+    "objective": 13.152762854207058
+  },
+  {
+    "file": "results/warehouse_v6/main/confined_main_W01_minlp.json",
+    "method": "minlp",
+    "new": false,
+    "retained": true,
+    "objective": 13.28916361020797
+  },
+  {
+    "file": "results/warehouse_v6/main/confined_main_W01_rgr.json",
+    "method": "rgr",
+    "new": true,
+    "retained": true,
+    "objective": 12.83293799280977
+  },
+  {
+    "file": "results/warehouse_v6/main/confined_main_W02_complementarity.json",
+    "method": "complementarity",
+    "new": false,
+    "retained": true,
+    "objective": 19.009629060441842
+  },
+  {
+    "file": "results/warehouse_v6/main/confined_main_W02_fixed.json",
+    "method": "fixed",
+    "new": true,
+    "retained": true,
+    "objective": 18.309831423040045
+  },
+  {
+    "file": "results/warehouse_v6/main/confined_main_W02_logic.json",
+    "method": "logic",
+    "new": true,
+    "retained": true,
+    "objective": 17.657602554043045
+  },
+  {
+    "file": "results/warehouse_v6/main/confined_main_W02_max.json",
+    "method": "max",
+    "new": true,
+    "retained": true,
+    "objective": 18.801950216772696
+  },
+  {
+    "file": "results/warehouse_v6/main/confined_main_W02_minlp.json",
+    "method": "minlp",
+    "new": false,
+    "retained": true,
+    "objective": 19.009629060441842
+  },
+  {
+    "file": "results/warehouse_v6/main/confined_main_W02_rgr.json",
+    "method": "rgr",
+    "new": false,
+    "retained": true,
+    "objective": 19.009629060441842
+  },
+  {
+    "file": "results/warehouse_v6/main/confined_main_W03_complementarity.json",
+    "method": "complementarity",
+    "new": false,
+    "retained": true,
+    "objective": 13.227225213876972
+  },
+  {
+    "file": "results/warehouse_v6/main/confined_main_W03_fixed.json",
+    "method": "fixed",
+    "new": false,
+    "retained": true,
+    "objective": 13.227225213876972
+  },
+  {
+    "file": "results/warehouse_v6/main/confined_main_W03_logic.json",
+    "method": "logic",
+    "new": false,
+    "retained": true,
+    "objective": 13.227225213876972
+  },
+  {
+    "file": "results/warehouse_v6/main/confined_main_W03_max.json",
+    "method": "max",
+    "new": true,
+    "retained": true,
+    "objective": 13.089630070746894
+  },
+  {
+    "file": "results/warehouse_v6/main/confined_main_W03_minlp.json",
+    "method": "minlp",
+    "new": false,
+    "retained": true,
+    "objective": 13.227225213876972
+  },
+  {
+    "file": "results/warehouse_v6/main/confined_main_W03_rgr.json",
+    "method": "rgr",
+    "new": true,
+    "retained": true,
+    "objective": 12.130703239962273
+  },
+  {
+    "file": "results/warehouse_v6/main/confined_main_W04_complementarity.json",
+    "method": "complementarity",
+    "new": false,
+    "retained": true,
+    "objective": 20.206751414753032
+  },
+  {
+    "file": "results/warehouse_v6/main/confined_main_W04_fixed.json",
+    "method": "fixed",
+    "new": true,
+    "retained": true,
+    "objective": 19.6581754347514
+  },
+  {
+    "file": "results/warehouse_v6/main/confined_main_W04_logic.json",
+    "method": "logic",
+    "new": true,
+    "retained": true,
+    "objective": 19.65767293462199
+  },
+  {
+    "file": "results/warehouse_v6/main/confined_main_W04_max.json",
+    "method": "max",
+    "new": true,
+    "retained": true,
+    "objective": 20.134513131819023
+  },
+  {
+    "file": "results/warehouse_v6/main/confined_main_W04_minlp.json",
+    "method": "minlp",
+    "new": false,
+    "retained": true,
+    "objective": 20.206751414753032
+  },
+  {
+    "file": "results/warehouse_v6/main/confined_main_W04_rgr.json",
+    "method": "rgr",
+    "new": true,
+    "retained": true,
+    "objective": 20.16709845418757
+  },
+  {
+    "file": "results/warehouse_v6/main/confined_main_W05_complementarity.json",
+    "method": "complementarity",
+    "new": false,
+    "retained": true,
+    "objective": 13.328135490398564
+  },
+  {
+    "file": "results/warehouse_v6/main/confined_main_W05_fixed.json",
+    "method": "fixed",
+    "new": false,
+    "retained": true,
+    "objective": 13.328135490398564
+  },
+  {
+    "file": "results/warehouse_v6/main/confined_main_W05_logic.json",
+    "method": "logic",
+    "new": false,
+    "retained": true,
+    "objective": 13.328135490398564
+  },
+  {
+    "file": "results/warehouse_v6/main/confined_main_W05_max.json",
+    "method": "max",
+    "new": true,
+    "retained": true,
+    "objective": 13.130158070795222
+  },
+  {
+    "file": "results/warehouse_v6/main/confined_main_W05_minlp.json",
+    "method": "minlp",
+    "new": false,
+    "retained": true,
+    "objective": 13.328135490398564
+  },
+  {
+    "file": "results/warehouse_v6/main/confined_main_W05_rgr.json",
+    "method": "rgr",
+    "new": true,
+    "retained": true,
+    "objective": 12.780077373583575
+  },
+  {
+    "file": "results/warehouse_v6/main/confined_main_W06_complementarity.json",
+    "method": "complementarity",
+    "new": false,
+    "retained": true,
+    "objective": 12.276287642049304
+  },
+  {
+    "file": "results/warehouse_v6/main/confined_main_W06_fixed.json",
+    "method": "fixed",
+    "new": false,
+    "retained": true,
+    "objective": 12.276287642049304
+  },
+  {
+    "file": "results/warehouse_v6/main/confined_main_W06_logic.json",
+    "method": "logic",
+    "new": false,
+    "retained": true,
+    "objective": 12.276287642049304
+  },
+  {
+    "file": "results/warehouse_v6/main/confined_main_W06_max.json",
+    "method": "max",
+    "new": false,
+    "retained": true,
+    "objective": 12.276287642049304
+  },
+  {
+    "file": "results/warehouse_v6/main/confined_main_W06_minlp.json",
+    "method": "minlp",
+    "new": false,
+    "retained": true,
+    "objective": 12.276287642049304
+  },
+  {
+    "file": "results/warehouse_v6/main/confined_main_W06_rgr.json",
+    "method": "rgr",
+    "new": true,
+    "retained": true,
+    "objective": 12.276287642049304
+  },
+  {
+    "file": "results/warehouse_v6/main/confined_main_W07_complementarity.json",
+    "method": "complementarity",
+    "new": false,
+    "retained": true,
+    "objective": 13.071144746744316
+  },
+  {
+    "file": "results/warehouse_v6/main/confined_main_W07_fixed.json",
+    "method": "fixed",
+    "new": false,
+    "retained": true,
+    "objective": 13.071144746744316
+  },
+  {
+    "file": "results/warehouse_v6/main/confined_main_W07_logic.json",
+    "method": "logic",
+    "new": false,
+    "retained": true,
+    "objective": 13.071144746744316
+  },
+  {
+    "file": "results/warehouse_v6/main/confined_main_W07_max.json",
+    "method": "max",
+    "new": true,
+    "retained": true,
+    "objective": 12.97894851979248
+  },
+  {
+    "file": "results/warehouse_v6/main/confined_main_W07_minlp.json",
+    "method": "minlp",
+    "new": false,
+    "retained": true,
+    "objective": 13.071144746744316
+  },
+  {
+    "file": "results/warehouse_v6/main/confined_main_W07_rgr.json",
+    "method": "rgr",
+    "new": true,
+    "retained": true,
+    "objective": 12.253434369373549
+  },
+  {
+    "file": "results/warehouse_v6/main/confined_main_W08_complementarity.json",
+    "method": "complementarity",
+    "new": true,
+    "retained": true,
+    "objective": 14.406860579996868
+  },
+  {
+    "file": "results/warehouse_v6/main/confined_main_W08_fixed.json",
+    "method": "fixed",
+    "new": false,
+    "retained": true,
+    "objective": 15.439871799967325
+  },
+  {
+    "file": "results/warehouse_v6/main/confined_main_W08_logic.json",
+    "method": "logic",
+    "new": false,
+    "retained": true,
+    "objective": 15.439871799967325
+  },
+  {
+    "file": "results/warehouse_v6/main/confined_main_W08_max.json",
+    "method": "max",
+    "new": true,
+    "retained": true,
+    "objective": 15.203618409759724
+  },
+  {
+    "file": "results/warehouse_v6/main/confined_main_W08_minlp.json",
+    "method": "minlp",
+    "new": false,
+    "retained": true,
+    "objective": 15.439871799967325
+  },
+  {
+    "file": "results/warehouse_v6/main/confined_main_W08_rgr.json",
+    "method": "rgr",
+    "new": false,
+    "retained": true,
+    "objective": 15.439871799967325
+  },
+  {
+    "file": "results/warehouse_v6/main/confined_main_W09_complementarity.json",
+    "method": "complementarity",
+    "new": true,
+    "retained": true,
+    "objective": 31.11346068482461
+  },
+  {
+    "file": "results/warehouse_v6/main/confined_main_W09_fixed.json",
+    "method": "fixed",
+    "new": false,
+    "retained": true,
+    "objective": 31.6007934948458
+  },
+  {
+    "file": "results/warehouse_v6/main/confined_main_W09_logic.json",
+    "method": "logic",
+    "new": false,
+    "retained": true,
+    "objective": 31.6007934948458
+  },
+  {
+    "file": "results/warehouse_v6/main/confined_main_W09_max.json",
+    "method": "max",
+    "new": true,
+    "retained": true,
+    "objective": 30.978391331408023
+  },
+  {
+    "file": "results/warehouse_v6/main/confined_main_W09_minlp.json",
+    "method": "minlp",
+    "new": false,
+    "retained": true,
+    "objective": 31.6007934948458
+  },
+  {
+    "file": "results/warehouse_v6/main/confined_main_W09_rgr.json",
+    "method": "rgr",
+    "new": true,
+    "retained": true,
+    "objective": 30.007993598299425
+  },
+  {
+    "file": "results/warehouse_v6/confirm/confined_confirm_W01_fi_no_cap.json",
+    "method": "fi_no_cap",
+    "new": true,
+    "retained": true,
+    "objective": 12.12195186173379
+  },
+  {
+    "file": "results/warehouse_v6/confirm/confined_confirm_W02_fi_no_cap.json",
+    "method": "fi_no_cap",
+    "new": true,
+    "retained": true,
+    "objective": 16.992999128487593
+  },
+  {
+    "file": "results/warehouse_v6/confirm/confined_confirm_W03_fi_no_cap.json",
+    "method": "fi_no_cap",
+    "new": true,
+    "retained": true,
+    "objective": 12.466206625317236
+  },
+  {
+    "file": "results/warehouse_v6/confirm/confined_confirm_W04_fi_no_cap.json",
+    "method": "fi_no_cap",
+    "new": true,
+    "retained": true,
+    "objective": 19.40647917793611
+  },
+  {
+    "file": "results/warehouse_v6/confirm/confined_confirm_W05_fi_no_cap.json",
+    "method": "fi_no_cap",
+    "new": true,
+    "retained": true,
+    "objective": 13.093390204092824
+  },
+  {
+    "file": "results/warehouse_v6/confirm/confined_confirm_W06_fi_no_cap.json",
+    "method": "fi_no_cap",
+    "new": true,
+    "retained": true,
+    "objective": 11.861525237263796
+  },
+  {
+    "file": "results/warehouse_v6/confirm/confined_confirm_W07_fi_no_cap.json",
+    "method": "fi_no_cap",
+    "new": true,
+    "retained": true,
+    "objective": 12.801676426632085
+  },
+  {
+    "file": "results/warehouse_v6/confirm/confined_confirm_W08_fi_no_cap.json",
+    "method": "fi_no_cap",
+    "new": true,
+    "retained": true,
+    "objective": 15.050726521158394
+  },
+  {
+    "file": "results/warehouse_v6/confirm/confined_confirm_W09_fi_no_cap.json",
+    "method": "fi_no_cap",
+    "new": true,
+    "retained": true,
+    "objective": 31.231960308339904
+  },
+  {
+    "file": "results/warehouse_v6/unique/confined_unique_W01_portfolio_unique.json",
+    "method": "portfolio_unique",
+    "new": false,
+    "retained": true,
+    "objective": 13.28916361020797
+  },
+  {
+    "file": "results/warehouse_v6/unique/confined_unique_W02_portfolio_unique.json",
+    "method": "portfolio_unique",
+    "new": true,
+    "retained": true,
+    "objective": 18.310988800951044
+  },
+  {
+    "file": "results/warehouse_v6/unique/confined_unique_W03_portfolio_unique.json",
+    "method": "portfolio_unique",
+    "new": false,
+    "retained": true,
+    "objective": 13.227225213876972
+  },
+  {
+    "file": "results/warehouse_v6/unique/confined_unique_W04_portfolio_unique.json",
+    "method": "portfolio_unique",
+    "new": true,
+    "retained": true,
+    "objective": 19.66160521899015
+  },
+  {
+    "file": "results/warehouse_v6/unique/confined_unique_W05_portfolio_unique.json",
+    "method": "portfolio_unique",
+    "new": false,
+    "retained": true,
+    "objective": 13.328135490398564
+  },
+  {
+    "file": "results/warehouse_v6/unique/confined_unique_W06_portfolio_unique.json",
+    "method": "portfolio_unique",
+    "new": false,
+    "retained": true,
+    "objective": 12.276287642049304
+  },
+  {
+    "file": "results/warehouse_v6/unique/confined_unique_W07_portfolio_unique.json",
+    "method": "portfolio_unique",
+    "new": false,
+    "retained": true,
+    "objective": 13.071144746744316
+  },
+  {
+    "file": "results/warehouse_v6/unique/confined_unique_W08_portfolio_unique.json",
+    "method": "portfolio_unique",
+    "new": false,
+    "retained": true,
+    "objective": 15.439871799967325
+  },
+  {
+    "file": "results/warehouse_v6/unique/confined_unique_W09_portfolio_unique.json",
+    "method": "portfolio_unique",
+    "new": true,
+    "retained": true,
+    "objective": 31.40638696022886
+  },
+  {
+    "file": "results/warehouse_v6/ablations/confined_ablations_W01_max_recover_priority.json",
+    "method": "max_recover_priority",
+    "new": true,
+    "retained": true,
+    "objective": 13.15374691273136
+  },
+  {
+    "file": "results/warehouse_v6/ablations/confined_ablations_W01_rrp.json",
+    "method": "rrp",
+    "new": false,
+    "retained": true,
+    "objective": 13.28916361020797
+  },
+  {
+    "file": "results/warehouse_v6/ablations/confined_ablations_W02_max_recover_priority.json",
+    "method": "max_recover_priority",
+    "new": true,
+    "retained": true,
+    "objective": 18.80537679131885
+  },
+  {
+    "file": "results/warehouse_v6/ablations/confined_ablations_W02_rrp.json",
+    "method": "rrp",
+    "new": false,
+    "retained": true,
+    "objective": 19.009629060441842
+  },
+  {
+    "file": "results/warehouse_v6/ablations/confined_ablations_W03_max_recover_priority.json",
+    "method": "max_recover_priority",
+    "new": true,
+    "retained": true,
+    "objective": 13.091017744357027
+  },
+  {
+    "file": "results/warehouse_v6/ablations/confined_ablations_W03_rrp.json",
+    "method": "rrp",
+    "new": false,
+    "retained": true,
+    "objective": 13.227225213876972
+  },
+  {
+    "file": "results/warehouse_v6/ablations/confined_ablations_W04_max_recover_priority.json",
+    "method": "max_recover_priority",
+    "new": true,
+    "retained": true,
+    "objective": 20.135861707369433
+  },
+  {
+    "file": "results/warehouse_v6/ablations/confined_ablations_W04_rrp.json",
+    "method": "rrp",
+    "new": false,
+    "retained": true,
+    "objective": 20.206751414753032
+  },
+  {
+    "file": "results/warehouse_v6/ablations/confined_ablations_W05_max_recover_priority.json",
+    "method": "max_recover_priority",
+    "new": true,
+    "retained": true,
+    "objective": 13.130158341089064
+  },
+  {
+    "file": "results/warehouse_v6/ablations/confined_ablations_W05_rrp.json",
+    "method": "rrp",
+    "new": false,
+    "retained": true,
+    "objective": 13.328135490398564
+  },
+  {
+    "file": "results/warehouse_v6/ablations/confined_ablations_W06_max_recover_priority.json",
+    "method": "max_recover_priority",
+    "new": true,
+    "retained": true,
+    "objective": 12.152556880563008
+  },
+  {
+    "file": "results/warehouse_v6/ablations/confined_ablations_W06_rrp.json",
+    "method": "rrp",
+    "new": false,
+    "retained": true,
+    "objective": 12.276287642049304
+  },
+  {
+    "file": "results/warehouse_v6/ablations/confined_ablations_W07_max_recover_priority.json",
+    "method": "max_recover_priority",
+    "new": true,
+    "retained": true,
+    "objective": 12.980180918000402
+  },
+  {
+    "file": "results/warehouse_v6/ablations/confined_ablations_W07_rrp.json",
+    "method": "rrp",
+    "new": false,
+    "retained": true,
+    "objective": 13.071144746744316
+  },
+  {
+    "file": "results/warehouse_v6/ablations/confined_ablations_W08_max_recover_priority.json",
+    "method": "max_recover_priority",
+    "new": true,
+    "retained": true,
+    "objective": 15.20460900337323
+  },
+  {
+    "file": "results/warehouse_v6/ablations/confined_ablations_W08_rrp.json",
+    "method": "rrp",
+    "new": false,
+    "retained": true,
+    "objective": 15.439871799967325
+  },
+  {
+    "file": "results/warehouse_v6/ablations/confined_ablations_W09_max_recover_priority.json",
+    "method": "max_recover_priority",
+    "new": true,
+    "retained": true,
+    "objective": 30.978987136644015
+  },
+  {
+    "file": "results/warehouse_v6/ablations/confined_ablations_W09_rrp.json",
+    "method": "rrp",
+    "new": false,
+    "retained": true,
+    "objective": 31.6007934948458
+  },
+  {
+    "file": "results/warehouse_v6/paired/confined_paired_W01_no_terminal_fi_no_cap.json",
+    "method": "no_terminal_fi_no_cap",
+    "new": true,
+    "retained": true,
+    "objective": 12.583767202377233
+  },
+  {
+    "file": "results/warehouse_v6/paired/confined_paired_W02_no_terminal_fi_no_cap.json",
+    "method": "no_terminal_fi_no_cap",
+    "new": true,
+    "retained": true,
+    "objective": 18.357635585036306
+  },
+  {
+    "file": "results/warehouse_v6/paired/confined_paired_W03_no_terminal_fi_no_cap.json",
+    "method": "no_terminal_fi_no_cap",
+    "new": true,
+    "retained": true,
+    "objective": 12.466206625317236
+  },
+  {
+    "file": "results/warehouse_v6/paired/confined_paired_W04_no_terminal_fi_no_cap.json",
+    "method": "no_terminal_fi_no_cap",
+    "new": true,
+    "retained": true,
+    "objective": 19.40647917793611
+  },
+  {
+    "file": "results/warehouse_v6/paired/confined_paired_W05_no_terminal_fi_no_cap.json",
+    "method": "no_terminal_fi_no_cap",
+    "new": true,
+    "retained": true,
+    "objective": 13.093390204092824
+  },
+  {
+    "file": "results/warehouse_v6/paired/confined_paired_W06_no_terminal_fi_no_cap.json",
+    "method": "no_terminal_fi_no_cap",
+    "new": true,
+    "retained": true,
+    "objective": 11.871314927240523
+  },
+  {
+    "file": "results/warehouse_v6/paired/confined_paired_W07_no_terminal_fi_no_cap.json",
+    "method": "no_terminal_fi_no_cap",
+    "new": true,
+    "retained": true,
+    "objective": 12.788371989998877
+  },
+  {
+    "file": "results/warehouse_v6/paired/confined_paired_W08_no_terminal_fi_no_cap.json",
+    "method": "no_terminal_fi_no_cap",
+    "new": true,
+    "retained": true,
+    "objective": 15.050726521158394
+  },
+  {
+    "file": "results/warehouse_v6/paired/confined_paired_W09_no_terminal_fi_no_cap.json",
+    "method": "no_terminal_fi_no_cap",
+    "new": true,
+    "retained": true,
+    "objective": 31.231960308339904
+  },
+  {
+    "file": "results/warehouse_v6/final/confined_final_W01_recover_feasible.json",
+    "method": "recover_feasible",
+    "new": true,
+    "retained": true,
+    "objective": 12.116095374164829
+  },
+  {
+    "file": "results/warehouse_v6/final/confined_final_W02_recover_feasible.json",
+    "method": "recover_feasible",
+    "new": true,
+    "retained": true,
+    "objective": 16.99332083222871
+  },
+  {
+    "file": "results/warehouse_v6/final/confined_final_W03_recover_feasible.json",
+    "method": "recover_feasible",
+    "new": true,
+    "retained": true,
+    "objective": 12.88830671514322
+  },
+  {
+    "file": "results/warehouse_v6/final/confined_final_W04_recover_feasible.json",
+    "method": "recover_feasible",
+    "new": true,
+    "retained": true,
+    "objective": 19.801034326878955
+  },
+  {
+    "file": "results/warehouse_v6/final/confined_final_W05_recover_feasible.json",
+    "method": "recover_feasible",
+    "new": true,
+    "retained": true,
+    "objective": 13.026993483270608
+  },
+  {
+    "file": "results/warehouse_v6/final/confined_final_W06_recover_feasible.json",
+    "method": "recover_feasible",
+    "new": true,
+    "retained": true,
+    "objective": 11.846894679256613
+  },
+  {
+    "file": "results/warehouse_v6/final/confined_final_W07_recover_feasible.json",
+    "method": "recover_feasible",
+    "new": true,
+    "retained": true,
+    "objective": 12.658413505636261
+  },
+  {
+    "file": "results/warehouse_v6/final/confined_final_W08_recover_feasible.json",
+    "method": "recover_feasible",
+    "new": true,
+    "retained": true,
+    "objective": 14.934105545105929
+  },
+  {
+    "file": "results/warehouse_v6/final/confined_final_W09_recover_feasible.json",
+    "method": "recover_feasible",
+    "new": true,
+    "retained": true,
+    "objective": 31.11067655531624
+  },
+  {
+    "file": "results/warehouse_v6/matched/confined_matched_W01_fi_no_cap.json",
+    "method": "fi_no_cap",
+    "new": true,
+    "retained": true,
+    "objective": 12.12415596805822
+  },
+  {
+    "file": "results/warehouse_v6/matched/confined_matched_W01_fi_no_initial.json",
+    "method": "fi_no_initial",
+    "new": true,
+    "retained": true,
+    "objective": 12.21747601563174
+  },
+  {
+    "file": "results/warehouse_v6/matched/confined_matched_W01_fi_no_reserve.json",
+    "method": "fi_no_reserve",
+    "new": true,
+    "retained": true,
+    "objective": 12.79846285719304
+  },
+  {
+    "file": "results/warehouse_v6/matched/confined_matched_W02_fi_no_cap.json",
+    "method": "fi_no_cap",
+    "new": true,
+    "retained": true,
+    "objective": 16.993033120155406
+  },
+  {
+    "file": "results/warehouse_v6/matched/confined_matched_W02_fi_no_initial.json",
+    "method": "fi_no_initial",
+    "new": true,
+    "retained": true,
+    "objective": 17.21255228884372
+  },
+  {
+    "file": "results/warehouse_v6/matched/confined_matched_W02_fi_no_reserve.json",
+    "method": "fi_no_reserve",
+    "new": true,
+    "retained": true,
+    "objective": 16.98815809129078
+  },
+  {
+    "file": "results/warehouse_v6/matched/confined_matched_W03_fi_no_cap.json",
+    "method": "fi_no_cap",
+    "new": true,
+    "retained": true,
+    "objective": 12.466335043098303
+  },
+  {
+    "file": "results/warehouse_v6/matched/confined_matched_W03_fi_no_initial.json",
+    "method": "fi_no_initial",
+    "new": true,
+    "retained": true,
+    "objective": 13.09851969428747
+  },
+  {
+    "file": "results/warehouse_v6/matched/confined_matched_W03_fi_no_reserve.json",
+    "method": "fi_no_reserve",
+    "new": true,
+    "retained": true,
+    "objective": 12.88199746527429
+  },
+  {
+    "file": "results/warehouse_v6/matched/confined_matched_W04_fi_no_cap.json",
+    "method": "fi_no_cap",
+    "new": true,
+    "retained": true,
+    "objective": 19.405791927288384
+  },
+  {
+    "file": "results/warehouse_v6/matched/confined_matched_W04_fi_no_initial.json",
+    "method": "fi_no_initial",
+    "new": true,
+    "retained": true,
+    "objective": 19.970542238956302
+  },
+  {
+    "file": "results/warehouse_v6/matched/confined_matched_W04_fi_no_reserve.json",
+    "method": "fi_no_reserve",
+    "new": true,
+    "retained": true,
+    "objective": 19.66112737431629
+  },
+  {
+    "file": "results/warehouse_v6/matched/confined_matched_W05_fi_no_cap.json",
+    "method": "fi_no_cap",
+    "new": true,
+    "retained": true,
+    "objective": 13.093000119171274
+  },
+  {
+    "file": "results/warehouse_v6/matched/confined_matched_W05_fi_no_initial.json",
+    "method": "fi_no_initial",
+    "new": true,
+    "retained": true,
+    "objective": 13.215343065844188
+  },
+  {
+    "file": "results/warehouse_v6/matched/confined_matched_W05_fi_no_reserve.json",
+    "method": "fi_no_reserve",
+    "new": true,
+    "retained": true,
+    "objective": 13.13919921616928
+  },
+  {
+    "file": "results/warehouse_v6/matched/confined_matched_W06_fi_no_cap.json",
+    "method": "fi_no_cap",
+    "new": true,
+    "retained": true,
+    "objective": 11.861525237263796
+  },
+  {
+    "file": "results/warehouse_v6/matched/confined_matched_W06_fi_no_initial.json",
+    "method": "fi_no_initial",
+    "new": true,
+    "retained": true,
+    "objective": 12.05700632701075
+  },
+  {
+    "file": "results/warehouse_v6/matched/confined_matched_W06_fi_no_reserve.json",
+    "method": "fi_no_reserve",
+    "new": true,
+    "retained": true,
+    "objective": 11.942075800605302
+  },
+  {
+    "file": "results/warehouse_v6/matched/confined_matched_W07_fi_no_cap.json",
+    "method": "fi_no_cap",
+    "new": true,
+    "retained": true,
+    "objective": 12.63861815945543
+  },
+  {
+    "file": "results/warehouse_v6/matched/confined_matched_W07_fi_no_initial.json",
+    "method": "fi_no_initial",
+    "new": true,
+    "retained": true,
+    "objective": 12.997672172634827
+  },
+  {
+    "file": "results/warehouse_v6/matched/confined_matched_W07_fi_no_reserve.json",
+    "method": "fi_no_reserve",
+    "new": true,
+    "retained": true,
+    "objective": 12.770076093947598
+  },
+  {
+    "file": "results/warehouse_v6/matched/confined_matched_W08_fi_no_cap.json",
+    "method": "fi_no_cap",
+    "new": true,
+    "retained": true,
+    "objective": 15.050751515792374
+  },
+  {
+    "file": "results/warehouse_v6/matched/confined_matched_W08_fi_no_initial.json",
+    "method": "fi_no_initial",
+    "new": true,
+    "retained": true,
+    "objective": 15.048066046522663
+  },
+  {
+    "file": "results/warehouse_v6/matched/confined_matched_W08_fi_no_reserve.json",
+    "method": "fi_no_reserve",
+    "new": true,
+    "retained": true,
+    "objective": 14.957006994182638
+  },
+  {
+    "file": "results/warehouse_v6/matched/confined_matched_W09_fi_no_cap.json",
+    "method": "fi_no_cap",
+    "new": true,
+    "retained": true,
+    "objective": 31.241671959094187
+  },
+  {
+    "file": "results/warehouse_v6/matched/confined_matched_W09_fi_no_initial.json",
+    "method": "fi_no_initial",
+    "new": false,
+    "retained": true,
+    "objective": 31.6007934948458
+  },
+  {
+    "file": "results/warehouse_v6/matched/confined_matched_W09_fi_no_reserve.json",
+    "method": "fi_no_reserve",
+    "new": true,
+    "retained": true,
+    "objective": 31.140157441713598
+  },
+  {
+    "file": "results/warehouse_v6/factorial/confined_factorial_W01_fx_no_initial_no_cap.json",
+    "method": "fx_no_initial_no_cap",
+    "new": true,
+    "retained": true,
+    "objective": 12.834276807973183
+  },
+  {
+    "file": "results/warehouse_v6/factorial/confined_factorial_W01_fx_no_initial_no_reserve.json",
+    "method": "fx_no_initial_no_reserve",
+    "new": true,
+    "retained": true,
+    "objective": 13.154340316968364
+  },
+  {
+    "file": "results/warehouse_v6/factorial/confined_factorial_W02_fx_no_initial_no_cap.json",
+    "method": "fx_no_initial_no_cap",
+    "new": true,
+    "retained": true,
+    "objective": 17.213884230787603
+  },
+  {
+    "file": "results/warehouse_v6/factorial/confined_factorial_W02_fx_no_initial_no_reserve.json",
+    "method": "fx_no_initial_no_reserve",
+    "new": true,
+    "retained": true,
+    "objective": 17.232632386347557
+  },
+  {
+    "file": "results/warehouse_v6/factorial/confined_factorial_W03_fx_no_initial_no_cap.json",
+    "method": "fx_no_initial_no_cap",
+    "new": true,
+    "retained": true,
+    "objective": 12.903296297552707
+  },
+  {
+    "file": "results/warehouse_v6/factorial/confined_factorial_W03_fx_no_initial_no_reserve.json",
+    "method": "fx_no_initial_no_reserve",
+    "new": true,
+    "retained": true,
+    "objective": 13.092166619168994
+  },
+  {
+    "file": "results/warehouse_v6/factorial/confined_factorial_W04_fx_no_initial_no_cap.json",
+    "method": "fx_no_initial_no_cap",
+    "new": true,
+    "retained": true,
+    "objective": 19.63101902908894
+  },
+  {
+    "file": "results/warehouse_v6/factorial/confined_factorial_W04_fx_no_initial_no_reserve.json",
+    "method": "fx_no_initial_no_reserve",
+    "new": true,
+    "retained": true,
+    "objective": 20.136819436537834
+  },
+  {
+    "file": "results/warehouse_v6/factorial/confined_factorial_W05_fx_no_initial_no_cap.json",
+    "method": "fx_no_initial_no_cap",
+    "new": true,
+    "retained": true,
+    "objective": 13.045677585088738
+  },
+  {
+    "file": "results/warehouse_v6/factorial/confined_factorial_W05_fx_no_initial_no_reserve.json",
+    "method": "fx_no_initial_no_reserve",
+    "new": true,
+    "retained": true,
+    "objective": 13.130158514104261
+  },
+  {
+    "file": "results/warehouse_v6/factorial/confined_factorial_W06_fx_no_initial_no_cap.json",
+    "method": "fx_no_initial_no_cap",
+    "new": true,
+    "retained": true,
+    "objective": 12.160363152416773
+  },
+  {
+    "file": "results/warehouse_v6/factorial/confined_factorial_W06_fx_no_initial_no_reserve.json",
+    "method": "fx_no_initial_no_reserve",
+    "new": true,
+    "retained": true,
+    "objective": 12.15316854301287
+  },
+  {
+    "file": "results/warehouse_v6/factorial/confined_factorial_W07_fx_no_initial_no_cap.json",
+    "method": "fx_no_initial_no_cap",
+    "new": true,
+    "retained": true,
+    "objective": 12.934864598742013
+  },
+  {
+    "file": "results/warehouse_v6/factorial/confined_factorial_W07_fx_no_initial_no_reserve.json",
+    "method": "fx_no_initial_no_reserve",
+    "new": true,
+    "retained": true,
+    "objective": 12.981045491413425
+  },
+  {
+    "file": "results/warehouse_v6/factorial/confined_factorial_W08_fx_no_initial_no_cap.json",
+    "method": "fx_no_initial_no_cap",
+    "new": true,
+    "retained": true,
+    "objective": 14.901590763120215
+  },
+  {
+    "file": "results/warehouse_v6/factorial/confined_factorial_W08_fx_no_initial_no_reserve.json",
+    "method": "fx_no_initial_no_reserve",
+    "new": true,
+    "retained": true,
+    "objective": 15.205327769518728
+  },
+  {
+    "file": "results/warehouse_v6/factorial/confined_factorial_W09_fx_no_initial_no_cap.json",
+    "method": "fx_no_initial_no_cap",
+    "new": true,
+    "retained": true,
+    "objective": 31.39473792788313
+  },
+  {
+    "file": "results/warehouse_v6/factorial/confined_factorial_W09_fx_no_initial_no_reserve.json",
+    "method": "fx_no_initial_no_reserve",
+    "new": true,
+    "retained": true,
+    "objective": 30.99439185271577
+  },
+  {
+    "file": "results/warehouse_v6/rigid/confined_rigid_W01_rigid.json",
+    "method": "rigid",
+    "new": false,
+    "retained": false,
+    "objective": 13.28916361020797
+  },
+  {
+    "file": "results/warehouse_v6/rigid/confined_rigid_W02_rigid.json",
+    "method": "rigid",
+    "new": false,
+    "retained": false,
+    "objective": 19.009629060441842
+  },
+  {
+    "file": "results/warehouse_v6/rigid/confined_rigid_W03_rigid.json",
+    "method": "rigid",
+    "new": false,
+    "retained": false,
+    "objective": 13.227225213876972
+  },
+  {
+    "file": "results/warehouse_v6/rigid/confined_rigid_W04_rigid.json",
+    "method": "rigid",
+    "new": false,
+    "retained": false,
+    "objective": 20.206751414753032
+  },
+  {
+    "file": "results/warehouse_v6/rigid/confined_rigid_W05_rigid.json",
+    "method": "rigid",
+    "new": false,
+    "retained": false,
+    "objective": 13.328135490398564
+  },
+  {
+    "file": "results/warehouse_v6/rigid/confined_rigid_W06_rigid.json",
+    "method": "rigid",
+    "new": false,
+    "retained": false,
+    "objective": 12.276287642049304
+  },
+  {
+    "file": "results/warehouse_v6/rigid/confined_rigid_W07_rigid.json",
+    "method": "rigid",
+    "new": false,
+    "retained": false,
+    "objective": 13.071144746744316
+  },
+  {
+    "file": "results/warehouse_v6/rigid/confined_rigid_W08_rigid.json",
+    "method": "rigid",
+    "new": false,
+    "retained": false,
+    "objective": 15.439871799967325
+  },
+  {
+    "file": "results/warehouse_v6/rigid/confined_rigid_W09_rigid.json",
+    "method": "rigid",
+    "new": false,
+    "retained": false,
+    "objective": 31.6007934948458
+  },
+  {
+    "file": "results/warehouse_v6/repeat1/confined_repeat1_W02_fi_no_cap.json",
+    "method": "fi_no_cap",
+    "new": true,
+    "retained": true,
+    "objective": 17.000741392684397
+  },
+  {
+    "file": "results/warehouse_v6/repeat1/confined_repeat1_W02_max.json",
+    "method": "max",
+    "new": true,
+    "retained": true,
+    "objective": 18.802829426795398
+  },
+  {
+    "file": "results/warehouse_v6/repeat1/confined_repeat1_W05_fi_no_cap.json",
+    "method": "fi_no_cap",
+    "new": true,
+    "retained": true,
+    "objective": 13.092786963526748
+  },
+  {
+    "file": "results/warehouse_v6/repeat1/confined_repeat1_W05_max.json",
+    "method": "max",
+    "new": true,
+    "retained": true,
+    "objective": 13.1301580793875
+  },
+  {
+    "file": "results/warehouse_v6/repeat1/confined_repeat1_W09_fi_no_cap.json",
+    "method": "fi_no_cap",
+    "new": true,
+    "retained": true,
+    "objective": 31.171312269488784
+  },
+  {
+    "file": "results/warehouse_v6/repeat1/confined_repeat1_W09_max.json",
+    "method": "max",
+    "new": true,
+    "retained": true,
+    "objective": 30.9780584047263
+  },
+  {
+    "file": "results/warehouse_v6/repeat2/confined_repeat2_W02_fi_no_cap.json",
+    "method": "fi_no_cap",
+    "new": true,
+    "retained": true,
+    "objective": 16.99268801644954
+  },
+  {
+    "file": "results/warehouse_v6/repeat2/confined_repeat2_W02_max.json",
+    "method": "max",
+    "new": true,
+    "retained": true,
+    "objective": 18.802389677019963
+  },
+  {
+    "file": "results/warehouse_v6/repeat2/confined_repeat2_W05_fi_no_cap.json",
+    "method": "fi_no_cap",
+    "new": true,
+    "retained": true,
+    "objective": 13.093452996554513
+  },
+  {
+    "file": "results/warehouse_v6/repeat2/confined_repeat2_W05_max.json",
+    "method": "max",
+    "new": true,
+    "retained": true,
+    "objective": 13.130158082406139
+  },
+  {
+    "file": "results/warehouse_v6/repeat2/confined_repeat2_W09_fi_no_cap.json",
+    "method": "fi_no_cap",
+    "new": true,
+    "retained": true,
+    "objective": 31.171303407456243
+  },
+  {
+    "file": "results/warehouse_v6/repeat2/confined_repeat2_W09_max.json",
+    "method": "max",
+    "new": true,
+    "retained": true,
+    "objective": 30.97918029756073
+  },
+  {
+    "file": "results/warehouse_v6/repeat3/confined_repeat3_W02_fi_no_cap.json",
+    "method": "fi_no_cap",
+    "new": true,
+    "retained": true,
+    "objective": 16.988271549249422
+  },
+  {
+    "file": "results/warehouse_v6/repeat3/confined_repeat3_W02_max.json",
+    "method": "max",
+    "new": true,
+    "retained": true,
+    "objective": 18.802034971028192
+  },
+  {
+    "file": "results/warehouse_v6/repeat3/confined_repeat3_W05_fi_no_cap.json",
+    "method": "fi_no_cap",
+    "new": true,
+    "retained": true,
+    "objective": 13.093454040251238
+  },
+  {
+    "file": "results/warehouse_v6/repeat3/confined_repeat3_W05_max.json",
+    "method": "max",
+    "new": true,
+    "retained": true,
+    "objective": 13.13015808696738
+  },
+  {
+    "file": "results/warehouse_v6/repeat3/confined_repeat3_W09_fi_no_cap.json",
+    "method": "fi_no_cap",
+    "new": true,
+    "retained": true,
+    "objective": 31.23657763471619
+  },
+  {
+    "file": "results/warehouse_v6/repeat3/confined_repeat3_W09_max.json",
+    "method": "max",
+    "new": true,
+    "retained": true,
+    "objective": 30.97979892629785
+  },
+  {
+    "file": "results/warehouse_v6/smoothing/confined_smoothing_W02_lse100.json",
+    "method": "lse100",
+    "new": false,
+    "retained": true,
+    "objective": 19.009629060441842
+  },
+  {
+    "file": "results/warehouse_v6/smoothing/confined_smoothing_W02_lse1000.json",
+    "method": "lse1000",
+    "new": false,
+    "retained": true,
+    "objective": 19.009629060441842
+  },
+  {
+    "file": "results/warehouse_v6/smoothing/confined_smoothing_W05_lse100.json",
+    "method": "lse100",
+    "new": false,
+    "retained": true,
+    "objective": 13.328135490398564
+  },
+  {
+    "file": "results/warehouse_v6/smoothing/confined_smoothing_W05_lse1000.json",
+    "method": "lse1000",
+    "new": false,
+    "retained": true,
+    "objective": 13.328135490398564
+  },
+  {
+    "file": "results/warehouse_v6/smoothing/confined_smoothing_W09_lse100.json",
+    "method": "lse100",
+    "new": false,
+    "retained": true,
+    "objective": 31.6007934948458
+  },
+  {
+    "file": "results/warehouse_v6/smoothing/confined_smoothing_W09_lse1000.json",
+    "method": "lse1000",
+    "new": false,
+    "retained": true,
+    "objective": 31.6007934948458
+  },
+  {
+    "file": "results/warehouse_v6/shapes/confined_shapes_S01_fi_no_cap.json",
+    "method": "fi_no_cap",
+    "new": true,
+    "retained": true,
+    "objective": 16.99998623349147
+  },
+  {
+    "file": "results/warehouse_v6/shapes/confined_shapes_S01_max.json",
+    "method": "max",
+    "new": true,
+    "retained": true,
+    "objective": 18.802468596917095
+  },
+  {
+    "file": "results/warehouse_v6/shapes/confined_shapes_S02_fi_no_cap.json",
+    "method": "fi_no_cap",
+    "new": true,
+    "retained": true,
+    "objective": 18.236957576272307
+  },
+  {
+    "file": "results/warehouse_v6/shapes/confined_shapes_S02_max.json",
+    "method": "max",
+    "new": true,
+    "retained": true,
+    "objective": 18.815253774916922
+  },
+  {
+    "file": "results/warehouse_v6/shapes/confined_shapes_S03_fi_no_cap.json",
+    "method": "fi_no_cap",
+    "new": true,
+    "retained": true,
+    "objective": 16.53575339759943
+  },
+  {
+    "file": "results/warehouse_v6/shapes/confined_shapes_S03_max.json",
+    "method": "max",
+    "new": true,
+    "retained": true,
+    "objective": 18.802501623254884
+  },
+  {
+    "file": "results/warehouse_v6/shapes/confined_shapes_S04_fi_no_cap.json",
+    "method": "fi_no_cap",
+    "new": true,
+    "retained": true,
+    "objective": 17.002518637051732
+  },
+  {
+    "file": "results/warehouse_v6/shapes/confined_shapes_S04_max.json",
+    "method": "max",
+    "new": true,
+    "retained": true,
+    "objective": 18.812447254895194
+  },
+  {
+    "file": "results/warehouse_v6/shapes/confined_shapes_S05_fi_no_cap.json",
+    "method": "fi_no_cap",
+    "new": true,
+    "retained": true,
+    "objective": 17.05396815227866
+  },
+  {
+    "file": "results/warehouse_v6/shapes/confined_shapes_S05_max.json",
+    "method": "max",
+    "new": true,
+    "retained": true,
+    "objective": 18.696730489536705
+  },
+  {
+    "file": "results/warehouse_v6/budgets/confined_budget15_W02_fi_no_cap.json",
+    "method": "fi_no_cap",
+    "new": true,
+    "retained": true,
+    "objective": 17.002332861327464
+  },
+  {
+    "file": "results/warehouse_v6/budgets/confined_budget15_W02_max.json",
+    "method": "max",
+    "new": true,
+    "retained": true,
+    "objective": 18.81000904610637
+  },
+  {
+    "file": "results/warehouse_v6/budgets/confined_budget15_W02_minlp.json",
+    "method": "minlp",
+    "new": false,
+    "retained": true,
+    "objective": 19.009629060441842
+  },
+  {
+    "file": "results/warehouse_v6/budgets/confined_budget15_W05_fi_no_cap.json",
+    "method": "fi_no_cap",
+    "new": true,
+    "retained": true,
+    "objective": 13.093643518664335
+  },
+  {
+    "file": "results/warehouse_v6/budgets/confined_budget15_W05_max.json",
+    "method": "max",
+    "new": false,
+    "retained": true,
+    "objective": 13.328135490398564
+  },
+  {
+    "file": "results/warehouse_v6/budgets/confined_budget15_W05_minlp.json",
+    "method": "minlp",
+    "new": false,
+    "retained": true,
+    "objective": 13.328135490398564
+  },
+  {
+    "file": "results/warehouse_v6/budgets/confined_budget15_W09_fi_no_cap.json",
+    "method": "fi_no_cap",
+    "new": true,
+    "retained": true,
+    "objective": 31.34991766645924
+  },
+  {
+    "file": "results/warehouse_v6/budgets/confined_budget15_W09_max.json",
+    "method": "max",
+    "new": true,
+    "retained": true,
+    "objective": 30.997929415173996
+  },
+  {
+    "file": "results/warehouse_v6/budgets/confined_budget15_W09_minlp.json",
+    "method": "minlp",
+    "new": false,
+    "retained": true,
+    "objective": 31.6007934948458
+  },
+  {
+    "file": "results/warehouse_v6/budgets/confined_budget60_W02_fi_no_cap.json",
+    "method": "fi_no_cap",
+    "new": true,
+    "retained": true,
+    "objective": 16.991530083189133
+  },
+  {
+    "file": "results/warehouse_v6/budgets/confined_budget60_W02_max.json",
+    "method": "max",
+    "new": true,
+    "retained": true,
+    "objective": 18.78615729364559
+  },
+  {
+    "file": "results/warehouse_v6/budgets/confined_budget60_W02_minlp.json",
+    "method": "minlp",
+    "new": false,
+    "retained": true,
+    "objective": 19.009629060441842
+  },
+  {
+    "file": "results/warehouse_v6/budgets/confined_budget60_W05_fi_no_cap.json",
+    "method": "fi_no_cap",
+    "new": true,
+    "retained": true,
+    "objective": 13.060924802760953
+  },
+  {
+    "file": "results/warehouse_v6/budgets/confined_budget60_W05_max.json",
+    "method": "max",
+    "new": true,
+    "retained": true,
+    "objective": 13.130156714315827
+  },
+  {
+    "file": "results/warehouse_v6/budgets/confined_budget60_W05_minlp.json",
+    "method": "minlp",
+    "new": false,
+    "retained": true,
+    "objective": 13.328135490398564
+  },
+  {
+    "file": "results/warehouse_v6/budgets/confined_budget60_W09_fi_no_cap.json",
+    "method": "fi_no_cap",
+    "new": true,
+    "retained": true,
+    "objective": 31.15895476730338
+  },
+  {
+    "file": "results/warehouse_v6/budgets/confined_budget60_W09_max.json",
+    "method": "max",
+    "new": true,
+    "retained": true,
+    "objective": 30.93964748815456
+  },
+  {
+    "file": "results/warehouse_v6/budgets/confined_budget60_W09_minlp.json",
+    "method": "minlp",
+    "new": false,
+    "retained": true,
+    "objective": 31.6007934948458
+  }
+]

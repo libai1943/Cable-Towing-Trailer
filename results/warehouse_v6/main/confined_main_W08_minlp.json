@@ -1,0 +1,265 @@
+{
+  "method": "minlp",
+  "options": {
+    "label": "confined_main_W08_minlp",
+    "timeLimit": 30,
+    "nlpTimeLimit": 28,
+    "epscomp": 0,
+    "beta": 100,
+    "maxIter": 3000,
+    "solutionLimit": 1.0E+6,
+    "disablePump": false
+  },
+  "seconds": 30.7136982,
+  "exitCode": 0,
+  "P": {
+    "L": 1.335,
+    "a": 0.7,
+    "Lf": 0.4,
+    "front": [
+      0.6,
+      0,
+      0.35
+    ],
+    "rear": [
+      0.7,
+      0.35,
+      0.55
+    ],
+    "rho": 1,
+    "deltaMax": 0.78539816339744828,
+    "vMax": 0.5,
+    "aMax": 0.5,
+    "wMax": 0.8,
+    "clearance": 0.1,
+    "extra": 0.065,
+    "scale": 1,
+    "planBuffer": 0.02,
+    "B": 2.035,
+    "radius": 0.40000000000000008,
+    "left": 0,
+    "right": 16,
+    "ymin": 0,
+    "ymax": 16,
+    "pull": 9,
+    "sample": 0.01,
+    "obstacles": [
+      [
+        0.5,
+        2.5,
+        3.2,
+        8.4
+      ],
+      [
+        0.5,
+        2.5,
+        8.6,
+        14.5
+      ],
+      [
+        4.1999999999999993,
+        6.2,
+        3.5,
+        6
+      ],
+      [
+        4.1999999999999993,
+        6.2,
+        10,
+        14.5
+      ],
+      [
+        7.8,
+        10.8,
+        3.5,
+        4.9
+      ],
+      [
+        12.3,
+        15.3,
+        3.5,
+        4.9
+      ],
+      [
+        7.8,
+        10.8,
+        6.8,
+        8.2
+      ],
+      [
+        12.3,
+        15.3,
+        6.8,
+        8.2
+      ],
+      [
+        7.8,
+        10.8,
+        10.1,
+        11.5
+      ],
+      [
+        12.3,
+        15.3,
+        10.1,
+        11.5
+      ],
+      [
+        7.8,
+        10.8,
+        13.4,
+        14.8
+      ],
+      [
+        12.3,
+        15.3,
+        13.4,
+        14.8
+      ]
+    ],
+    "initial": [
+      3.35,
+      3.6,
+      1.5707963267948966,
+      3.35,
+      2.265,
+      1.5707963267948966
+    ],
+    "goalY": 6.1,
+    "goalAngle": -1.5707963267948957,
+    "goalTolerance": 0.008,
+    "taskGoalY": 6,
+    "taskGoalTolerance": 0.025,
+    "smax": 0.18,
+    "mesh": 100,
+    "regularization": 0.002,
+    "vertices": [
+      [
+        [
+          0.6,
+          0.35
+        ],
+        [
+          0,
+          0.35
+        ],
+        [
+          0,
+          -0.35
+        ],
+        [
+          0.6,
+          -0.35
+        ]
+      ],
+      [
+        [
+          0.7,
+          0.55
+        ],
+        [
+          -0.35,
+          0.55
+        ],
+        [
+          -0.35,
+          -0.55
+        ],
+        [
+          0.7,
+          -0.55
+        ]
+      ]
+    ],
+    "goalXYTolerance": [
+      0.12,
+      0.12
+    ],
+    "replayTolerance": 0.15,
+    "caseName": "W08",
+    "name": "Mixed storage return",
+    "goal": [
+      7.0162633856097081,
+      4.5935966900006209
+    ],
+    "obstacleKinds": [
+      "rack",
+      "rack",
+      "rack",
+      "rack",
+      "rack",
+      "rack",
+      "rack",
+      "rack",
+      "rack",
+      "rack",
+      "rack",
+      "rack"
+    ],
+    "layoutFamily": 8,
+    "zones": [
+      0.5,
+      14.8,
+      0.25,
+      2.6
+    ],
+    "zoneNames": [
+      "Replenishment / outbound"
+    ],
+    "nominalAisleWidth": 1.7,
+    "layoutArea": 69.800000000000011
+  },
+  "rawVerified": false,
+  "status": "missing_output",
+  "cost": null,
+  "process": {
+    "budget": 30,
+    "wallSeconds": 30.3528643,
+    "timedOut": true,
+    "exitCode": []
+  },
+  "totalSeconds": 31.6640472,
+  "stageAudits": [
+    []
+  ],
+  "rawSolverAccepted": false,
+  "seedAudit": {
+    "accepted": true,
+    "stateAccepted": true,
+    "boundsViolation": 0,
+    "stateBoundsViolation": 8.8817841970012523E-16,
+    "initialClearance": 0.49999999999999911,
+    "cost": 15.439871799967325,
+    "travel": 15.429899207783514,
+    "cableAccepted": true,
+    "cableHits": 0,
+    "cableLengthError": 1.1102230246251565E-15,
+    "cableSideChanges": 0,
+    "fineStateAccepted": true,
+    "fineHeadingError": 0.0081949908840215357,
+    "fineGoalError": [
+      0.010866261496051521,
+      0.051534645360267639
+    ],
+    "fineNodeDifference": 0.062242242970119932,
+    "fineClearance": 0.19684962553749921,
+    "discreteNodeResidual": 0,
+    "modeResidual": 0,
+    "coarseClearance": 0.19739806943925409
+  },
+  "selectedSource": "search_seed",
+  "retainedVerified": true,
+  "retainedCost": 15.439871799967325,
+  "retainedTravel": 15.429899207783514,
+  "improved": false,
+  "recoverySelected": false,
+  "prefix": {
+    "seconds": 31.6640049,
+    "rawVerified": false,
+    "retainedVerified": true,
+    "retainedCost": 15.439871799967325,
+    "retainedTravel": 15.429899207783514,
+    "improved": false
+  },
+  "algorithmBudget": 30
+}

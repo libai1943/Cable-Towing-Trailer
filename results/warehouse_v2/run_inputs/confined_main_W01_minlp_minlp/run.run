@@ -1,0 +1,13 @@
+reset;
+option presolve 0;
+model common.mod;
+model mode.mod;
+data problem.dat;
+commands initial.run;
+option solver bonmin;
+solve;
+printf "%d %.17g %.17g\n",solve_result_num,cost,_solve_elapsed_time > "status.txt";
+printf {t in T} "%d %.17g %.17g %.17g %.17g %.17g %.17g\n",t,X[t,1],X[t,2],X[t,3],X[t,4],X[t,5],X[t,6] > "states.txt";
+printf {t in I} "%d %.17g %.17g %.17g %.17g\n",t,S[t],K[t],W[t],e[t] > "controls.txt";
+printf {t in I} "%d %.17g\n",t,Z[t] > "integers.txt";
+printf "%s\n",solve_result > "result.txt";

@@ -1,0 +1,11 @@
+results/warehouse_v2/runtime/
+reruns/
+__pycache__/
+*.pyc
+*.aux
+*.blg
+*.out
+*.synctex.gz
+*.lic
+*.exe
+*.dll

@@ -1,0 +1,72 @@
+\RequirePackage[T1]{fontenc}
+\documentclass[10pt,journal,twoside]{IEEEtran}
+\usepackage{amsmath,amssymb,graphicx,booktabs,array,cite,placeins}
+\usepackage[ruled,vlined,linesnumbered]{algorithm2e}
+\usepackage[hidelinks]{hyperref}
+\graphicspath{{figures/}}
+\newcommand{\ee}{\mathbf e}
+\newcommand{\nn}{\mathbf n}
+\newcommand{\pp}{\mathbf p}
+\newcommand{\hh}{\mathbf h}
+\newcommand{\qq}{\mathbf q}
+\newcommand{\RR}{\mathbf R}
+\newcommand{\xx}{\mathbf x}
+\newcommand{\argmin}{\mathop{\mathrm{arg\,min}}}
+\newtheorem{proposition}{Proposition}
+\newtheorem{theorem}{Theorem}
+\hyphenation{non-holonomic com-ple-men-tarity quad-ru-ped}
+\setlength{\emergencystretch}{1em}
+\setlength{\textfloatsep}{8pt plus 2pt minus 2pt}
+\setlength{\dbltextfloatsep}{8pt plus 2pt minus 2pt}
+\setlength{\floatsep}{7pt plus 2pt minus 2pt}
+\setlength{\abovecaptionskip}{2pt}
+\setlength{\belowcaptionskip}{0pt}
+\setlength{\abovedisplayskip}{5pt plus 1pt minus 1pt}
+\setlength{\belowdisplayskip}{5pt plus 1pt minus 1pt}
+\renewcommand{\dbltopfraction}{.88}
+\renewcommand{\topfraction}{.90}
+\renewcommand{\textfraction}{.08}
+\setcounter{dbltopnumber}{2}
+\setcounter{topnumber}{4}
+\setcounter{totalnumber}{6}
+\makeatletter
+\setlength{\@fptop}{0pt}
+\setlength{\@fpsep}{8pt}
+\setlength{\@fpbot}{0pt plus 1fil}
+\setlength{\@dblfptop}{0pt}
+\setlength{\@dblfpsep}{8pt}
+\setlength{\@dblfpbot}{0pt plus 1fil}
+\makeatother
+\title{Optimization-Based Motion Planning for Autonomous Cable-Towing Vehicles in Confined Warehouses}
+\author{Anonymous manuscript}
+\hypersetup{pdftitle={Optimization-Based Motion Planning for Autonomous Cable-Towing Vehicles in Confined Warehouses},pdfauthor={}}
+\markboth{IEEE Transactions on Automation Science and Engineering (Manuscript)}{Optimization-Based Planning for Autonomous Cable Towing}
+\begin{document}
+\raggedbottom
+\input{tables/numbers}
+\maketitle
+\begin{abstract}
+An autonomous warehouse tractor can create cable slack, reposition while its passive cart waits, and resume pulling from a different direction. This paper develops optimization-based motion planning for this transport under quasistatic stopping and hitch-mobility assumptions. A six-state model combines first-order Euler updates with a direct maximum describing slack--taut transmission. A geometric barrier excludes rigid articulated reorientation in a specified strip family; numerical cable trajectories satisfy the discrete model and geometric routing checks in 18 corresponding tasks. For feasible-seed trajectory refinement, relaxed initialization and control restoration guide direct-max optimization with optimization-based collision avoidance (OBCA). Replay-derived clearance reserves improve refinement under integration drift, while independent replay determines final acceptance. Comparisons transfer published towing strategies into common models, seeds, and computational allowances. Across nine warehouse tasks, the proposed method produces \ProposedNew{} new validated outputs and reduces mean per-case tractor travel by \ProposedGain\%, compared with \MaxNew{} and \MaxGain\% for direct maximum. Median backend times are \ProposedTime{} s and \MaxTime{} s. Controlled ablations attribute the quality gains to the combined refinement stages. Five cart footprints and a constructive three-cart example extend the geometric evaluation.
+\end{abstract}
+
+\vspace{.3em}
+{\small
+\noindent\textbf{Note to Practitioners---}A warehouse can concentrate propulsion, sensing, and planning in one autonomous tug while using passive carts with different load outlines. Cable connections support temporary transport formations and let the tug reposition while a loaded cart waits. The cable length remains fixed; slack accommodates changes in endpoint separation without a telescopic mechanism. This freedom is useful near rack ends, transfer gates, and loading pockets, where moving the load merely to turn the tug consumes space. The proposed optimization-based planner refines a feasible transport route before task execution, accounts for complete vehicle shapes, and checks geometric cable routes. A validated trajectory remains available throughout refinement. The intended operation is low-speed transport on a known map with sufficient resistance for rapid stopping of an unpulled cart. The simulated tasks target arrival regions for warehouse transfers. Deployment will require verification of the stopping and hitch-mobility assumptions, continuous cable handling, and trajectory tracking on the physical platform.
+\par}
+
+\vspace{\baselineskip}
+\begin{IEEEkeywords}
+Cable towing, autonomous vehicles, warehouse logistics, optimization-based motion planning, hybrid kinematics, nonlinear optimization.
+\end{IEEEkeywords}
+\input{sections/introduction}
+\input{sections/related}
+\input{sections/model}
+\input{sections/solution}
+\input{sections/experiments}
+\FloatBarrier
+\section{Conclusion}
+Optimization-based motion planning exploits cable slack to reposition an autonomous tractor around a waiting cart. For an equal-length rigid drawbar, a geometric theorem excludes reorientation in a specified strip family; 18 corresponding cable maneuvers satisfy the proposed discrete kinematics and geometric cable-routing checks. Under the quasistatic stopping and hitch-mobility assumptions, the formulation unifies unilateral transmission, convex body geometry, and recursive serial towing. Feasible control restoration, replay-guided reserves, and final recovery together improve feasible-seed refinement: the nine warehouse tasks yield 4.36\% mean travel reduction, compared with 1.07\% for direct MAX with recovery, with new validated outputs in all nine cases for both. Convex footprint variations and a three-cart construction illustrate geometric and structural flexibility. The framework supports trajectory preparation before warehouse task execution. Physical validation will address stopping behavior, continuous cable interaction, and closed-loop tracking.
+\IEEEtriggeratref{8}
+\bibliographystyle{IEEEtran}
+\bibliography{references}
+\end{document}

@@ -1,0 +1,255 @@
+{
+  "method": "minlp",
+  "options": {
+    "label": "confined_budget60_W09_minlp",
+    "timeLimit": 60,
+    "nlpTimeLimit": 58,
+    "epscomp": 0,
+    "beta": 100,
+    "maxIter": 3000,
+    "solutionLimit": 1.0E+6,
+    "disablePump": false
+  },
+  "seconds": 60.6501762,
+  "exitCode": 0,
+  "P": {
+    "L": 1.335,
+    "a": 0.7,
+    "Lf": 0.4,
+    "front": [
+      0.6,
+      0,
+      0.35
+    ],
+    "rear": [
+      0.7,
+      0.35,
+      0.55
+    ],
+    "rho": 1,
+    "deltaMax": 0.78539816339744828,
+    "vMax": 0.5,
+    "aMax": 0.5,
+    "wMax": 0.8,
+    "clearance": 0.1,
+    "extra": 0.065,
+    "scale": 1,
+    "planBuffer": 0.02,
+    "B": 2.035,
+    "radius": 0.40000000000000008,
+    "left": 0,
+    "right": 16,
+    "ymin": 0,
+    "ymax": 16,
+    "pull": 9,
+    "sample": 0.01,
+    "obstacles": [
+      [
+        6.6999999999999993,
+        12,
+        4.8,
+        6.6
+      ],
+      [
+        6.6999999999999993,
+        12,
+        8,
+        9.8
+      ],
+      [
+        7.1999999999999993,
+        12,
+        0.4,
+        2.4
+      ],
+      [
+        1.5,
+        7,
+        0.4,
+        2.4
+      ],
+      [
+        7.1999999999999993,
+        12,
+        13,
+        15
+      ],
+      [
+        1.5,
+        7,
+        13,
+        15
+      ],
+      [
+        1.3000000000000007,
+        4.3000000000000007,
+        4.8,
+        6.6
+      ],
+      [
+        1.3000000000000007,
+        4.3000000000000007,
+        8,
+        9.8
+      ],
+      [
+        1.3000000000000007,
+        4.3000000000000007,
+        11.2,
+        13
+      ],
+      [
+        13.9,
+        15.6,
+        4.8,
+        6.6
+      ],
+      [
+        13.9,
+        15.6,
+        8,
+        9.8
+      ],
+      [
+        13.9,
+        15.6,
+        11.2,
+        13
+      ]
+    ],
+    "initial": [
+      14.7,
+      3.75,
+      1.5707963267948966,
+      14.7,
+      2.415,
+      1.5707963267948966
+    ],
+    "goalY": 6.1,
+    "goalAngle": -1.5707963267948934,
+    "goalTolerance": 0.008,
+    "taskGoalY": 6,
+    "taskGoalTolerance": 0.025,
+    "smax": 0.18,
+    "mesh": 100,
+    "regularization": 0.002,
+    "vertices": [
+      [
+        [
+          0.6,
+          0.35
+        ],
+        [
+          0,
+          0.35
+        ],
+        [
+          0,
+          -0.35
+        ],
+        [
+          0.6,
+          -0.35
+        ]
+      ],
+      [
+        [
+          0.7,
+          0.55
+        ],
+        [
+          -0.35,
+          0.55
+        ],
+        [
+          -0.35,
+          -0.55
+        ],
+        [
+          0.7,
+          -0.55
+        ]
+      ]
+    ],
+    "goalXYTolerance": [
+      0.12,
+      0.12
+    ],
+    "replayTolerance": 0.15,
+    "caseName": "W09",
+    "name": "Perimeter replenishment",
+    "goal": [
+      12.904697429752094,
+      7.2864435076743019
+    ],
+    "obstacleKinds": [
+      "rack",
+      "rack",
+      "rack",
+      "rack",
+      "rack",
+      "rack",
+      "rack",
+      "rack",
+      "rack",
+      "pallet",
+      "pallet",
+      "pallet"
+    ],
+    "layoutFamily": 9,
+    "zones": [
+      14,
+      15.75,
+      0.5,
+      14.5
+    ],
+    "zoneNames": [
+      "Dispatch / replenishment"
+    ],
+    "layoutArea": 85.660000000000025
+  },
+  "rawVerified": false,
+  "status": "missing_output",
+  "cost": null,
+  "process": {
+    "budget": 60,
+    "wallSeconds": 60.3375292,
+    "timedOut": true,
+    "exitCode": []
+  },
+  "totalSeconds": 62.8261769,
+  "stageAudits": [
+    []
+  ],
+  "rawSolverAccepted": false,
+  "seedAudit": {
+    "accepted": true,
+    "stateAccepted": true,
+    "boundsViolation": 0,
+    "stateBoundsViolation": 1.5543122344752192E-15,
+    "initialClearance": 0.45000000000000018,
+    "cost": 31.6007934948458,
+    "travel": 31.584882502271981,
+    "cableAccepted": true,
+    "cableHits": 0,
+    "cableLengthError": 3.0559998975832059E-12,
+    "cableSideChanges": 0,
+    "fineStateAccepted": true,
+    "fineHeadingError": 0.0077204461328550522,
+    "fineGoalError": [
+      0.040607688503843775,
+      0.0016219035727900177
+    ],
+    "fineNodeDifference": 0.082064793330299146,
+    "fineClearance": 0.14180047593145065,
+    "discreteNodeResidual": 0,
+    "modeResidual": 0,
+    "coarseClearance": 0.11480287949706876
+  },
+  "selectedSource": "search_seed",
+  "retainedVerified": true,
+  "retainedCost": 31.6007934948458,
+  "retainedTravel": 31.584882502271981,
+  "improved": false,
+  "recoverySelected": false
+}

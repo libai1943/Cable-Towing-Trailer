@@ -1,0 +1,145 @@
+\section{Simulation Experiments}
+The evaluation separates the mechanical value of cable coupling from numerical planning performance. A parameterized strip family tests reachability; nine square warehouse tasks compare algorithms. Matched ablations, footprint variations, and a serial formation examine the contributing mechanisms and extensions.
+
+\subsection{Unified Settings and Constructively Feasible Maps}
+The implementation uses MATLAB R2024a, AMPL, Ipopt 3.12.13, BONMIN 1.8.9, and HSL MA57 on a Windows workstation with an Intel Core i9-12900 processor. MATLAB uses one computation thread, and optimization jobs run sequentially. All state updates and replay checks use first-order explicit Euler. Table~\ref{tab:settings} specifies the common geometry, tolerances, and computational settings.
+
+\begin{table}[!t]
+\centering\caption{Shared geometry, numerical settings, and validation thresholds}
+\label{tab:settings}\footnotesize
+\setlength{\tabcolsep}{4pt}
+\begin{tabular}{ll}
+\toprule
+Quantity & Value\\
+\midrule
+Workspace & $16\times16$ m\\
+Tractor footprint; wheelbase & $0.60\times0.70$ m; $0.40$ m\\
+Nominal cart footprint & $1.05\times1.10$ m\\
+Hitch-to-axle / rear overhang & $0.70/0.35$ m\\
+Material cable length & $1.335$ m\\
+Minimum turning radius & $0.40$ m\\
+Endpoint lower bound / step bound & $0.25/0.18$ m\\
+Heading bounds & $[-\pi,\pi]$ rad\\
+Required / planning clearance & $0.10/0.12$ m\\
+Curvature regularization $\gamma$ & $0.002$\\
+Original-grid cart position bound & $0.12$ m per coordinate\\
+Original-grid cart heading bound & $0.008$ rad\\
+Tractor terminal heading bound & $10^{-5}$ rad\\
+Finer Euler replay subdivisions & $8$ per interval\\
+Fine cart position / heading bounds & $0.27$ m per coordinate / $0.025$ rad\\
+Common computation allowance & $30$ s\\
+Direct NLP iteration ceiling & $3000$\\
+Relaxed stage allowance / iterations & $5$ s / $300$\\
+Relaxation product bound & $10^{-4}$ m$^2$\\
+Refinement iteration ceiling & $600$\\
+Initial restoration / final reserve & $4/4$ s\\
+Initial restoration weights & $1/8,1/32,1/128,1/512,1/1024$\\
+Final recovery weights & $1,1/2,\ldots,1/1024$\\
+Yaw projection bisections & $65$\\
+Terminal correction iterations & At most $5$\\
+Terminal correction window & $\min\{N,\max\{9,\lceil N/4\rceil\}\}$\\
+PORT unique schedules / allowance & At most $3$ / $30$ s\\
+\bottomrule
+\end{tabular}
+\end{table}
+
+The tractor polygon is referenced to its rear axle and extends forward. The cart polygon extends to either side of its axle; its front hitch lies at the forward center. The cable joins the tractor rear axle to that hitch, as defined in Fig.~\ref{fig:kinematics}. Complete vertices, map rectangles, controls, solver inputs, logs, and validation records are included in the supplementary reproducibility package. Its README maps each reported comparison to the source files and numerical records, with file hashes for integrity checks.
+
+The nine layouts are defined by modular rack rows, picking aisles, cross aisles, pallet staging areas, and packing stations before trajectory construction. Their common outer boundary is $16\times16$ m. W01--W09 respectively represent a blocked-aisle transfer, a two-aisle rack-end transfer, a cross-aisle exchange, an adjacent-aisle return, two successive offsets between storage blocks, a packing-area turn, a pallet-staging bypass, a return between mixed rack orientations, and a perimeter replenishment circuit. The nominal picking aisles in W01--W08 are $1.7$ m wide for a $1.1$ m cart; cross aisles provide the space needed for the complete formation to turn. Discrete racks leave connected access routes and functional work areas.
+
+Feasible control sequences are constructed within the fixed layouts and checked by the common validator. All comparisons use the same nine maps, accepted seeds, model parameters, and physical acceptance criteria. A single configuration of the proposed method is applied across this designed benchmark.
+
+\input{tables/cases}
+Table~\ref{tab:cases} reports the map obstacles, mesh sizes, and minimum body clearances under finer replay for the common initial trajectories and final proposed outputs. Figure~\ref{fig:nine-cases} uses identical physical map dimensions, canvas sizes, and vehicle scale. Cyan and green denote the tractor and cart; orange racks, yellow pallets, and violet packing stations identify distinct warehouse objects. Faint footprints show swept body positions. S and G mark the starting and final tractor configurations. Statistics include all nine layouts.
+
+\begin{figure*}[!t]
+\centering\includegraphics[width=\textwidth]{warehouse_cases.pdf}
+\caption{Nine distinct confined warehouse tasks with identical workspace dimensions and vehicle scale.}
+\label{fig:nine-cases}
+\end{figure*}
+
+All cable strategies receive the same feasible control seed, mesh, goal, physical clearance, and dual initialization for each map. Method order rotates across cases. The study measures trajectory improvement from constructive feasible initializations. The nominal allowance allocates optimization-stage time; reported elapsed time also includes pipeline overhead. Measured backend time includes serialization, startup, validation, and termination overhead. Time-limited outputs can be accepted if they pass all independent checks.
+
+The transport tasks terminate in arrival regions around the prescribed cart pose. Both endpoint tests use that same goal: original-grid position and heading bounds are $0.12$ m per coordinate and $0.008$ rad; finer Euler replay uses $0.27$ m and $0.025$ rad. Across the nine proposed outputs, the actual finer-replay Euclidean position errors range from $0.050$ to $0.155$ m, and the maximum cart heading error is $0.02197$ rad ($1.26^\circ$). The maximum original-grid Euclidean error is $0.1375$ m. Per-case errors are supplied with the numerical records. Required body clearance remains $0.10$ m at both resolutions. These endpoint conditions define warehouse transfer arrival; precision docking and tracking are subsequent control tasks.
+
+\subsection{Mechanical Benefit Relative to a Rigid Drawbar}
+The strip study varies cable length over $1.3$, $1.5$, and $1.7$ m, tractor turning radius over $0.4$ and $0.5$ m, and excess strip width over $0.30$, $0.60$, and $0.85$ times the barrier in~\eqref{eq:barrier}. The resulting 18 tasks satisfy Theorem~\ref{thm:rigid}. The rigid comparator uses the same body dimensions, fully extended initial span, clearance, and target heading, and may reverse. Its reorientation is excluded by the geometric barrier.
+
+All 18 cable trajectories pass independent Euler replay and fixed-material-length cable-route checks. Figure~\ref{fig:mechanism} shows the mechanism: the tractor reverses and rotates while the cart waits, then resumes pulling. Endpoint separation decreases during repositioning without changing material length. Three compact cases require the asymmetric cable-route family, using shape parameters $\beta\in\{0,\pm0.25,\pm0.50,\pm0.75\}$ and a material-length residual below $10^{-7}$ m. The original-grid and finer-replay node configurations are checked; the vehicle trajectories are unchanged.
+
+\begin{figure*}[!t]
+\centering\includegraphics[width=\textwidth]{mechanism_revision.pdf}
+\caption{Slack-enabled reorientation and the geometric obstruction imposed by an equal-length rigid drawbar.}
+\label{fig:mechanism}
+\end{figure*}
+
+\input{tables/rigid_analysis}
+
+\subsection{Controlled Numerical Comparisons}
+The comparisons evaluate feasible-seed trajectory refinement under the common discrete model. MAX, LOGIC, COMP, and MINLP compare representations of the same discrete cable relation. FIX and PORT compare mode strategies adapted from~\cite{zhang2026,yang2022}. After duplicate removal, PORT has one schedule on W01--W08 and three on W09; its single-schedule cases reduce to FIX, with separate time-limited runs. RGR uses replay reserves after causal rollout; the proposed method first restores a feasible initializer and includes final control recovery. Retained costs are recomputed from accepted controls. Mean travel reduction averages each case's reduction relative to its own common seed.
+
+\input{tables/main}
+\input{tables/main_analysis}
+
+\begin{figure*}[!t]
+\centering\includegraphics[width=.98\textwidth]{comparison_summary.pdf}
+\caption{New validated trajectories, mean travel reduction, and measured backend time across all nine tasks.}
+\label{fig:comparison}
+\end{figure*}
+
+\input{tables/per_case}
+Figure~\ref{fig:details} compares the proposed and MAX tractor paths on the predeclared rack-end, double-offset, and perimeter tasks. Each panel includes the actual vehicle outlines and swept footprints. A route that shortens the tractor path is useful only if the passive cart and cable also satisfy validation. Figure~\ref{fig:modes} plots the perimeter task's initial repositioning phase against accumulated tractor travel. The transmitted cart displacement stays zero on slack steps while the tractor can move backward and change heading.
+
+\begin{figure*}[!t]
+\centering\includegraphics[width=.98\textwidth]{trajectory_details.pdf}
+\caption{Validated paths and swept body footprints on three representative square warehouse tasks.}
+\label{fig:details}
+\end{figure*}
+
+\subsection{Component Ablations and Repeated Runs}
+The ablations test how individual stages contribute to accepted trajectory quality under fixed physical thresholds. Causal control restoration enforces consistency between controls and states, initial restoration supplies a validated refinement anchor, and replay reserves guide clearance during optimization. The paired recovery tests reuse identical preceding outputs, while the factorial study varies initial restoration and reserve treatment one factor at a time.
+
+\input{tables/ablation}
+\input{tables/ablation_analysis}
+\input{tables/factorial}
+\input{tables/factorial_analysis}
+
+The factorial table permits matched comparisons of initial restoration and reserve setting. The paired no-final-recovery result uses the exact outputs recorded before final recovery. The no-terminal-correction replay changes only that component and retains the original prefix. RGR--RRP removes only replay reserves from the solve-only workflow; MAX+recovery tests recovery on direct MAX. These comparisons identify the role of each design under unchanged physical acceptance rules.
+
+\begin{figure*}[!t]
+\centering\includegraphics[width=\textwidth]{mode_evidence.pdf}
+\caption{Cable distance, transmitted displacement, and vehicle headings during initial tractor repositioning.}
+\label{fig:modes}
+\end{figure*}
+
+\input{tables/repeat}
+\input{tables/repeat_analysis}
+Repeated runs use the same three predeclared cases W02, W05, and W09, with three additional runs per method and case. They measure sensitivity to timing and numerical termination on fixed instances. An auxiliary LSE test changes only the mode expression of MAX at inverse scales $100$ and $1000$ m$^{-1}$ on those same cases. Its pointwise excess above a direct maximum is bounded by $\log 2/\rho$, where $\rho$ is the inverse scale, and it can transmit nonzero displacement while slack. Every smoothed output is checked against the exact cable relation.
+\input{tables/smoothing_analysis}
+
+\input{tables/budget_analysis}
+\begin{figure*}[!t]
+\centering\includegraphics[width=\textwidth]{budget_sensitivity.pdf}
+\caption{Quality and new-output acceptance under three nominal computation allowances on three fixed tasks.}
+\label{fig:budgets}
+\end{figure*}
+
+\subsection{Footprint Variations and a Serial Formation}
+Five cart geometries share the unchanged W02 warehouse, goal, cable length, kinematics, mesh, and initial controls. Only the cart polygon changes. S01--S05 respectively denote a nominal rectangle, compact rectangle, long narrow rectangle, irregular pentagon, and wide hexagon. Their actual vertices generate the OBCA halfspaces. Both planners use the same seed for each shape, checked before optimization.
+\input{tables/shapes}
+\input{tables/shapes_analysis}
+
+\begin{figure*}[!t]
+\centering\includegraphics[width=.915\textwidth]{shape_trajectories.pdf}
+\caption{Five convex cart geometries planned in the unchanged shape-test warehouse.}
+\label{fig:shapes}
+\end{figure*}
+
+The serial example connects three passive carts with individual convex footprints and rear attachment points. Recursive application of~\eqref{eq:serial} produces a constructive route through another $16\times16$ m rack environment. Body separation, endpoint lengths, and nonreversing conditions are checked at every replay substep. Cable routes are checked at the original control boundaries and the corresponding boundary configurations from finer integration. This example evaluates serial kinematic feasibility. Figure~\ref{fig:train} shows the occupied route and two maneuver configurations.
+\input{tables/train_analysis}
+
+\begin{figure*}[!t]
+\centering\includegraphics[width=.915\textwidth]{train_extension.pdf}
+\caption{A three-cart formation navigating a confined square warehouse with individual convex footprints.}
+\label{fig:train}
+\end{figure*}

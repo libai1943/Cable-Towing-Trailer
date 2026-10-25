@@ -1,0 +1,800 @@
+Ipopt 3.12.13: 
+
+******************************************************************************
+This program contains Ipopt, a library for large-scale nonlinear optimization.
+ Ipopt is released as open source code under the Eclipse Public License (EPL).
+         For more information visit http://projects.coin-or.org/Ipopt
+******************************************************************************
+
+This is Ipopt version 3.12.13, running with linear solver ma57.
+
+Number of nonzeros in equality constraint Jacobian...:    56033
+Number of nonzeros in inequality constraint Jacobian.:    52859
+Number of nonzeros in Lagrangian Hessian.............:    51821
+
+Total number of variables............................:    30972
+                     variables with only lower bounds:    29696
+                variables with lower and upper bounds:      508
+                     variables with only upper bounds:        0
+Total number of equality constraints.................:     9344
+Total number of inequality constraints...............:     8704
+        inequality constraints with only lower bounds:     4605
+   inequality constraints with lower and upper bounds:      899
+        inequality constraints with only upper bounds:     3200
+
+iter    objective    inf_pr   inf_du lg(mu)  ||d||  lg(rg) alpha_du alpha_pr  ls
+   0  1.5323585e+01 5.02e-02 1.62e+00   0.0 0.00e+00    -  0.00e+00 0.00e+00   0
+   1  1.5328870e+01 4.46e-03 4.74e-01  -6.0 6.23e-02    -  6.62e-01 8.15e-01h  1
+   2  1.5504072e+01 1.58e-04 4.92e-01  -2.6 1.38e-01    -  6.93e-01 9.90e-01f  1
+   3  1.5289125e+01 1.57e-04 1.62e+01  -2.9 2.30e-01    -  7.70e-01 5.25e-01f  1
+   4  1.5439110e+01 1.35e-03 1.07e+02  -2.5 1.23e-01   0.0 9.97e-01 7.22e-01f  1
+   5  1.5476137e+01 1.69e-05 6.74e+00  -2.5 1.38e-02   1.3 1.00e+00 9.95e-01h  1
+   6  1.5254918e+01 1.74e-07 4.19e+02  -3.4 2.82e-03   1.8 1.00e+00 9.90e-01h  1
+   7  1.5224384e+01 1.74e-09 8.71e+02  -5.1 2.55e-04   3.1 1.00e+00 9.90e-01f  1
+   8  1.5211426e+01 5.98e-11 3.32e-01  -6.7 1.02e-04   3.5 1.00e+00 1.00e+00f  1
+   9  1.5206522e+01 2.72e-12 3.33e-01  -8.6 3.86e-05   3.9 1.00e+00 1.00e+00f  1
+iter    objective    inf_pr   inf_du lg(mu)  ||d||  lg(rg) alpha_du alpha_pr  ls
+  10  1.5191807e+01 1.33e-12 3.34e-01 -10.2 1.16e-04   3.5 1.00e+00 1.00e+00f  1
+In iteration 10, 102 Slacks too small, adjusting variable bounds
+  11  1.5186289e+01 3.26e-13 3.34e-01 -11.0 4.35e-05   3.9 1.00e+00 1.00e+00f  1
+In iteration 11, 102 Slacks too small, adjusting variable bounds
+  12  1.5169733e+01 1.01e-12 3.34e-01 -11.0 1.31e-04   3.4 1.00e+00 1.00e+00f  1
+In iteration 12, 102 Slacks too small, adjusting variable bounds
+  13  1.5163525e+01 2.72e-13 3.34e-01 -11.0 4.89e-05   3.8 1.00e+00 1.00e+00f  1
+In iteration 13, 102 Slacks too small, adjusting variable bounds
+  14  1.5144901e+01 1.72e-12 3.34e-01 -11.0 1.47e-04   3.4 1.00e+00 1.00e+00f  1
+In iteration 14, 102 Slacks too small, adjusting variable bounds
+  15  1.5137916e+01 3.84e-13 3.34e-01 -11.0 5.51e-05   3.8 1.00e+00 1.00e+00f  1
+In iteration 15, 102 Slacks too small, adjusting variable bounds
+  16  1.5116964e+01 3.36e-12 3.35e-01 -11.0 1.66e-04   3.3 1.00e+00 1.00e+00f  1
+In iteration 16, 102 Slacks too small, adjusting variable bounds
+  17  1.5109106e+01 5.93e-13 3.34e-01 -11.0 6.19e-05   3.7 1.00e+00 1.00e+00f  1
+In iteration 17, 102 Slacks too small, adjusting variable bounds
+  18  1.5085535e+01 8.76e-12 3.36e-01 -11.0 1.87e-04   3.3 1.00e+00 1.00e+00f  1
+In iteration 18, 102 Slacks too small, adjusting variable bounds
+  19  1.5076695e+01 1.08e-12 3.34e-01 -11.0 6.97e-05   3.7 1.00e+00 1.00e+00f  1
+In iteration 19, 102 Slacks too small, adjusting variable bounds
+iter    objective    inf_pr   inf_du lg(mu)  ||d||  lg(rg) alpha_du alpha_pr  ls
+  20  1.5070715e+01 2.63e-12 3.35e-01 -11.0 2.12e-04   3.2 1.00e+00 2.26e-01f  1
+In iteration 20, 102 Slacks too small, adjusting variable bounds
+  21  1.5070655e+01 2.61e-12 3.35e-01 -11.0 7.84e-05   3.6 1.00e+00 6.02e-03f  1
+In iteration 21, 102 Slacks too small, adjusting variable bounds
+  22  1.5070654e+01 2.61e-12 3.35e-01 -11.0 3.06e-05   4.1 1.00e+00 3.35e-04f  1
+In iteration 22, 102 Slacks too small, adjusting variable bounds
+  23  1.5070515e+01 2.57e-12 4.81e-01 -11.0 9.97e-05   3.6 1.00e+00 1.25e-02f  1
+In iteration 23, 102 Slacks too small, adjusting variable bounds
+  24  1.5070316e+01 2.40e-12 4.65e-01 -11.0 3.81e-05   4.0 1.00e+00 4.88e-02f  1
+In iteration 24, 102 Slacks too small, adjusting variable bounds
+  25  1.5069968e+01 2.31e-12 5.71e-01 -11.0 1.08e-04   3.5 1.00e+00 2.95e-02f  1
+In iteration 25, 102 Slacks too small, adjusting variable bounds
+  26  1.5069615e+01 2.06e-12 5.95e-01 -11.0 4.13e-05   4.0 1.00e+00 8.41e-02f  1
+In iteration 26, 102 Slacks too small, adjusting variable bounds
+  27  1.5069185e+01 2.27e-12 5.78e-01 -11.0 1.24e-04   3.5 1.00e+00 3.74e-02f  1
+In iteration 27, 102 Slacks too small, adjusting variable bounds
+  28  1.5068810e+01 3.20e-12 5.87e-01 -11.0 4.88e-05   3.9 1.00e+00 9.59e-02f  1
+In iteration 28, 102 Slacks too small, adjusting variable bounds
+  29  1.5068329e+01 3.60e-12 5.97e-01 -11.0 1.47e-04   3.4 1.00e+00 4.46e-02f  1
+In iteration 29, 102 Slacks too small, adjusting variable bounds
+iter    objective    inf_pr   inf_du lg(mu)  ||d||  lg(rg) alpha_du alpha_pr  ls
+  30  1.5068083e+01 4.05e-12 5.74e-01 -11.0 5.29e-05   3.9 1.00e+00 6.64e-02f  1
+In iteration 30, 102 Slacks too small, adjusting variable bounds
+  31  1.5067568e+01 4.38e-12 5.86e-01 -11.0 1.59e-04   3.4 1.00e+00 4.98e-02f  1
+In iteration 31, 102 Slacks too small, adjusting variable bounds
+  32  1.5067236e+01 4.83e-12 5.44e-01 -11.0 5.75e-05   3.8 1.00e+00 9.00e-02f  1
+In iteration 32, 102 Slacks too small, adjusting variable bounds
+  33  1.5066768e+01 5.17e-12 5.81e-01 -11.0 1.80e-04   3.3 1.00e+00 4.63e-02f  1
+In iteration 33, 102 Slacks too small, adjusting variable bounds
+  34  1.5066379e+01 5.51e-12 5.50e-01 -10.1 6.67e-05   3.7 1.00e+00 1.05e-01f  1
+  35  1.5066078e+01 5.93e-12 5.67e-01 -11.0 1.97e-04   3.3 1.00e+00 2.82e-02f  1
+  36  1.5065729e+01 6.05e-12 5.26e-01 -11.0 7.60e-05   3.7 1.00e+00 8.89e-02f  1
+  37  1.5065211e+01 9.69e-12 5.15e-01 -11.0 2.24e-04   3.2 1.00e+00 4.46e-02f  1
+  38  1.5064920e+01 9.09e-12 5.55e-01 -11.0 8.41e-05   3.6 1.00e+00 6.92e-02f  1
+  39  1.5064467e+01 3.45e-11 6.19e-01 -11.0 4.35e-04   3.2 1.00e+00 3.67e-02f  1
+iter    objective    inf_pr   inf_du lg(mu)  ||d||  lg(rg) alpha_du alpha_pr  ls
+  40  1.5063383e+01 2.51e-11 4.77e-01 -11.0 9.64e-05   3.6 1.00e+00 2.38e-01f  1
+  41  1.5063365e+01 2.48e-11 4.58e-01 -11.0 3.43e-05   4.0 1.00e+00 1.04e-02f  1
+  42  1.5062941e+01 2.25e-11 4.84e-01 -11.0 1.12e-04   3.5 1.00e+00 8.58e-02f  1
+  43  1.5061270e+01 1.19e-11 3.89e-01  -9.7 4.23e-05   4.0 1.00e+00 9.01e-01f  1
+  44  1.5061251e+01 1.19e-11 3.89e-01 -11.0 1.27e-04   3.5 1.00e+00 3.49e-03f  1
+  45  1.5061220e+01 1.17e-11 5.57e-01 -11.0 4.76e-05   3.9 1.00e+00 1.47e-02f  1
+  46  1.5060937e+01 1.15e-11 5.80e-01 -11.0 1.43e-04   3.4 1.00e+00 4.64e-02f  1
+  47  1.5060798e+01 1.08e-11 5.07e-01 -11.0 5.30e-05   3.9 1.00e+00 6.20e-02f  1
+  48  1.5060537e+01 1.06e-11 5.38e-01 -11.0 1.54e-04   3.4 1.00e+00 4.10e-02f  1
+  49  1.5060316e+01 8.97e-12 5.34e-01 -11.0 5.77e-05   3.8 1.00e+00 1.10e-01f  1
+iter    objective    inf_pr   inf_du lg(mu)  ||d||  lg(rg) alpha_du alpha_pr  ls
+  50  1.5060091e+01 8.35e-12 5.95e-01 -11.0 1.72e-04   3.3 1.00e+00 4.86e-02f  1
+  51  1.5059979e+01 7.13e-12 5.72e-01 -11.0 6.14e-05   3.8 1.00e+00 9.11e-02f  1
+  52  1.5059901e+01 6.55e-12 6.05e-01 -11.0 1.90e-04   3.3 1.00e+00 4.96e-02f  1
+  53  1.5059866e+01 6.26e-12 5.77e-01 -11.0 7.24e-05   3.7 1.00e+00 1.11e-01f  1
+  54  1.5059841e+01 6.49e-12 5.77e-01 -11.0 2.17e-04   3.2 1.00e+00 4.27e-02f  1
+  55  1.5059829e+01 6.30e-12 5.72e-01 -11.0 8.15e-05   3.7 1.00e+00 7.87e-02h  1
+  56  1.5059710e+01 1.03e-11 3.62e-01  -9.2 2.45e-04   3.2 1.00e+00 4.23e-01f  1
+  57  1.5059641e+01 1.13e-11 3.70e-01 -11.0 9.17e-05   3.6 1.00e+00 6.30e-01f  1
+  58  1.5059641e+01 1.11e-11 3.70e-01 -11.0 3.44e-05   4.0 1.00e+00 1.68e-02h  1
+  59  1.5059641e+01 1.11e-11 4.05e-01 -11.0 3.11e-05   3.6 1.00e+00 5.75e-04h  1
+iter    objective    inf_pr   inf_du lg(mu)  ||d||  lg(rg) alpha_du alpha_pr  ls
+  60  1.5059628e+01 8.63e-12 9.46e-02 -10.2 9.68e-06   4.0 1.00e+00 9.96e-01h  1
+In iteration 60, 97 Slacks too small, adjusting variable bounds
+  61  1.5059600e+01 1.81e-11 9.36e-02 -11.0 2.90e-05   3.5 1.00e+00 9.97e-01h  1
+In iteration 61, 102 Slacks too small, adjusting variable bounds
+  62  1.5059589e+01 2.25e-12 9.36e-02 -11.0 1.09e-05   3.9 1.00e+00 1.00e+00h  1
+In iteration 62, 102 Slacks too small, adjusting variable bounds
+  63  1.5059556e+01 2.33e-11 9.36e-02 -11.0 3.26e-05   3.5 1.00e+00 1.00e+00f  1
+In iteration 63, 102 Slacks too small, adjusting variable bounds
+  64  1.5059544e+01 2.87e-12 9.36e-02 -11.0 1.22e-05   3.9 1.00e+00 1.00e+00h  1
+In iteration 64, 102 Slacks too small, adjusting variable bounds
+  65  1.5059507e+01 3.00e-11 9.36e-02 -11.0 3.67e-05   3.4 1.00e+00 1.00e+00f  1
+In iteration 65, 102 Slacks too small, adjusting variable bounds
+  66  1.5059493e+01 3.68e-12 9.36e-02 -11.0 1.38e-05   3.8 1.00e+00 1.00e+00h  1
+In iteration 66, 102 Slacks too small, adjusting variable bounds
+  67  1.5059452e+01 3.87e-11 9.36e-02 -11.0 4.13e-05   3.4 1.00e+00 1.00e+00f  1
+In iteration 67, 102 Slacks too small, adjusting variable bounds
+  68  1.5059437e+01 4.72e-12 9.36e-02 -11.0 1.55e-05   3.8 1.00e+00 1.00e+00h  1
+In iteration 68, 102 Slacks too small, adjusting variable bounds
+  69  1.5059391e+01 5.01e-11 9.36e-02 -11.0 4.64e-05   3.3 1.00e+00 1.00e+00f  1
+In iteration 69, 102 Slacks too small, adjusting variable bounds
+iter    objective    inf_pr   inf_du lg(mu)  ||d||  lg(rg) alpha_du alpha_pr  ls
+  70  1.5059373e+01 6.04e-12 9.36e-02 -11.0 1.74e-05   3.7 1.00e+00 1.00e+00h  1
+In iteration 70, 102 Slacks too small, adjusting variable bounds
+  71  1.5059322e+01 6.48e-11 9.91e-02 -11.0 5.22e-05   3.3 1.00e+00 1.00e+00f  1
+In iteration 71, 102 Slacks too small, adjusting variable bounds
+  72  1.5059302e+01 7.75e-12 9.36e-02 -11.0 1.96e-05   3.7 1.00e+00 1.00e+00h  1
+In iteration 72, 102 Slacks too small, adjusting variable bounds
+  73  1.5059244e+01 8.41e-11 1.20e-01 -11.0 5.87e-05   3.2 1.00e+00 1.00e+00f  1
+In iteration 73, 102 Slacks too small, adjusting variable bounds
+  74  1.5059222e+01 9.95e-12 9.36e-02 -11.0 2.20e-05   3.6 1.00e+00 1.00e+00h  1
+In iteration 74, 102 Slacks too small, adjusting variable bounds
+  75  1.5059157e+01 2.45e-10 5.60e-01 -11.0 6.61e-05   3.2 1.00e+00 1.00e+00f  1
+In iteration 75, 102 Slacks too small, adjusting variable bounds
+  76  1.5059132e+01 1.28e-11 9.36e-02 -11.0 2.48e-05   3.6 1.00e+00 1.00e+00h  1
+In iteration 76, 102 Slacks too small, adjusting variable bounds
+  77  1.5059122e+01 2.10e-12 9.36e-02 -11.0 9.30e-06   4.0 1.00e+00 1.00e+00h  1
+In iteration 77, 102 Slacks too small, adjusting variable bounds
+  78  1.5059095e+01 1.67e-11 9.36e-02 -11.0 2.79e-05   3.5 1.00e+00 1.00e+00h  1
+In iteration 78, 102 Slacks too small, adjusting variable bounds
+  79  1.5059084e+01 2.21e-12 9.36e-02 -11.0 1.05e-05   4.0 1.00e+00 1.00e+00h  1
+In iteration 79, 102 Slacks too small, adjusting variable bounds
+iter    objective    inf_pr   inf_du lg(mu)  ||d||  lg(rg) alpha_du alpha_pr  ls
+  80  1.5059053e+01 2.15e-11 9.36e-02 -11.0 3.14e-05   3.5 1.00e+00 1.00e+00f  1
+In iteration 80, 102 Slacks too small, adjusting variable bounds
+  81  1.5059041e+01 2.65e-12 9.36e-02 -11.0 1.18e-05   3.9 1.00e+00 1.00e+00h  1
+In iteration 81, 102 Slacks too small, adjusting variable bounds
+  82  1.5059006e+01 2.76e-11 9.36e-02 -11.0 3.53e-05   3.4 1.00e+00 1.00e+00f  1
+In iteration 82, 102 Slacks too small, adjusting variable bounds
+  83  1.5058992e+01 3.39e-12 9.36e-02 -11.0 1.32e-05   3.8 1.00e+00 1.00e+00h  1
+In iteration 83, 102 Slacks too small, adjusting variable bounds
+  84  1.5058953e+01 3.56e-11 9.36e-02 -11.0 3.97e-05   3.4 1.00e+00 1.00e+00f  1
+In iteration 84, 102 Slacks too small, adjusting variable bounds
+  85  1.5058938e+01 4.34e-12 9.36e-02 -11.0 1.49e-05   3.8 1.00e+00 1.00e+00h  1
+In iteration 85, 102 Slacks too small, adjusting variable bounds
+  86  1.5058894e+01 4.60e-11 9.36e-02 -11.0 4.47e-05   3.3 1.00e+00 1.00e+00f  1
+In iteration 86, 102 Slacks too small, adjusting variable bounds
+  87  1.5058877e+01 5.57e-12 9.36e-02 -11.0 1.68e-05   3.7 1.00e+00 1.00e+00h  1
+In iteration 87, 102 Slacks too small, adjusting variable bounds
+  88  1.5058827e+01 5.95e-11 9.40e-02 -11.0 5.02e-05   3.3 1.00e+00 1.00e+00f  1
+In iteration 88, 102 Slacks too small, adjusting variable bounds
+  89  1.5058808e+01 7.14e-12 9.36e-02 -11.0 1.88e-05   3.7 1.00e+00 1.00e+00h  1
+In iteration 89, 102 Slacks too small, adjusting variable bounds
+iter    objective    inf_pr   inf_du lg(mu)  ||d||  lg(rg) alpha_du alpha_pr  ls
+  90  1.5058752e+01 7.71e-11 1.12e-01 -11.0 5.65e-05   3.2 1.00e+00 1.00e+00f  1
+In iteration 90, 102 Slacks too small, adjusting variable bounds
+  91  1.5058731e+01 9.16e-12 9.36e-02 -11.0 2.12e-05   3.6 1.00e+00 1.00e+00h  1
+In iteration 91, 102 Slacks too small, adjusting variable bounds
+  92  1.5058668e+01 1.00e-10 2.14e-01 -11.0 6.36e-05   3.2 1.00e+00 1.00e+00f  1
+In iteration 92, 102 Slacks too small, adjusting variable bounds
+  93  1.5058644e+01 1.18e-11 9.36e-02 -11.0 2.39e-05   3.6 1.00e+00 1.00e+00h  1
+In iteration 93, 102 Slacks too small, adjusting variable bounds
+  94  1.5058635e+01 2.06e-12 9.36e-02 -11.0 8.95e-06   4.0 1.00e+00 1.00e+00h  1
+In iteration 94, 102 Slacks too small, adjusting variable bounds
+  95  1.5058609e+01 1.54e-11 9.36e-02 -11.0 2.68e-05   3.5 1.00e+00 1.00e+00h  1
+In iteration 95, 102 Slacks too small, adjusting variable bounds
+  96  1.5058598e+01 2.18e-12 9.36e-02 -11.0 1.01e-05   4.0 1.00e+00 1.00e+00h  1
+In iteration 96, 102 Slacks too small, adjusting variable bounds
+  97  1.5058568e+01 1.97e-11 9.36e-02 -11.0 3.02e-05   3.5 1.00e+00 1.00e+00h  1
+In iteration 97, 102 Slacks too small, adjusting variable bounds
+  98  1.5058557e+01 2.44e-12 9.36e-02 -11.0 1.13e-05   3.9 1.00e+00 1.00e+00h  1
+In iteration 98, 102 Slacks too small, adjusting variable bounds
+  99  1.5058523e+01 2.54e-11 9.36e-02 -11.0 3.40e-05   3.4 1.00e+00 1.00e+00f  1
+In iteration 99, 102 Slacks too small, adjusting variable bounds
+iter    objective    inf_pr   inf_du lg(mu)  ||d||  lg(rg) alpha_du alpha_pr  ls
+ 100  1.5058510e+01 3.12e-12 9.36e-02 -11.0 1.27e-05   3.9 1.00e+00 1.00e+00h  1
+In iteration 100, 102 Slacks too small, adjusting variable bounds
+ 101  1.5058472e+01 3.27e-11 9.36e-02 -11.0 3.82e-05   3.4 1.00e+00 1.00e+00f  1
+In iteration 101, 102 Slacks too small, adjusting variable bounds
+ 102  1.5058458e+01 4.00e-12 9.36e-02 -11.0 1.43e-05   3.8 1.00e+00 1.00e+00h  1
+In iteration 102, 102 Slacks too small, adjusting variable bounds
+ 103  1.5058415e+01 4.22e-11 9.36e-02 -11.0 4.30e-05   3.3 1.00e+00 1.00e+00f  1
+In iteration 103, 102 Slacks too small, adjusting variable bounds
+ 104  1.5058399e+01 5.12e-12 9.36e-02 -11.0 1.61e-05   3.8 1.00e+00 1.00e+00h  1
+In iteration 104, 102 Slacks too small, adjusting variable bounds
+ 105  1.5058351e+01 5.46e-11 9.36e-02 -11.0 4.83e-05   3.3 1.00e+00 1.00e+00f  1
+In iteration 105, 102 Slacks too small, adjusting variable bounds
+ 106  1.5058333e+01 6.57e-12 9.36e-02 -11.0 1.81e-05   3.7 1.00e+00 1.00e+00h  1
+In iteration 106, 102 Slacks too small, adjusting variable bounds
+ 107  1.5058279e+01 7.07e-11 1.05e-01 -11.0 5.44e-05   3.2 1.00e+00 1.00e+00f  1
+In iteration 107, 102 Slacks too small, adjusting variable bounds
+ 108  1.5058259e+01 8.43e-12 9.36e-02 -11.0 2.04e-05   3.7 1.00e+00 1.00e+00h  1
+In iteration 108, 102 Slacks too small, adjusting variable bounds
+ 109  1.5058198e+01 9.17e-11 1.32e-01 -11.0 6.12e-05   3.2 1.00e+00 1.00e+00f  1
+In iteration 109, 102 Slacks too small, adjusting variable bounds
+iter    objective    inf_pr   inf_du lg(mu)  ||d||  lg(rg) alpha_du alpha_pr  ls
+ 110  1.5058175e+01 1.08e-11 9.36e-02 -11.0 2.29e-05   3.6 1.00e+00 1.00e+00h  1
+In iteration 110, 102 Slacks too small, adjusting variable bounds
+ 111  1.5058167e+01 2.02e-12 9.36e-02 -11.0 8.61e-06   4.0 1.00e+00 1.00e+00h  1
+In iteration 111, 102 Slacks too small, adjusting variable bounds
+ 112  1.5058141e+01 1.41e-11 9.36e-02 -11.0 2.58e-05   3.6 1.00e+00 1.00e+00h  1
+In iteration 112, 102 Slacks too small, adjusting variable bounds
+ 113  1.5058131e+01 2.14e-12 9.36e-02 -11.0 9.68e-06   4.0 1.00e+00 1.00e+00h  1
+In iteration 113, 102 Slacks too small, adjusting variable bounds
+ 114  1.5058102e+01 1.82e-11 9.36e-02 -11.0 2.90e-05   3.5 1.00e+00 1.00e+00h  1
+In iteration 114, 102 Slacks too small, adjusting variable bounds
+ 115  1.5058091e+01 2.25e-12 9.36e-02 -11.0 1.09e-05   3.9 1.00e+00 1.00e+00h  1
+In iteration 115, 102 Slacks too small, adjusting variable bounds
+ 116  1.5058058e+01 2.33e-11 9.36e-02 -11.0 3.27e-05   3.5 1.00e+00 1.00e+00f  1
+In iteration 116, 102 Slacks too small, adjusting variable bounds
+ 117  1.5058046e+01 2.88e-12 9.36e-02 -11.0 1.23e-05   3.9 1.00e+00 1.00e+00h  1
+In iteration 117, 102 Slacks too small, adjusting variable bounds
+ 118  1.5058010e+01 3.01e-11 9.36e-02 -11.0 3.68e-05   3.4 1.00e+00 1.00e+00f  1
+In iteration 118, 102 Slacks too small, adjusting variable bounds
+ 119  1.5057996e+01 3.68e-12 9.36e-02 -11.0 1.38e-05   3.8 1.00e+00 1.00e+00h  1
+In iteration 119, 102 Slacks too small, adjusting variable bounds
+iter    objective    inf_pr   inf_du lg(mu)  ||d||  lg(rg) alpha_du alpha_pr  ls
+ 120  1.5057955e+01 3.88e-11 9.36e-02 -11.0 4.13e-05   3.4 1.00e+00 1.00e+00f  1
+In iteration 120, 102 Slacks too small, adjusting variable bounds
+ 121  1.5057939e+01 4.72e-12 9.36e-02 -11.0 1.55e-05   3.8 1.00e+00 1.00e+00h  1
+In iteration 121, 102 Slacks too small, adjusting variable bounds
+ 122  1.5057893e+01 5.01e-11 9.36e-02 -11.0 4.65e-05   3.3 1.00e+00 1.00e+00f  1
+In iteration 122, 102 Slacks too small, adjusting variable bounds
+ 123  1.5057875e+01 6.05e-12 9.36e-02 -11.0 1.74e-05   3.7 1.00e+00 1.00e+00h  1
+In iteration 123, 102 Slacks too small, adjusting variable bounds
+ 124  1.5057824e+01 6.48e-11 9.94e-02 -11.0 5.23e-05   3.3 1.00e+00 1.00e+00f  1
+In iteration 124, 102 Slacks too small, adjusting variable bounds
+ 125  1.5057804e+01 7.76e-12 9.36e-02 -11.0 1.96e-05   3.7 1.00e+00 1.00e+00h  1
+In iteration 125, 102 Slacks too small, adjusting variable bounds
+ 126  1.5057746e+01 8.41e-11 1.21e-01 -11.0 5.88e-05   3.2 1.00e+00 1.00e+00f  1
+In iteration 126, 102 Slacks too small, adjusting variable bounds
+ 127  1.5057724e+01 9.96e-12 9.36e-02 -11.0 2.21e-05   3.6 1.00e+00 1.00e+00h  1
+In iteration 127, 102 Slacks too small, adjusting variable bounds
+ 128  1.5057658e+01 2.83e-10 6.04e-01 -11.0 6.62e-05   3.2 1.00e+00 1.00e+00f  1
+In iteration 128, 102 Slacks too small, adjusting variable bounds
+ 129  1.5057633e+01 1.28e-11 9.36e-02 -11.0 2.48e-05   3.6 1.00e+00 1.00e+00h  1
+In iteration 129, 102 Slacks too small, adjusting variable bounds
+iter    objective    inf_pr   inf_du lg(mu)  ||d||  lg(rg) alpha_du alpha_pr  ls
+ 130  1.5057624e+01 2.10e-12 9.36e-02 -11.0 9.32e-06   4.0 1.00e+00 1.00e+00h  1
+In iteration 130, 102 Slacks too small, adjusting variable bounds
+ 131  1.5057596e+01 1.67e-11 9.36e-02 -11.0 2.79e-05   3.5 1.00e+00 1.00e+00h  1
+In iteration 131, 102 Slacks too small, adjusting variable bounds
+ 132  1.5057585e+01 2.22e-12 9.36e-02 -11.0 1.05e-05   4.0 1.00e+00 1.00e+00h  1
+In iteration 132, 102 Slacks too small, adjusting variable bounds
+ 133  1.5057554e+01 2.15e-11 9.36e-02 -11.0 3.14e-05   3.5 1.00e+00 1.00e+00f  1
+In iteration 133, 102 Slacks too small, adjusting variable bounds
+ 134  1.5057542e+01 2.65e-12 9.36e-02 -11.0 1.18e-05   3.9 1.00e+00 1.00e+00h  1
+In iteration 134, 102 Slacks too small, adjusting variable bounds
+ 135  1.5057507e+01 2.76e-11 9.36e-02 -11.0 3.54e-05   3.4 1.00e+00 1.00e+00f  1
+In iteration 135, 102 Slacks too small, adjusting variable bounds
+ 136  1.5057494e+01 3.39e-12 9.36e-02 -11.0 1.33e-05   3.8 1.00e+00 1.00e+00h  1
+In iteration 136, 102 Slacks too small, adjusting variable bounds
+ 137  1.5057454e+01 3.56e-11 9.36e-02 -11.0 3.98e-05   3.4 1.00e+00 1.00e+00f  1
+In iteration 137, 102 Slacks too small, adjusting variable bounds
+ 138  1.5057439e+01 4.35e-12 9.36e-02 -11.0 1.49e-05   3.8 1.00e+00 1.00e+00h  1
+In iteration 138, 102 Slacks too small, adjusting variable bounds
+ 139  1.5057395e+01 4.60e-11 9.36e-02 -11.0 4.47e-05   3.3 1.00e+00 1.00e+00f  1
+In iteration 139, 102 Slacks too small, adjusting variable bounds
+iter    objective    inf_pr   inf_du lg(mu)  ||d||  lg(rg) alpha_du alpha_pr  ls
+ 140  1.5057378e+01 5.57e-12 9.36e-02 -11.0 1.68e-05   3.7 1.00e+00 1.00e+00h  1
+In iteration 140, 102 Slacks too small, adjusting variable bounds
+ 141  1.5057328e+01 5.95e-11 9.42e-02 -11.0 5.03e-05   3.3 1.00e+00 1.00e+00f  1
+In iteration 141, 102 Slacks too small, adjusting variable bounds
+ 142  1.5057309e+01 7.14e-12 9.36e-02 -11.0 1.89e-05   3.7 1.00e+00 1.00e+00h  1
+In iteration 142, 102 Slacks too small, adjusting variable bounds
+ 143  1.5057253e+01 7.71e-11 1.12e-01 -11.0 5.66e-05   3.2 1.00e+00 1.00e+00f  1
+In iteration 143, 102 Slacks too small, adjusting variable bounds
+ 144  1.5057232e+01 9.16e-12 9.36e-02 -11.0 2.12e-05   3.6 1.00e+00 1.00e+00h  1
+In iteration 144, 102 Slacks too small, adjusting variable bounds
+ 145  1.5057169e+01 1.00e-10 2.20e-01 -11.0 6.37e-05   3.2 1.00e+00 1.00e+00f  1
+In iteration 145, 102 Slacks too small, adjusting variable bounds
+ 146  1.5057145e+01 1.18e-11 9.36e-02 -11.0 2.39e-05   3.6 1.00e+00 1.00e+00h  1
+In iteration 146, 102 Slacks too small, adjusting variable bounds
+ 147  1.5057136e+01 2.06e-12 9.36e-02 -11.0 8.97e-06   4.0 1.00e+00 1.00e+00h  1
+In iteration 147, 102 Slacks too small, adjusting variable bounds
+ 148  1.5057109e+01 1.54e-11 9.36e-02 -11.0 2.69e-05   3.5 1.00e+00 1.00e+00h  1
+In iteration 148, 102 Slacks too small, adjusting variable bounds
+ 149  1.5057099e+01 2.18e-12 9.36e-02 -11.0 1.01e-05   4.0 1.00e+00 1.00e+00h  1
+In iteration 149, 102 Slacks too small, adjusting variable bounds
+iter    objective    inf_pr   inf_du lg(mu)  ||d||  lg(rg) alpha_du alpha_pr  ls
+ 150  1.5057069e+01 1.97e-11 9.36e-02 -11.0 3.02e-05   3.5 1.00e+00 1.00e+00h  1
+In iteration 150, 102 Slacks too small, adjusting variable bounds
+ 151  1.5057057e+01 2.44e-12 9.36e-02 -11.0 1.13e-05   3.9 1.00e+00 1.00e+00h  1
+In iteration 151, 102 Slacks too small, adjusting variable bounds
+ 152  1.5057023e+01 2.54e-11 9.36e-02 -11.0 3.40e-05   3.4 1.00e+00 1.00e+00f  1
+In iteration 152, 102 Slacks too small, adjusting variable bounds
+ 153  1.5057010e+01 3.12e-12 9.36e-02 -11.0 1.28e-05   3.9 1.00e+00 1.00e+00h  1
+In iteration 153, 102 Slacks too small, adjusting variable bounds
+ 154  1.5056972e+01 3.27e-11 9.36e-02 -11.0 3.83e-05   3.4 1.00e+00 1.00e+00f  1
+In iteration 154, 102 Slacks too small, adjusting variable bounds
+ 155  1.5056958e+01 4.00e-12 9.36e-02 -11.0 1.44e-05   3.8 1.00e+00 1.00e+00h  1
+In iteration 155, 102 Slacks too small, adjusting variable bounds
+ 156  1.5056915e+01 4.22e-11 9.36e-02 -11.0 4.31e-05   3.3 1.00e+00 1.00e+00f  1
+In iteration 156, 102 Slacks too small, adjusting variable bounds
+ 157  1.5056899e+01 5.13e-12 9.36e-02 -11.0 1.62e-05   3.8 1.00e+00 1.00e+00h  1
+In iteration 157, 102 Slacks too small, adjusting variable bounds
+ 158  1.5056851e+01 5.46e-11 9.36e-02 -11.0 4.84e-05   3.3 1.00e+00 1.00e+00f  1
+In iteration 158, 102 Slacks too small, adjusting variable bounds
+ 159  1.5056833e+01 6.57e-12 9.36e-02 -11.0 1.82e-05   3.7 1.00e+00 1.00e+00h  1
+In iteration 159, 102 Slacks too small, adjusting variable bounds
+iter    objective    inf_pr   inf_du lg(mu)  ||d||  lg(rg) alpha_du alpha_pr  ls
+ 160  1.5056779e+01 7.07e-11 1.05e-01 -11.0 5.45e-05   3.2 1.00e+00 1.00e+00f  1
+In iteration 160, 102 Slacks too small, adjusting variable bounds
+ 161  1.5056758e+01 8.43e-12 9.36e-02 -11.0 2.04e-05   3.7 1.00e+00 1.00e+00h  1
+In iteration 161, 102 Slacks too small, adjusting variable bounds
+ 162  1.5056698e+01 9.18e-11 1.32e-01 -11.0 6.13e-05   3.2 1.00e+00 1.00e+00f  1
+In iteration 162, 102 Slacks too small, adjusting variable bounds
+ 163  1.5056675e+01 1.08e-11 9.36e-02 -11.0 2.30e-05   3.6 1.00e+00 1.00e+00h  1
+In iteration 163, 102 Slacks too small, adjusting variable bounds
+ 164  1.5056666e+01 2.02e-12 9.36e-02 -11.0 8.63e-06   4.0 1.00e+00 1.00e+00h  1
+In iteration 164, 102 Slacks too small, adjusting variable bounds
+ 165  1.5056640e+01 1.42e-11 9.36e-02 -11.0 2.59e-05   3.6 1.00e+00 1.00e+00h  1
+In iteration 165, 102 Slacks too small, adjusting variable bounds
+ 166  1.5056630e+01 2.14e-12 9.36e-02 -11.0 9.70e-06   4.0 1.00e+00 1.00e+00h  1
+In iteration 166, 102 Slacks too small, adjusting variable bounds
+ 167  1.5056601e+01 1.82e-11 9.36e-02 -11.0 2.91e-05   3.5 1.00e+00 1.00e+00h  1
+In iteration 167, 102 Slacks too small, adjusting variable bounds
+ 168  1.5056590e+01 2.26e-12 9.36e-02 -11.0 1.09e-05   3.9 1.00e+00 1.00e+00h  1
+In iteration 168, 102 Slacks too small, adjusting variable bounds
+ 169  1.5056558e+01 2.34e-11 9.36e-02 -11.0 3.27e-05   3.5 1.00e+00 1.00e+00f  1
+In iteration 169, 102 Slacks too small, adjusting variable bounds
+iter    objective    inf_pr   inf_du lg(mu)  ||d||  lg(rg) alpha_du alpha_pr  ls
+ 170  1.5056545e+01 2.88e-12 9.36e-02 -11.0 1.23e-05   3.9 1.00e+00 1.00e+00h  1
+In iteration 170, 102 Slacks too small, adjusting variable bounds
+ 171  1.5056509e+01 3.01e-11 9.36e-02 -11.0 3.68e-05   3.4 1.00e+00 1.00e+00f  1
+In iteration 171, 102 Slacks too small, adjusting variable bounds
+ 172  1.5056495e+01 3.69e-12 9.36e-02 -11.0 1.38e-05   3.8 1.00e+00 1.00e+00h  1
+In iteration 172, 102 Slacks too small, adjusting variable bounds
+ 173  1.5056454e+01 3.88e-11 9.36e-02 -11.0 4.14e-05   3.4 1.00e+00 1.00e+00f  1
+In iteration 173, 102 Slacks too small, adjusting variable bounds
+ 174  1.5056438e+01 4.72e-12 9.36e-02 -11.0 1.55e-05   3.8 1.00e+00 1.00e+00h  1
+In iteration 174, 102 Slacks too small, adjusting variable bounds
+ 175  1.5056392e+01 5.01e-11 9.36e-02 -11.0 4.66e-05   3.3 1.00e+00 1.00e+00f  1
+In iteration 175, 102 Slacks too small, adjusting variable bounds
+ 176  1.5056374e+01 6.05e-12 9.36e-02 -11.0 1.75e-05   3.7 1.00e+00 1.00e+00h  1
+In iteration 176, 102 Slacks too small, adjusting variable bounds
+ 177  1.5056322e+01 6.49e-11 9.96e-02 -11.0 5.24e-05   3.3 1.00e+00 1.00e+00f  1
+In iteration 177, 102 Slacks too small, adjusting variable bounds
+ 178  1.5056303e+01 7.76e-12 9.36e-02 -11.0 1.97e-05   3.7 1.00e+00 1.00e+00h  1
+In iteration 178, 102 Slacks too small, adjusting variable bounds
+ 179  1.5056244e+01 8.41e-11 1.21e-01 -11.0 5.90e-05   3.2 1.00e+00 1.00e+00f  1
+In iteration 179, 102 Slacks too small, adjusting variable bounds
+iter    objective    inf_pr   inf_du lg(mu)  ||d||  lg(rg) alpha_du alpha_pr  ls
+ 180  1.5056222e+01 9.96e-12 9.36e-02 -11.0 2.21e-05   3.6 1.00e+00 1.00e+00h  1
+In iteration 180, 102 Slacks too small, adjusting variable bounds
+ 181  1.5056157e+01 3.30e-10 6.55e-01 -11.0 6.63e-05   3.1 1.00e+00 1.00e+00f  1
+In iteration 181, 102 Slacks too small, adjusting variable bounds
+ 182  1.5056132e+01 1.28e-11 9.36e-02 -11.0 2.49e-05   3.6 1.00e+00 1.00e+00h  1
+In iteration 182, 102 Slacks too small, adjusting variable bounds
+ 183  1.5056122e+01 2.10e-12 9.36e-02 -11.0 9.34e-06   4.0 1.00e+00 1.00e+00h  1
+In iteration 183, 102 Slacks too small, adjusting variable bounds
+ 184  1.5056094e+01 1.67e-11 9.36e-02 -11.0 2.80e-05   3.5 1.00e+00 1.00e+00h  1
+In iteration 184, 102 Slacks too small, adjusting variable bounds
+ 185  1.5056084e+01 2.22e-12 9.36e-02 -11.0 1.05e-05   4.0 1.00e+00 1.00e+00h  1
+In iteration 185, 102 Slacks too small, adjusting variable bounds
+ 186  1.5056052e+01 2.15e-11 9.36e-02 -11.0 3.15e-05   3.5 1.00e+00 1.00e+00f  1
+In iteration 186, 102 Slacks too small, adjusting variable bounds
+ 187  1.5056040e+01 2.65e-12 9.36e-02 -11.0 1.18e-05   3.9 1.00e+00 1.00e+00h  1
+In iteration 187, 102 Slacks too small, adjusting variable bounds
+ 188  1.5056005e+01 2.76e-11 9.36e-02 -11.0 3.54e-05   3.4 1.00e+00 1.00e+00f  1
+In iteration 188, 102 Slacks too small, adjusting variable bounds
+ 189  1.5055992e+01 3.39e-12 9.36e-02 -11.0 1.33e-05   3.8 1.00e+00 1.00e+00h  1
+In iteration 189, 102 Slacks too small, adjusting variable bounds
+iter    objective    inf_pr   inf_du lg(mu)  ||d||  lg(rg) alpha_du alpha_pr  ls
+ 190  1.5055952e+01 3.56e-11 9.36e-02 -11.0 3.99e-05   3.4 1.00e+00 1.00e+00f  1
+In iteration 190, 102 Slacks too small, adjusting variable bounds
+ 191  1.5055937e+01 4.35e-12 9.36e-02 -11.0 1.50e-05   3.8 1.00e+00 1.00e+00h  1
+In iteration 191, 102 Slacks too small, adjusting variable bounds
+ 192  1.5055893e+01 4.60e-11 9.36e-02 -11.0 4.48e-05   3.3 1.00e+00 1.00e+00f  1
+In iteration 192, 102 Slacks too small, adjusting variable bounds
+ 193  1.5055876e+01 5.57e-12 9.36e-02 -11.0 1.68e-05   3.7 1.00e+00 1.00e+00h  1
+In iteration 193, 102 Slacks too small, adjusting variable bounds
+ 194  1.5055826e+01 5.95e-11 9.45e-02 -11.0 5.04e-05   3.3 1.00e+00 1.00e+00f  1
+In iteration 194, 102 Slacks too small, adjusting variable bounds
+ 195  1.5055807e+01 7.14e-12 9.36e-02 -11.0 1.89e-05   3.7 1.00e+00 1.00e+00h  1
+In iteration 195, 102 Slacks too small, adjusting variable bounds
+ 196  1.5055751e+01 7.71e-11 1.13e-01 -11.0 5.67e-05   3.2 1.00e+00 1.00e+00f  1
+In iteration 196, 102 Slacks too small, adjusting variable bounds
+ 197  1.5055729e+01 9.17e-12 9.36e-02 -11.0 2.13e-05   3.6 1.00e+00 1.00e+00h  1
+In iteration 197, 102 Slacks too small, adjusting variable bounds
+ 198  1.5055666e+01 1.00e-10 2.27e-01 -11.0 6.38e-05   3.2 1.00e+00 1.00e+00f  1
+In iteration 198, 102 Slacks too small, adjusting variable bounds
+ 199  1.5055642e+01 1.18e-11 9.36e-02 -11.0 2.40e-05   3.6 1.00e+00 1.00e+00h  1
+In iteration 199, 102 Slacks too small, adjusting variable bounds
+iter    objective    inf_pr   inf_du lg(mu)  ||d||  lg(rg) alpha_du alpha_pr  ls
+ 200  1.5055633e+01 2.06e-12 9.36e-02 -11.0 8.98e-06   4.0 1.00e+00 1.00e+00h  1
+In iteration 200, 102 Slacks too small, adjusting variable bounds
+ 201  1.5055606e+01 1.54e-11 9.36e-02 -11.0 2.69e-05   3.5 1.00e+00 1.00e+00h  1
+In iteration 201, 102 Slacks too small, adjusting variable bounds
+ 202  1.5055596e+01 2.18e-12 9.36e-02 -11.0 1.01e-05   4.0 1.00e+00 1.00e+00h  1
+In iteration 202, 102 Slacks too small, adjusting variable bounds
+ 203  1.5055566e+01 1.98e-11 9.36e-02 -11.0 3.03e-05   3.5 1.00e+00 1.00e+00h  1
+In iteration 203, 102 Slacks too small, adjusting variable bounds
+ 204  1.5055554e+01 2.44e-12 9.36e-02 -11.0 1.14e-05   3.9 1.00e+00 1.00e+00h  1
+In iteration 204, 102 Slacks too small, adjusting variable bounds
+ 205  1.5055520e+01 2.54e-11 9.36e-02 -11.0 3.41e-05   3.4 1.00e+00 1.00e+00f  1
+In iteration 205, 102 Slacks too small, adjusting variable bounds
+ 206  1.5055508e+01 3.13e-12 9.36e-02 -11.0 1.28e-05   3.9 1.00e+00 1.00e+00h  1
+In iteration 206, 102 Slacks too small, adjusting variable bounds
+ 207  1.5055469e+01 3.27e-11 9.36e-02 -11.0 3.84e-05   3.4 1.00e+00 1.00e+00f  1
+In iteration 207, 102 Slacks too small, adjusting variable bounds
+ 208  1.5055455e+01 4.00e-12 9.36e-02 -11.0 1.44e-05   3.8 1.00e+00 1.00e+00h  1
+In iteration 208, 102 Slacks too small, adjusting variable bounds
+ 209  1.5055412e+01 4.22e-11 9.36e-02 -11.0 4.31e-05   3.3 1.00e+00 1.00e+00f  1
+In iteration 209, 102 Slacks too small, adjusting variable bounds
+iter    objective    inf_pr   inf_du lg(mu)  ||d||  lg(rg) alpha_du alpha_pr  ls
+ 210  1.5055396e+01 5.13e-12 9.36e-02 -11.0 1.62e-05   3.8 1.00e+00 1.00e+00h  1
+In iteration 210, 102 Slacks too small, adjusting variable bounds
+ 211  1.5055348e+01 5.46e-11 9.36e-02 -11.0 4.85e-05   3.3 1.00e+00 1.00e+00f  1
+In iteration 211, 102 Slacks too small, adjusting variable bounds
+ 212  1.5055330e+01 6.58e-12 9.36e-02 -11.0 1.82e-05   3.7 1.00e+00 1.00e+00h  1
+In iteration 212, 102 Slacks too small, adjusting variable bounds
+ 213  1.5055276e+01 7.07e-11 1.06e-01 -11.0 5.46e-05   3.2 1.00e+00 1.00e+00f  1
+In iteration 213, 102 Slacks too small, adjusting variable bounds
+ 214  1.5055255e+01 8.44e-12 9.36e-02 -11.0 2.05e-05   3.7 1.00e+00 1.00e+00h  1
+In iteration 214, 102 Slacks too small, adjusting variable bounds
+ 215  1.5055194e+01 9.18e-11 1.33e-01 -11.0 6.14e-05   3.2 1.00e+00 1.00e+00f  1
+In iteration 215, 102 Slacks too small, adjusting variable bounds
+ 216  1.5055171e+01 1.08e-11 9.36e-02 -11.0 2.30e-05   3.6 1.00e+00 1.00e+00h  1
+In iteration 216, 102 Slacks too small, adjusting variable bounds
+ 217  1.5055162e+01 2.03e-12 9.36e-02 -11.0 8.64e-06   4.0 1.00e+00 1.00e+00h  1
+In iteration 217, 102 Slacks too small, adjusting variable bounds
+ 218  1.5055137e+01 1.42e-11 9.36e-02 -11.0 2.59e-05   3.6 1.00e+00 1.00e+00h  1
+In iteration 218, 102 Slacks too small, adjusting variable bounds
+ 219  1.5055127e+01 2.14e-12 9.36e-02 -11.0 9.72e-06   4.0 1.00e+00 1.00e+00h  1
+In iteration 219, 102 Slacks too small, adjusting variable bounds
+iter    objective    inf_pr   inf_du lg(mu)  ||d||  lg(rg) alpha_du alpha_pr  ls
+ 220  1.5055098e+01 1.82e-11 9.36e-02 -11.0 2.92e-05   3.5 1.00e+00 1.00e+00h  1
+In iteration 220, 102 Slacks too small, adjusting variable bounds
+ 221  1.5055087e+01 2.26e-12 9.36e-02 -11.0 1.09e-05   3.9 1.00e+00 1.00e+00h  1
+In iteration 221, 102 Slacks too small, adjusting variable bounds
+ 222  1.5055054e+01 2.34e-11 9.36e-02 -11.0 3.28e-05   3.5 1.00e+00 1.00e+00f  1
+In iteration 222, 102 Slacks too small, adjusting variable bounds
+ 223  1.5055042e+01 2.88e-12 9.36e-02 -11.0 1.23e-05   3.9 1.00e+00 1.00e+00h  1
+In iteration 223, 102 Slacks too small, adjusting variable bounds
+ 224  1.5055005e+01 3.01e-11 9.36e-02 -11.0 3.69e-05   3.4 1.00e+00 1.00e+00f  1
+In iteration 224, 102 Slacks too small, adjusting variable bounds
+ 225  1.5054991e+01 3.69e-12 9.36e-02 -11.0 1.38e-05   3.8 1.00e+00 1.00e+00h  1
+In iteration 225, 102 Slacks too small, adjusting variable bounds
+ 226  1.5054950e+01 3.88e-11 9.36e-02 -11.0 4.15e-05   3.4 1.00e+00 1.00e+00f  1
+In iteration 226, 102 Slacks too small, adjusting variable bounds
+ 227  1.5054934e+01 4.72e-12 9.36e-02 -11.0 1.56e-05   3.8 1.00e+00 1.00e+00h  1
+In iteration 227, 102 Slacks too small, adjusting variable bounds
+ 228  1.5054888e+01 5.01e-11 9.36e-02 -11.0 4.67e-05   3.3 1.00e+00 1.00e+00f  1
+In iteration 228, 102 Slacks too small, adjusting variable bounds
+ 229  1.5054870e+01 6.05e-12 9.36e-02 -11.0 1.75e-05   3.7 1.00e+00 1.00e+00h  1
+In iteration 229, 102 Slacks too small, adjusting variable bounds
+iter    objective    inf_pr   inf_du lg(mu)  ||d||  lg(rg) alpha_du alpha_pr  ls
+ 230  1.5054818e+01 6.49e-11 9.99e-02 -11.0 5.25e-05   3.3 1.00e+00 1.00e+00f  1
+In iteration 230, 102 Slacks too small, adjusting variable bounds
+ 231  1.5054798e+01 7.76e-12 9.36e-02 -11.0 1.97e-05   3.7 1.00e+00 1.00e+00h  1
+In iteration 231, 102 Slacks too small, adjusting variable bounds
+ 232  1.5054740e+01 8.41e-11 1.21e-01 -11.0 5.91e-05   3.2 1.00e+00 1.00e+00f  1
+In iteration 232, 102 Slacks too small, adjusting variable bounds
+ 233  1.5054718e+01 9.97e-12 9.36e-02 -11.0 2.22e-05   3.6 1.00e+00 1.00e+00h  1
+In iteration 233, 102 Slacks too small, adjusting variable bounds
+ 234  1.5054652e+01 3.91e-10 7.15e-01 -11.0 6.65e-05   3.1 1.00e+00 1.00e+00f  1
+In iteration 234, 102 Slacks too small, adjusting variable bounds
+ 235  1.5054627e+01 1.28e-11 9.36e-02 -11.0 2.49e-05   3.6 1.00e+00 1.00e+00h  1
+In iteration 235, 102 Slacks too small, adjusting variable bounds
+ 236  1.5054618e+01 2.10e-12 9.36e-02 -11.0 9.36e-06   4.0 1.00e+00 1.00e+00h  1
+In iteration 236, 102 Slacks too small, adjusting variable bounds
+ 237  1.5054590e+01 1.67e-11 9.36e-02 -11.0 2.81e-05   3.5 1.00e+00 1.00e+00h  1
+In iteration 237, 102 Slacks too small, adjusting variable bounds
+ 238  1.5054579e+01 2.22e-12 9.36e-02 -11.0 1.05e-05   3.9 1.00e+00 1.00e+00h  1
+In iteration 238, 102 Slacks too small, adjusting variable bounds
+ 239  1.5054548e+01 2.15e-11 9.36e-02 -11.0 3.16e-05   3.5 1.00e+00 1.00e+00f  1
+In iteration 239, 102 Slacks too small, adjusting variable bounds
+iter    objective    inf_pr   inf_du lg(mu)  ||d||  lg(rg) alpha_du alpha_pr  ls
+ 240  1.5054536e+01 2.65e-12 9.36e-02 -11.0 1.18e-05   3.9 1.00e+00 1.00e+00h  1
+In iteration 240, 102 Slacks too small, adjusting variable bounds
+ 241  1.5054500e+01 2.77e-11 9.36e-02 -11.0 3.55e-05   3.4 1.00e+00 1.00e+00f  1
+In iteration 241, 102 Slacks too small, adjusting variable bounds
+ 242  1.5054487e+01 3.40e-12 9.36e-02 -11.0 1.33e-05   3.8 1.00e+00 1.00e+00h  1
+In iteration 242, 102 Slacks too small, adjusting variable bounds
+ 243  1.5054447e+01 3.56e-11 9.36e-02 -11.0 3.99e-05   3.4 1.00e+00 1.00e+00f  1
+In iteration 243, 102 Slacks too small, adjusting variable bounds
+ 244  1.5054432e+01 4.35e-12 9.36e-02 -11.0 1.50e-05   3.8 1.00e+00 1.00e+00h  1
+In iteration 244, 102 Slacks too small, adjusting variable bounds
+ 245  1.5054388e+01 4.60e-11 9.36e-02 -11.0 4.49e-05   3.3 1.00e+00 1.00e+00f  1
+In iteration 245, 102 Slacks too small, adjusting variable bounds
+ 246  1.5054371e+01 5.57e-12 9.36e-02 -11.0 1.69e-05   3.7 1.00e+00 1.00e+00h  1
+In iteration 246, 102 Slacks too small, adjusting variable bounds
+ 247  1.5054321e+01 5.95e-11 9.47e-02 -11.0 5.05e-05   3.3 1.00e+00 1.00e+00f  1
+In iteration 247, 102 Slacks too small, adjusting variable bounds
+ 248  1.5054301e+01 7.15e-12 9.36e-02 -11.0 1.90e-05   3.7 1.00e+00 1.00e+00h  1
+In iteration 248, 102 Slacks too small, adjusting variable bounds
+ 249  1.5054245e+01 7.71e-11 1.13e-01 -11.0 5.69e-05   3.2 1.00e+00 1.00e+00f  1
+In iteration 249, 102 Slacks too small, adjusting variable bounds
+iter    objective    inf_pr   inf_du lg(mu)  ||d||  lg(rg) alpha_du alpha_pr  ls
+ 250  1.5054224e+01 9.17e-12 9.36e-02 -11.0 2.13e-05   3.6 1.00e+00 1.00e+00h  1
+In iteration 250, 102 Slacks too small, adjusting variable bounds
+ 251  1.5054161e+01 1.00e-10 2.34e-01 -11.0 6.40e-05   3.2 1.00e+00 1.00e+00f  1
+In iteration 251, 102 Slacks too small, adjusting variable bounds
+ 252  1.5054137e+01 1.18e-11 9.36e-02 -11.0 2.40e-05   3.6 1.00e+00 1.00e+00h  1
+In iteration 252, 102 Slacks too small, adjusting variable bounds
+ 253  1.5054128e+01 2.07e-12 9.36e-02 -11.0 9.00e-06   4.0 1.00e+00 1.00e+00h  1
+In iteration 253, 102 Slacks too small, adjusting variable bounds
+ 254  1.5054101e+01 1.54e-11 9.36e-02 -11.0 2.70e-05   3.5 1.00e+00 1.00e+00h  1
+In iteration 254, 102 Slacks too small, adjusting variable bounds
+ 255  1.5054090e+01 2.18e-12 9.36e-02 -11.0 1.01e-05   4.0 1.00e+00 1.00e+00h  1
+In iteration 255, 102 Slacks too small, adjusting variable bounds
+ 256  1.5054060e+01 1.98e-11 9.36e-02 -11.0 3.04e-05   3.5 1.00e+00 1.00e+00h  1
+In iteration 256, 102 Slacks too small, adjusting variable bounds
+ 257  1.5054049e+01 2.44e-12 9.36e-02 -11.0 1.14e-05   3.9 1.00e+00 1.00e+00h  1
+In iteration 257, 102 Slacks too small, adjusting variable bounds
+ 258  1.5054015e+01 2.54e-11 9.36e-02 -11.0 3.42e-05   3.4 1.00e+00 1.00e+00f  1
+In iteration 258, 102 Slacks too small, adjusting variable bounds
+ 259  1.5054002e+01 3.13e-12 9.36e-02 -11.0 1.28e-05   3.9 1.00e+00 1.00e+00h  1
+In iteration 259, 102 Slacks too small, adjusting variable bounds
+iter    objective    inf_pr   inf_du lg(mu)  ||d||  lg(rg) alpha_du alpha_pr  ls
+ 260  1.5053964e+01 3.27e-11 9.36e-02 -11.0 3.84e-05   3.4 1.00e+00 1.00e+00f  1
+In iteration 260, 102 Slacks too small, adjusting variable bounds
+ 261  1.5053949e+01 4.00e-12 9.36e-02 -11.0 1.44e-05   3.8 1.00e+00 1.00e+00h  1
+In iteration 261, 102 Slacks too small, adjusting variable bounds
+ 262  1.5053906e+01 4.22e-11 9.36e-02 -11.0 4.32e-05   3.3 1.00e+00 1.00e+00f  1
+In iteration 262, 102 Slacks too small, adjusting variable bounds
+ 263  1.5053890e+01 5.13e-12 9.36e-02 -11.0 1.62e-05   3.8 1.00e+00 1.00e+00h  1
+In iteration 263, 102 Slacks too small, adjusting variable bounds
+ 264  1.5053842e+01 5.46e-11 9.36e-02 -11.0 4.86e-05   3.3 1.00e+00 1.00e+00f  1
+In iteration 264, 102 Slacks too small, adjusting variable bounds
+ 265  1.5053823e+01 6.58e-12 9.36e-02 -11.0 1.82e-05   3.7 1.00e+00 1.00e+00h  1
+In iteration 265, 102 Slacks too small, adjusting variable bounds
+ 266  1.5053769e+01 7.07e-11 1.06e-01 -11.0 5.47e-05   3.2 1.00e+00 1.00e+00f  1
+In iteration 266, 102 Slacks too small, adjusting variable bounds
+ 267  1.5053749e+01 8.44e-12 9.36e-02 -11.0 2.05e-05   3.7 1.00e+00 1.00e+00h  1
+In iteration 267, 102 Slacks too small, adjusting variable bounds
+ 268  1.5053688e+01 9.18e-11 1.35e-01 -11.0 6.15e-05   3.2 1.00e+00 1.00e+00f  1
+In iteration 268, 102 Slacks too small, adjusting variable bounds
+ 269  1.5053665e+01 1.08e-11 9.36e-02 -11.0 2.31e-05   3.6 1.00e+00 1.00e+00h  1
+In iteration 269, 102 Slacks too small, adjusting variable bounds
+iter    objective    inf_pr   inf_du lg(mu)  ||d||  lg(rg) alpha_du alpha_pr  ls
+ 270  1.5053656e+01 2.03e-12 9.36e-02 -11.0 8.66e-06   4.0 1.00e+00 1.00e+00h  1
+In iteration 270, 102 Slacks too small, adjusting variable bounds
+ 271  1.5053630e+01 1.42e-11 9.36e-02 -11.0 2.60e-05   3.6 1.00e+00 1.00e+00h  1
+In iteration 271, 102 Slacks too small, adjusting variable bounds
+ 272  1.5053620e+01 2.14e-12 9.36e-02 -11.0 9.74e-06   4.0 1.00e+00 1.00e+00h  1
+In iteration 272, 102 Slacks too small, adjusting variable bounds
+ 273  1.5053591e+01 1.82e-11 9.36e-02 -11.0 2.92e-05   3.5 1.00e+00 1.00e+00h  1
+In iteration 273, 102 Slacks too small, adjusting variable bounds
+ 274  1.5053580e+01 2.26e-12 9.36e-02 -11.0 1.10e-05   3.9 1.00e+00 1.00e+00h  1
+In iteration 274, 102 Slacks too small, adjusting variable bounds
+ 275  1.5053547e+01 2.34e-11 9.36e-02 -11.0 3.29e-05   3.5 1.00e+00 1.00e+00f  1
+In iteration 275, 102 Slacks too small, adjusting variable bounds
+ 276  1.5053535e+01 2.88e-12 9.36e-02 -11.0 1.23e-05   3.9 1.00e+00 1.00e+00h  1
+In iteration 276, 102 Slacks too small, adjusting variable bounds
+ 277  1.5053498e+01 3.01e-11 9.36e-02 -11.0 3.70e-05   3.4 1.00e+00 1.00e+00f  1
+In iteration 277, 102 Slacks too small, adjusting variable bounds
+ 278  1.5053484e+01 3.69e-12 9.36e-02 -11.0 1.39e-05   3.8 1.00e+00 1.00e+00h  1
+In iteration 278, 102 Slacks too small, adjusting variable bounds
+ 279  1.5053443e+01 3.88e-11 9.36e-02 -11.0 4.16e-05   3.4 1.00e+00 1.00e+00f  1
+In iteration 279, 102 Slacks too small, adjusting variable bounds
+iter    objective    inf_pr   inf_du lg(mu)  ||d||  lg(rg) alpha_du alpha_pr  ls
+ 280  1.5053427e+01 4.72e-12 9.36e-02 -11.0 1.56e-05   3.8 1.00e+00 1.00e+00h  1
+In iteration 280, 102 Slacks too small, adjusting variable bounds
+ 281  1.5053381e+01 5.01e-11 9.36e-02 -11.0 4.68e-05   3.3 1.00e+00 1.00e+00f  1
+In iteration 281, 102 Slacks too small, adjusting variable bounds
+ 282  1.5053363e+01 6.06e-12 9.36e-02 -11.0 1.76e-05   3.7 1.00e+00 1.00e+00h  1
+In iteration 282, 102 Slacks too small, adjusting variable bounds
+ 283  1.5053311e+01 6.49e-11 1.00e-01 -11.0 5.26e-05   3.2 1.00e+00 1.00e+00f  1
+In iteration 283, 102 Slacks too small, adjusting variable bounds
+ 284  1.5053291e+01 7.77e-12 9.36e-02 -11.0 1.98e-05   3.7 1.00e+00 1.00e+00h  1
+In iteration 284, 102 Slacks too small, adjusting variable bounds
+ 285  1.5053233e+01 8.41e-11 1.22e-01 -11.0 5.92e-05   3.2 1.00e+00 1.00e+00f  1
+In iteration 285, 102 Slacks too small, adjusting variable bounds
+ 286  1.5053210e+01 9.97e-12 9.36e-02 -11.0 2.22e-05   3.6 1.00e+00 1.00e+00h  1
+In iteration 286, 102 Slacks too small, adjusting variable bounds
+ 287  1.5053144e+01 4.71e-10 7.87e-01 -11.0 6.66e-05   3.1 1.00e+00 1.00e+00f  1
+In iteration 287, 102 Slacks too small, adjusting variable bounds
+ 288  1.5053119e+01 1.28e-11 9.36e-02 -11.0 2.50e-05   3.6 1.00e+00 1.00e+00h  1
+In iteration 288, 102 Slacks too small, adjusting variable bounds
+ 289  1.5053110e+01 2.11e-12 9.36e-02 -11.0 9.38e-06   4.0 1.00e+00 1.00e+00h  1
+In iteration 289, 102 Slacks too small, adjusting variable bounds
+iter    objective    inf_pr   inf_du lg(mu)  ||d||  lg(rg) alpha_du alpha_pr  ls
+ 290  1.5053082e+01 1.67e-11 9.36e-02 -11.0 2.81e-05   3.5 1.00e+00 1.00e+00h  1
+In iteration 290, 102 Slacks too small, adjusting variable bounds
+ 291  1.5053071e+01 2.22e-12 9.36e-02 -11.0 1.05e-05   3.9 1.00e+00 1.00e+00h  1
+In iteration 291, 102 Slacks too small, adjusting variable bounds
+ 292  1.5053040e+01 2.15e-11 9.36e-02 -11.0 3.16e-05   3.5 1.00e+00 1.00e+00f  1
+In iteration 292, 102 Slacks too small, adjusting variable bounds
+ 293  1.5053028e+01 2.65e-12 9.36e-02 -11.0 1.19e-05   3.9 1.00e+00 1.00e+00h  1
+In iteration 293, 102 Slacks too small, adjusting variable bounds
+ 294  1.5052992e+01 2.77e-11 9.36e-02 -11.0 3.56e-05   3.4 1.00e+00 1.00e+00f  1
+In iteration 294, 102 Slacks too small, adjusting variable bounds
+ 295  1.5052979e+01 3.40e-12 9.36e-02 -11.0 1.33e-05   3.8 1.00e+00 1.00e+00h  1
+In iteration 295, 102 Slacks too small, adjusting variable bounds
+ 296  1.5052939e+01 3.56e-11 9.36e-02 -11.0 4.00e-05   3.4 1.00e+00 1.00e+00f  1
+In iteration 296, 102 Slacks too small, adjusting variable bounds
+ 297  1.5052924e+01 4.35e-12 9.36e-02 -11.0 1.50e-05   3.8 1.00e+00 1.00e+00h  1
+In iteration 297, 102 Slacks too small, adjusting variable bounds
+ 298  1.5052879e+01 4.60e-11 9.36e-02 -11.0 4.50e-05   3.3 1.00e+00 1.00e+00f  1
+In iteration 298, 102 Slacks too small, adjusting variable bounds
+ 299  1.5052862e+01 5.57e-12 9.36e-02 -11.0 1.69e-05   3.7 1.00e+00 1.00e+00h  1
+In iteration 299, 102 Slacks too small, adjusting variable bounds
+iter    objective    inf_pr   inf_du lg(mu)  ||d||  lg(rg) alpha_du alpha_pr  ls
+ 300  1.5052812e+01 5.95e-11 9.49e-02 -11.0 5.06e-05   3.3 1.00e+00 1.00e+00f  1
+In iteration 300, 102 Slacks too small, adjusting variable bounds
+ 301  1.5052793e+01 7.15e-12 9.36e-02 -11.0 1.90e-05   3.7 1.00e+00 1.00e+00h  1
+In iteration 301, 102 Slacks too small, adjusting variable bounds
+ 302  1.5052737e+01 7.71e-11 1.13e-01 -11.0 5.70e-05   3.2 1.00e+00 1.00e+00f  1
+In iteration 302, 102 Slacks too small, adjusting variable bounds
+ 303  1.5052715e+01 9.17e-12 9.36e-02 -11.0 2.14e-05   3.6 1.00e+00 1.00e+00h  1
+In iteration 303, 102 Slacks too small, adjusting variable bounds
+ 304  1.5052652e+01 1.00e-10 2.42e-01 -11.0 6.41e-05   3.2 1.00e+00 1.00e+00f  1
+In iteration 304, 102 Slacks too small, adjusting variable bounds
+ 305  1.5052628e+01 1.18e-11 9.36e-02 -11.0 2.40e-05   3.6 1.00e+00 1.00e+00h  1
+In iteration 305, 102 Slacks too small, adjusting variable bounds
+ 306  1.5052619e+01 2.07e-12 9.36e-02 -11.0 9.02e-06   4.0 1.00e+00 1.00e+00h  1
+In iteration 306, 102 Slacks too small, adjusting variable bounds
+ 307  1.5052592e+01 1.54e-11 9.36e-02 -11.0 2.71e-05   3.5 1.00e+00 1.00e+00h  1
+In iteration 307, 102 Slacks too small, adjusting variable bounds
+ 308  1.5052582e+01 2.18e-12 9.36e-02 -11.0 1.01e-05   4.0 1.00e+00 1.00e+00h  1
+In iteration 308, 102 Slacks too small, adjusting variable bounds
+ 309  1.5052551e+01 1.98e-11 9.36e-02 -11.0 3.04e-05   3.5 1.00e+00 1.00e+00h  1
+In iteration 309, 102 Slacks too small, adjusting variable bounds
+iter    objective    inf_pr   inf_du lg(mu)  ||d||  lg(rg) alpha_du alpha_pr  ls
+ 310  1.5052540e+01 2.44e-12 9.36e-02 -11.0 1.14e-05   3.9 1.00e+00 1.00e+00h  1
+In iteration 310, 102 Slacks too small, adjusting variable bounds
+ 311  1.5052506e+01 2.54e-11 9.36e-02 -11.0 3.42e-05   3.4 1.00e+00 1.00e+00f  1
+In iteration 311, 102 Slacks too small, adjusting variable bounds
+ 312  1.5052493e+01 3.13e-12 9.36e-02 -11.0 1.28e-05   3.9 1.00e+00 1.00e+00h  1
+In iteration 312, 102 Slacks too small, adjusting variable bounds
+ 313  1.5052454e+01 3.28e-11 9.36e-02 -11.0 3.85e-05   3.4 1.00e+00 1.00e+00f  1
+In iteration 313, 102 Slacks too small, adjusting variable bounds
+ 314  1.5052440e+01 4.01e-12 9.36e-02 -11.0 1.44e-05   3.8 1.00e+00 1.00e+00h  1
+In iteration 314, 102 Slacks too small, adjusting variable bounds
+ 315  1.5052397e+01 4.23e-11 9.36e-02 -11.0 4.33e-05   3.3 1.00e+00 1.00e+00f  1
+In iteration 315, 102 Slacks too small, adjusting variable bounds
+ 316  1.5052381e+01 5.13e-12 9.36e-02 -11.0 1.63e-05   3.8 1.00e+00 1.00e+00h  1
+In iteration 316, 102 Slacks too small, adjusting variable bounds
+ 317  1.5052332e+01 5.46e-11 9.36e-02 -11.0 4.87e-05   3.3 1.00e+00 1.00e+00f  1
+In iteration 317, 102 Slacks too small, adjusting variable bounds
+ 318  1.5052314e+01 6.58e-12 9.36e-02 -11.0 1.83e-05   3.7 1.00e+00 1.00e+00h  1
+In iteration 318, 102 Slacks too small, adjusting variable bounds
+ 319  1.5052260e+01 7.07e-11 1.06e-01 -11.0 5.48e-05   3.2 1.00e+00 1.00e+00f  1
+In iteration 319, 102 Slacks too small, adjusting variable bounds
+iter    objective    inf_pr   inf_du lg(mu)  ||d||  lg(rg) alpha_du alpha_pr  ls
+ 320  1.5052239e+01 8.44e-12 9.36e-02 -11.0 2.06e-05   3.7 1.00e+00 1.00e+00h  1
+In iteration 320, 102 Slacks too small, adjusting variable bounds
+ 321  1.5052178e+01 9.18e-11 1.38e-01 -11.0 6.17e-05   3.2 1.00e+00 1.00e+00f  1
+In iteration 321, 102 Slacks too small, adjusting variable bounds
+ 322  1.5052155e+01 1.08e-11 9.36e-02 -11.0 2.31e-05   3.6 1.00e+00 1.00e+00h  1
+In iteration 322, 102 Slacks too small, adjusting variable bounds
+ 323  1.5052146e+01 2.03e-12 9.36e-02 -11.0 8.68e-06   4.0 1.00e+00 1.00e+00h  1
+In iteration 323, 102 Slacks too small, adjusting variable bounds
+ 324  1.5052120e+01 1.42e-11 9.36e-02 -11.0 2.60e-05   3.6 1.00e+00 1.00e+00h  1
+In iteration 324, 102 Slacks too small, adjusting variable bounds
+ 325  1.5052110e+01 2.14e-12 9.36e-02 -11.0 9.76e-06   4.0 1.00e+00 1.00e+00h  1
+In iteration 325, 102 Slacks too small, adjusting variable bounds
+ 326  1.5052081e+01 1.82e-11 9.36e-02 -11.0 2.93e-05   3.5 1.00e+00 1.00e+00h  1
+In iteration 326, 102 Slacks too small, adjusting variable bounds
+ 327  1.5052070e+01 2.26e-12 9.36e-02 -11.0 1.10e-05   3.9 1.00e+00 1.00e+00h  1
+In iteration 327, 102 Slacks too small, adjusting variable bounds
+ 328  1.5052037e+01 2.34e-11 9.36e-02 -11.0 3.29e-05   3.5 1.00e+00 1.00e+00f  1
+In iteration 328, 102 Slacks too small, adjusting variable bounds
+ 329  1.5052025e+01 2.88e-12 9.36e-02 -11.0 1.24e-05   3.9 1.00e+00 1.00e+00h  1
+In iteration 329, 102 Slacks too small, adjusting variable bounds
+iter    objective    inf_pr   inf_du lg(mu)  ||d||  lg(rg) alpha_du alpha_pr  ls
+ 330  1.5051988e+01 3.01e-11 9.36e-02 -11.0 3.71e-05   3.4 1.00e+00 1.00e+00f  1
+In iteration 330, 102 Slacks too small, adjusting variable bounds
+ 331  1.5051974e+01 3.69e-12 9.36e-02 -11.0 1.39e-05   3.8 1.00e+00 1.00e+00h  1
+In iteration 331, 102 Slacks too small, adjusting variable bounds
+ 332  1.5051933e+01 3.88e-11 9.36e-02 -11.0 4.17e-05   3.4 1.00e+00 1.00e+00f  1
+In iteration 332, 102 Slacks too small, adjusting variable bounds
+ 333  1.5051917e+01 4.73e-12 9.36e-02 -11.0 1.56e-05   3.8 1.00e+00 1.00e+00h  1
+In iteration 333, 102 Slacks too small, adjusting variable bounds
+ 334  1.5051870e+01 5.01e-11 9.36e-02 -11.0 4.69e-05   3.3 1.00e+00 1.00e+00f  1
+In iteration 334, 102 Slacks too small, adjusting variable bounds
+ 335  1.5051853e+01 6.06e-12 9.36e-02 -11.0 1.76e-05   3.7 1.00e+00 1.00e+00h  1
+In iteration 335, 102 Slacks too small, adjusting variable bounds
+ 336  1.5051800e+01 6.49e-11 1.00e-01 -11.0 5.27e-05   3.2 1.00e+00 1.00e+00f  1
+In iteration 336, 102 Slacks too small, adjusting variable bounds
+ 337  1.5051781e+01 7.77e-12 9.36e-02 -11.0 1.98e-05   3.7 1.00e+00 1.00e+00h  1
+In iteration 337, 102 Slacks too small, adjusting variable bounds
+ 338  1.5051722e+01 8.41e-11 1.22e-01 -11.0 5.93e-05   3.2 1.00e+00 1.00e+00f  1
+In iteration 338, 102 Slacks too small, adjusting variable bounds
+ 339  1.5051700e+01 9.97e-12 9.36e-02 -11.0 2.23e-05   3.6 1.00e+00 1.00e+00h  1
+In iteration 339, 102 Slacks too small, adjusting variable bounds
+iter    objective    inf_pr   inf_du lg(mu)  ||d||  lg(rg) alpha_du alpha_pr  ls
+ 340  1.5051634e+01 5.77e-10 8.75e-01 -11.0 7.13e-05   3.1 1.00e+00 1.00e+00f  1
+In iteration 340, 102 Slacks too small, adjusting variable bounds
+ 341  1.5051609e+01 1.28e-11 9.36e-02 -11.0 2.50e-05   3.6 1.00e+00 1.00e+00h  1
+In iteration 341, 102 Slacks too small, adjusting variable bounds
+ 342  1.5051599e+01 2.11e-12 9.36e-02 -11.0 9.39e-06   4.0 1.00e+00 1.00e+00h  1
+In iteration 342, 102 Slacks too small, adjusting variable bounds
+ 343  1.5051571e+01 1.67e-11 9.36e-02 -11.0 2.82e-05   3.5 1.00e+00 1.00e+00h  1
+In iteration 343, 102 Slacks too small, adjusting variable bounds
+ 344  1.5051560e+01 2.22e-12 9.36e-02 -11.0 1.06e-05   3.9 1.00e+00 1.00e+00h  1
+In iteration 344, 102 Slacks too small, adjusting variable bounds
+ 345  1.5051529e+01 2.15e-11 9.36e-02 -11.0 3.17e-05   3.5 1.00e+00 1.00e+00f  1
+In iteration 345, 102 Slacks too small, adjusting variable bounds
+ 346  1.5051517e+01 2.65e-12 9.36e-02 -11.0 1.19e-05   3.9 1.00e+00 1.00e+00h  1
+In iteration 346, 102 Slacks too small, adjusting variable bounds
+ 347  1.5051481e+01 2.77e-11 9.36e-02 -11.0 3.57e-05   3.4 1.00e+00 1.00e+00f  1
+In iteration 347, 102 Slacks too small, adjusting variable bounds
+ 348  1.5051468e+01 3.40e-12 9.36e-02 -11.0 1.34e-05   3.8 1.00e+00 1.00e+00h  1
+In iteration 348, 102 Slacks too small, adjusting variable bounds
+ 349  1.5051428e+01 3.56e-11 9.36e-02 -11.0 4.01e-05   3.4 1.00e+00 1.00e+00f  1
+In iteration 349, 102 Slacks too small, adjusting variable bounds
+iter    objective    inf_pr   inf_du lg(mu)  ||d||  lg(rg) alpha_du alpha_pr  ls
+ 350  1.5051413e+01 4.35e-12 9.36e-02 -11.0 1.50e-05   3.8 1.00e+00 1.00e+00h  1
+In iteration 350, 102 Slacks too small, adjusting variable bounds
+ 351  1.5051368e+01 4.60e-11 9.36e-02 -11.0 4.51e-05   3.3 1.00e+00 1.00e+00f  1
+In iteration 351, 102 Slacks too small, adjusting variable bounds
+ 352  1.5051351e+01 5.58e-12 9.36e-02 -11.0 1.69e-05   3.7 1.00e+00 1.00e+00h  1
+In iteration 352, 102 Slacks too small, adjusting variable bounds
+ 353  1.5051301e+01 5.95e-11 9.52e-02 -11.0 5.08e-05   3.3 1.00e+00 1.00e+00f  1
+In iteration 353, 102 Slacks too small, adjusting variable bounds
+ 354  1.5051282e+01 7.15e-12 9.36e-02 -11.0 1.90e-05   3.7 1.00e+00 1.00e+00h  1
+In iteration 354, 102 Slacks too small, adjusting variable bounds
+ 355  1.5051225e+01 7.71e-11 1.14e-01 -11.0 5.71e-05   3.2 1.00e+00 1.00e+00f  1
+In iteration 355, 102 Slacks too small, adjusting variable bounds
+ 356  1.5051204e+01 9.17e-12 9.36e-02 -11.0 2.14e-05   3.6 1.00e+00 1.00e+00h  1
+In iteration 356, 102 Slacks too small, adjusting variable bounds
+ 357  1.5051140e+01 1.00e-10 2.50e-01 -11.0 6.42e-05   3.2 1.00e+00 1.00e+00f  1
+In iteration 357, 102 Slacks too small, adjusting variable bounds
+ 358  1.5051116e+01 1.18e-11 9.36e-02 -11.0 2.41e-05   3.6 1.00e+00 1.00e+00h  1
+In iteration 358, 102 Slacks too small, adjusting variable bounds
+ 359  1.5051107e+01 2.07e-12 9.36e-02 -11.0 9.04e-06   4.0 1.00e+00 1.00e+00h  1
+In iteration 359, 102 Slacks too small, adjusting variable bounds
+iter    objective    inf_pr   inf_du lg(mu)  ||d||  lg(rg) alpha_du alpha_pr  ls
+ 360  1.5051080e+01 1.54e-11 9.36e-02 -11.0 2.71e-05   3.5 1.00e+00 1.00e+00h  1
+In iteration 360, 102 Slacks too small, adjusting variable bounds
+ 361  1.5051070e+01 2.19e-12 9.36e-02 -11.0 1.02e-05   4.0 1.00e+00 1.00e+00h  1
+In iteration 361, 102 Slacks too small, adjusting variable bounds
+ 362  1.5051039e+01 1.98e-11 9.36e-02 -11.0 3.05e-05   3.5 1.00e+00 1.00e+00h  1
+In iteration 362, 102 Slacks too small, adjusting variable bounds
+ 363  1.5051028e+01 2.44e-12 9.36e-02 -11.0 1.14e-05   3.9 1.00e+00 1.00e+00h  1
+In iteration 363, 102 Slacks too small, adjusting variable bounds
+ 364  1.5050994e+01 2.54e-11 9.36e-02 -11.0 3.43e-05   3.4 1.00e+00 1.00e+00f  1
+In iteration 364, 102 Slacks too small, adjusting variable bounds
+ 365  1.5050981e+01 3.13e-12 9.36e-02 -11.0 1.29e-05   3.9 1.00e+00 1.00e+00h  1
+In iteration 365, 102 Slacks too small, adjusting variable bounds
+ 366  1.5050942e+01 3.28e-11 9.36e-02 -11.0 3.86e-05   3.4 1.00e+00 1.00e+00f  1
+In iteration 366, 102 Slacks too small, adjusting variable bounds
+ 367  1.5050928e+01 4.01e-12 9.36e-02 -11.0 1.45e-05   3.8 1.00e+00 1.00e+00h  1
+In iteration 367, 102 Slacks too small, adjusting variable bounds
+ 368  1.5050885e+01 4.23e-11 9.36e-02 -11.0 4.34e-05   3.3 1.00e+00 1.00e+00f  1
+In iteration 368, 102 Slacks too small, adjusting variable bounds
+ 369  1.5050868e+01 5.13e-12 9.36e-02 -11.0 1.63e-05   3.8 1.00e+00 1.00e+00h  1
+In iteration 369, 102 Slacks too small, adjusting variable bounds
+iter    objective    inf_pr   inf_du lg(mu)  ||d||  lg(rg) alpha_du alpha_pr  ls
+ 370  1.5050820e+01 5.46e-11 9.36e-02 -11.0 4.88e-05   3.3 1.00e+00 1.00e+00f  1
+In iteration 370, 102 Slacks too small, adjusting variable bounds
+ 371  1.5050802e+01 6.58e-12 9.36e-02 -11.0 1.83e-05   3.7 1.00e+00 1.00e+00h  1
+In iteration 371, 102 Slacks too small, adjusting variable bounds
+ 372  1.5050747e+01 7.07e-11 1.07e-01 -11.0 5.49e-05   3.2 1.00e+00 1.00e+00f  1
+In iteration 372, 102 Slacks too small, adjusting variable bounds
+ 373  1.5050727e+01 8.44e-12 9.36e-02 -11.0 2.06e-05   3.7 1.00e+00 1.00e+00h  1
+
+Number of Iterations....: 373
+
+                                   (scaled)                 (unscaled)
+Objective...............:   1.5050726522431546e+01    1.5050726522431546e+01
+Dual infeasibility......:   9.3601700281433470e-02    9.3601700281433470e-02
+Constraint violation....:   8.4412477008299902e-12    8.4412477008299902e-12
+Complementarity.........:   1.9682851935071238e-11    1.9682851935071238e-11
+Overall NLP error.......:   8.3527856013016280e-03    9.3601700281433470e-02
+
+
+Number of objective function evaluations             = 374
+Number of objective gradient evaluations             = 374
+Number of equality constraint evaluations            = 374
+Number of inequality constraint evaluations          = 374
+Number of equality constraint Jacobian evaluations   = 374
+Number of inequality constraint Jacobian evaluations = 374
+Number of Lagrangian Hessian evaluations             = 373
+Total CPU secs in IPOPT (w/o function evaluations)   =     12.721
+Total CPU secs in NLP function evaluations           =      3.840
+
+EXIT: Maximum CPU time exceeded.
+ 
+Ipopt 3.12.13: Maximum CPU Time Exceeded.
+
+suffix ipopt_zU_out OUT;
+suffix ipopt_zL_out OUT;

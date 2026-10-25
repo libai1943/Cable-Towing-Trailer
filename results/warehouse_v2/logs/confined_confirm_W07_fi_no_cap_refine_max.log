@@ -1,0 +1,157 @@
+Ipopt 3.12.13: 
+
+******************************************************************************
+This program contains Ipopt, a library for large-scale nonlinear optimization.
+ Ipopt is released as open source code under the Eclipse Public License (EPL).
+         For more information visit http://projects.coin-or.org/Ipopt
+******************************************************************************
+
+This is Ipopt version 3.12.13, running with linear solver ma57.
+
+Number of nonzeros in equality constraint Jacobian...:    43839
+Number of nonzeros in inequality constraint Jacobian.:    41190
+Number of nonzeros in Lagrangian Hessian.............:    40320
+
+Total number of variables............................:    24178
+                     variables with only lower bounds:    23112
+                variables with lower and upper bounds:      424
+                     variables with only upper bounds:        0
+Total number of equality constraints.................:     7383
+Total number of inequality constraints...............:     6848
+        inequality constraints with only lower bounds:     3635
+   inequality constraints with lower and upper bounds:      752
+        inequality constraints with only upper bounds:     2461
+
+iter    objective    inf_pr   inf_du lg(mu)  ||d||  lg(rg) alpha_du alpha_pr  ls
+   0  1.2936197e+01 1.04e-01 1.65e+00   0.0 0.00e+00    -  0.00e+00 0.00e+00   0
+   1  1.2941583e+01 5.27e-02 7.96e-01  -6.0 6.07e-02    -  6.96e-01 4.76e-01h  1
+   2  1.2924325e+01 3.00e-02 4.64e-01  -6.5 6.40e-02    -  5.76e-01 4.61e-01h  1
+   3  1.2906104e+01 1.93e-02 3.41e-01  -2.8 3.26e-01    -  5.77e-01 3.33e-01f  1
+   4  1.2891962e+01 4.16e-03 1.08e-01  -3.4 3.34e-02   0.0 8.22e-01 8.03e-01h  1
+   5  1.2851863e+01 1.34e-03 6.49e-01  -3.4 8.31e-02  -0.5 8.14e-01 6.22e-01f  1
+   6  1.2818902e+01 7.52e-04 1.21e+00  -4.1 5.12e-02  -1.0 9.11e-01 3.90e-01h  1
+   7  1.2661856e+01 2.66e-03 9.46e-02  -4.4 1.33e-01  -1.4 1.00e+00 9.88e-01h  1
+   8  1.2646989e+01 2.06e-03 1.86e+01  -4.9 4.29e-02  -1.0 1.00e+00 2.29e-01h  1
+   9  1.2644066e+01 1.11e-03 3.14e+03  -4.2 3.81e-02  -0.6 1.00e+00 4.72e-01h  1
+iter    objective    inf_pr   inf_du lg(mu)  ||d||  lg(rg) alpha_du alpha_pr  ls
+  10  1.2643791e+01 7.74e-04 3.74e+04  -4.6 2.21e-03   1.7 1.00e+00 3.03e-01h  1
+  11  1.2642066e+01 2.05e-04 9.01e+04  -5.0 7.51e-03   2.1 1.00e+00 7.36e-01h  1
+  12  1.2642134e+01 1.61e-04 1.27e+06  -4.7 6.31e-04   3.4 1.00e+00 2.12e-01h  1
+  13  1.2641521e+01 5.55e-05 2.13e+06  -5.4 3.79e-04   3.8 1.00e+00 6.56e-01h  1
+  14  1.2641493e+01 4.25e-05 8.30e+07  -5.6 9.83e-05   5.2 1.00e+00 2.35e-01h  1
+  15  1.2641493e+01 4.20e-05 3.34e+08  -6.2 9.19e-05   5.6 1.00e+00 1.17e-02h  1
+In iteration 15, 1 Slack too small, adjusting variable bound
+  16  1.2641485e+01 2.36e-05 4.49e+08  -6.6 7.52e-05   6.0 1.00e+00 4.38e-01h  1
+In iteration 16, 2 Slacks too small, adjusting variable bounds
+  17  1.2641485e+01 2.25e-05 1.60e+10  -6.3 4.32e-05   7.3 1.00e+00 4.58e-02h  1
+  18  1.2641486e+01 1.90e-05 1.40e+03  -6.9 1.35e-05   7.8 1.00e+00 1.57e-01h  1
+In iteration 18, 2 Slacks too small, adjusting variable bounds
+  19  1.2641486e+01 1.79e-05 1.61e+10  -7.9 3.68e-05   7.3 1.00e+00 5.69e-02h  1
+In iteration 19, 2 Slacks too small, adjusting variable bounds
+iter    objective    inf_pr   inf_du lg(mu)  ||d||  lg(rg) alpha_du alpha_pr  ls
+  20  1.2641488e+01 1.45e-05 1.66e+03  -7.1 1.74e-05   7.7 1.00e+00 1.93e-01h  1
+In iteration 20, 2 Slacks too small, adjusting variable bounds
+  21  1.2641489e+01 1.34e-05 3.12e+10  -7.5 9.94e-05   7.2 1.00e+00 7.23e-02h  1
+In iteration 21, 2 Slacks too small, adjusting variable bounds
+  22  1.2641489e+01 1.34e-05 5.51e+10  -8.5 4.26e-05   7.7 1.00e+00 3.90e-03h  1
+In iteration 22, 2 Slacks too small, adjusting variable bounds
+  23  1.2641492e+01 7.96e-06 6.78e+10  -7.2 2.66e-05   8.1 1.00e+00 4.05e-01h  1
+Reallocating memory for MA57: lfact (649839)
+Reallocating memory for MA57: lfact (2238477)
+In iteration 23, 2 Slacks too small, adjusting variable bounds
+  24  1.2641493e+01 7.13e-06 1.07e+12  -5.1 3.85e-05   9.4 1.09e-02 1.05e-01h  1
+Reallocating memory for MA57: lfact (2394648)
+Reallocating memory for MA57: lfact (2790201)
+Reallocating memory for MA57: lfact (3004013)
+In iteration 24, 1 Slack too small, adjusting variable bound
+  25  1.2641493e+01 7.12e-06 1.07e+12  -8.7 4.09e-07  12.6 1.10e-03 6.67e-01h  1
+In iteration 25, 1 Slack too small, adjusting variable bound
+  26  1.2641493e+01 7.12e-06 3.64e+12  -4.8 1.26e-05  12.1 1.28e-02 4.12e-04h  1
+  27  1.2641493e+01 7.10e-06 4.59e+12  -6.5 1.16e-05  11.6 1.42e-02 1.80e-03h  1
+  28  1.2641493e+01 7.09e-06 4.59e+12  -6.5 1.78e-07  12.9 3.97e-05 8.56e-01h  1
+  29  1.2641493e+01 6.65e-04 4.59e+12  -6.8 3.71e-01  12.5 1.85e-09 6.17e-01f  1
+iter    objective    inf_pr   inf_du lg(mu)  ||d||  lg(rg) alpha_du alpha_pr  ls
+  30  1.2641493e+01 6.62e-04 1.98e+14  -6.0 2.29e-01  12.0 1.00e+00 4.14e-03h  1
+In iteration 30, 1 Slack too small, adjusting variable bound
+  31  1.2641500e+01 5.13e-06 1.22e+14  -6.0 2.28e-01  11.5 1.65e-02 9.92e-01h  1
+  32  1.2641500e+01 4.71e-06 6.36e+10  -6.7 1.47e-04  14.6 1.00e+00 1.00e+00h  1
+In iteration 32, 1 Slack too small, adjusting variable bound
+  33  1.2641500e+01 3.53e-06 6.36e+10  -6.1 4.41e-04  14.2 1.00e+00 9.81e-01h  1
+In iteration 33, 1 Slack too small, adjusting variable bound
+  34  1.2641500e+01 3.10e-06 6.36e+10  -7.2 1.65e-04  14.6 1.00e+00 9.99e-01h  1
+In iteration 34, 1 Slack too small, adjusting variable bound
+  35  1.2641500e+01 2.72e-06 6.36e+10  -8.0 4.96e-04  14.1 1.00e+00 1.00e+00h  1
+In iteration 35, 1 Slack too small, adjusting variable bound
+  36  1.2641500e+01 4.06e-06 6.36e+10  -9.9 1.86e-04  14.5 1.00e+00 1.00e+00h  1
+In iteration 36, 1 Slack too small, adjusting variable bound
+  37  1.2641500e+01 5.76e-06 6.36e+10  -7.9 5.58e-04  14.1 1.00e+00 2.51e-01h  1
+In iteration 37, 1 Slack too small, adjusting variable bound
+  38  1.2641502e+01 1.50e-06 9.82e+14  -5.9 2.04e-04  13.6 1.36e-02 7.40e-01h  1
+Reallocating memory for MA57: lfact (3226662)
+In iteration 38, 1 Slack too small, adjusting variable bound
+  39  1.2641502e+01 1.49e-06 9.82e+14  -5.5 3.44e-06  15.8 2.67e-04 2.48e-02f  1
+In iteration 39, 2 Slacks too small, adjusting variable bounds
+iter    objective    inf_pr   inf_du lg(mu)  ||d||  lg(rg) alpha_du alpha_pr  ls
+  40  1.2641502e+01 1.46e-06 9.80e+14  -7.6 1.03e-05  15.3 2.50e-03 1.99e-02h  1
+In iteration 40, 2 Slacks too small, adjusting variable bounds
+  41  1.2641502e+01 1.45e-06 5.41e+14  -7.6 3.86e-06  15.8 4.48e-01 2.20e-02h  1
+In iteration 41, 2 Slacks too small, adjusting variable bounds
+  42  1.2641502e+01 1.13e-06 5.26e+14  -7.6 1.16e-05  15.3 2.77e-02 1.63e-01h  1
+In iteration 42, 1 Slack too small, adjusting variable bound
+  43  1.2641502e+01 4.07e-07 3.24e+14  -5.5 4.35e-06  15.7 3.85e-01 1.00e+00h  1
+In iteration 43, 1 Slack too small, adjusting variable bound
+  44  1.2641502e+01 4.97e-06 2.23e+10  -5.1 1.30e-05  15.2 1.00e+00 1.00e+00h  1
+In iteration 44, 1 Slack too small, adjusting variable bound
+  45  1.2641502e+01 7.82e-06 2.23e+10  -5.2 4.89e-06  15.7 8.43e-01 1.00e+00h  1
+In iteration 45, 1 Slack too small, adjusting variable bound
+  46  1.2641502e+01 3.10e-05 3.44e+10  -5.2 1.47e-05  15.2 1.00e+00 1.00e+00h  1
+In iteration 46, 1 Slack too small, adjusting variable bound
+  47  1.2641502e+01 4.46e-05 5.26e+10  -5.2 8.45e-06  15.6 1.00e+00 1.00e+00h  1
+In iteration 47, 1 Slack too small, adjusting variable bound
+  48  1.2641502e+01 7.48e-05 7.75e+10  -5.2 6.30e-05  15.1 1.00e+00 2.51e-01h  2
+In iteration 48, 1 Slack too small, adjusting variable bound
+  49  1.2641503e+01 8.57e-05 9.30e+10  -5.2 2.14e-05  15.6 1.00e+00 3.35e-01h  2
+In iteration 49, 1 Slack too small, adjusting variable bound
+iter    objective    inf_pr   inf_du lg(mu)  ||d||  lg(rg) alpha_du alpha_pr  ls
+  50  1.2641503e+01 9.48e-05 9.91e+10  -5.2 1.58e-04  15.1 1.00e+00 2.79e-02h  3
+In iteration 50, 1 Slack too small, adjusting variable bound
+  51  1.2641503e+01 9.62e-05 1.01e+11  -5.2 3.08e-05  15.5 1.00e+00 2.79e-02h  4
+In iteration 51, 1 Slack too small, adjusting variable bound
+  52  1.2641503e+01 9.62e-05 1.01e+11  -5.2 2.87e-04  15.0 1.00e+00 7.96e-06h 14
+In iteration 52, 1 Slack too small, adjusting variable bound
+  53  1.2641503e+01 9.62e-05 1.01e+11  -5.2 3.59e-05  15.5 1.00e+00 2.12e-05h 14
+In iteration 53, 1 Slack too small, adjusting variable bound
+  54  1.2641503e+01 9.62e-05 1.01e+11  -5.2 8.35e-04  15.0 1.00e+00 7.07e-06h 14
+In iteration 54, 1 Slack too small, adjusting variable bound
+  55  1.2641503e+01 9.62e-05 1.01e+11  -5.2 4.16e-05  15.4 1.00e+00 1.89e-05h 14
+In iteration 55, 1 Slack too small, adjusting variable bound
+  56  1.2641503e+01 9.62e-05 1.01e+11  -5.2 1.49e-05  15.8 1.00e+00 1.01e-04h 13
+In iteration 56, 1 Slack too small, adjusting variable bound
+  57  1.2641503e+01 9.62e-05 1.01e+11  -5.2 4.86e-05  15.4 1.00e+00 1.68e-05h 14
+
+Number of Iterations....: 57
+
+                                   (scaled)                 (unscaled)
+Objective...............:   1.2641502506748981e+01    1.2641502506748981e+01
+Dual infeasibility......:   1.0098685686083649e+11    1.0098685686083649e+11
+Constraint violation....:   9.6214827967622263e-05    9.6214827967622263e-05
+Complementarity.........:   4.6418527101775283e+01    4.6418527101775283e+01
+Overall NLP error.......:   7.6275695992705792e+01    1.0098685686083649e+11
+
+
+Number of objective function evaluations             = 152
+Number of objective gradient evaluations             = 58
+Number of equality constraint evaluations            = 152
+Number of inequality constraint evaluations          = 152
+Number of equality constraint Jacobian evaluations   = 58
+Number of inequality constraint Jacobian evaluations = 58
+Number of Lagrangian Hessian evaluations             = 57
+Total CPU secs in IPOPT (w/o function evaluations)   =     17.893
+Total CPU secs in NLP function evaluations           =      0.566
+
+EXIT: Maximum CPU time exceeded.
+ 
+Ipopt 3.12.13: Maximum CPU Time Exceeded.
+
+suffix ipopt_zU_out OUT;
+suffix ipopt_zL_out OUT;

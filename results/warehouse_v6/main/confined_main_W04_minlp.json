@@ -1,0 +1,274 @@
+{
+  "method": "minlp",
+  "options": {
+    "label": "confined_main_W04_minlp",
+    "timeLimit": 30,
+    "nlpTimeLimit": 28,
+    "epscomp": 0,
+    "beta": 100,
+    "maxIter": 3000,
+    "solutionLimit": 1.0E+6,
+    "disablePump": false
+  },
+  "seconds": 30.61132,
+  "exitCode": 0,
+  "P": {
+    "L": 1.335,
+    "a": 0.7,
+    "Lf": 0.4,
+    "front": [
+      0.6,
+      0,
+      0.35
+    ],
+    "rear": [
+      0.7,
+      0.35,
+      0.55
+    ],
+    "rho": 1,
+    "deltaMax": 0.78539816339744828,
+    "vMax": 0.5,
+    "aMax": 0.5,
+    "wMax": 0.8,
+    "clearance": 0.1,
+    "extra": 0.065,
+    "scale": 1,
+    "planBuffer": 0.02,
+    "B": 2.035,
+    "radius": 0.40000000000000008,
+    "left": 0,
+    "right": 16,
+    "ymin": 0,
+    "ymax": 16,
+    "pull": 9,
+    "sample": 0.01,
+    "obstacles": [
+      [
+        0.5,
+        2.5,
+        3.2,
+        6
+      ],
+      [
+        0.5,
+        2.5,
+        6.2,
+        9
+      ],
+      [
+        4.1999999999999993,
+        6.2,
+        3.2,
+        6
+      ],
+      [
+        4.1999999999999993,
+        6.2,
+        6.2,
+        9
+      ],
+      [
+        7.8999999999999995,
+        9.9,
+        3.2,
+        6
+      ],
+      [
+        7.8999999999999995,
+        9.9,
+        6.2,
+        9
+      ],
+      [
+        11.6,
+        13.6,
+        3.2,
+        6
+      ],
+      [
+        11.6,
+        13.6,
+        6.2,
+        9
+      ],
+      [
+        0.5,
+        2.5,
+        12.2,
+        15.2
+      ],
+      [
+        4.1999999999999993,
+        6.2,
+        12.2,
+        15.2
+      ],
+      [
+        7.8999999999999995,
+        9.9,
+        12.2,
+        15.2
+      ],
+      [
+        11.6,
+        13.6,
+        12.2,
+        15.2
+      ]
+    ],
+    "initial": [
+      3.45,
+      3.6,
+      1.5707963267948966,
+      3.45,
+      2.265,
+      1.5707963267948966
+    ],
+    "goalY": 6.1,
+    "goalAngle": -1.5707963267948963,
+    "goalTolerance": 0.008,
+    "taskGoalY": 6,
+    "taskGoalTolerance": 0.025,
+    "smax": 0.18,
+    "mesh": 100,
+    "regularization": 0.002,
+    "vertices": [
+      [
+        [
+          0.6,
+          0.35
+        ],
+        [
+          0,
+          0.35
+        ],
+        [
+          0,
+          -0.35
+        ],
+        [
+          0.6,
+          -0.35
+        ]
+      ],
+      [
+        [
+          0.7,
+          0.55
+        ],
+        [
+          -0.35,
+          0.55
+        ],
+        [
+          -0.35,
+          -0.55
+        ],
+        [
+          0.7,
+          -0.55
+        ]
+      ]
+    ],
+    "goalXYTolerance": [
+      0.12,
+      0.12
+    ],
+    "replayTolerance": 0.15,
+    "caseName": "W04",
+    "name": "Adjacent-aisle return",
+    "goal": [
+      7.1431553594872446,
+      4.5921114082282966
+    ],
+    "obstacleKinds": [
+      "rack",
+      "rack",
+      "rack",
+      "rack",
+      "rack",
+      "rack",
+      "rack",
+      "rack",
+      "rack",
+      "rack",
+      "rack",
+      "rack"
+    ],
+    "layoutFamily": 4,
+    "zones": [
+      [
+        0.5,
+        14,
+        0.25,
+        2.6
+      ],
+      [
+        0.5,
+        14.5,
+        10,
+        12.8
+      ]
+    ],
+    "zoneNames": [
+      "Dispatch",
+      "End cross aisle"
+    ],
+    "nominalAisleWidth": 1.7,
+    "layoutArea": 68.800000000000011
+  },
+  "rawVerified": false,
+  "status": "missing_output",
+  "cost": null,
+  "process": {
+    "budget": 30,
+    "wallSeconds": 30.312718,
+    "timedOut": true,
+    "exitCode": []
+  },
+  "totalSeconds": 31.6542405,
+  "stageAudits": [
+    []
+  ],
+  "rawSolverAccepted": false,
+  "seedAudit": {
+    "accepted": true,
+    "stateAccepted": true,
+    "boundsViolation": 4.4408920985006262E-16,
+    "stateBoundsViolation": 1.3322676295501878E-15,
+    "initialClearance": 0.399999999999999,
+    "cost": 20.206751414753032,
+    "travel": 20.156729050330856,
+    "cableAccepted": true,
+    "cableHits": 0,
+    "cableLengthError": 1.3322676295501878E-15,
+    "cableSideChanges": 0,
+    "fineStateAccepted": true,
+    "fineHeadingError": 0.0018197430586264218,
+    "fineGoalError": [
+      0.0011135901218413125,
+      0.049980517327774976
+    ],
+    "fineNodeDifference": 0.061398443447133744,
+    "fineClearance": 0.17029390848429443,
+    "discreteNodeResidual": 0,
+    "modeResidual": 0,
+    "coarseClearance": 0.19999999999999929
+  },
+  "selectedSource": "search_seed",
+  "retainedVerified": true,
+  "retainedCost": 20.206751414753032,
+  "retainedTravel": 20.156729050330856,
+  "improved": false,
+  "recoverySelected": false,
+  "prefix": {
+    "seconds": 31.6541985,
+    "rawVerified": false,
+    "retainedVerified": true,
+    "retainedCost": 20.206751414753032,
+    "retainedTravel": 20.156729050330856,
+    "improved": false
+  },
+  "algorithmBudget": 30
+}

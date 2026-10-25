@@ -1,0 +1,89 @@
+\section{Optimization-Based Motion Planning}
+The optimization-based planner refines a feasible seed through relaxed initialization, feasible control restoration, and direct-max optimization. Replay-derived clearance reserves guide refinement in the presence of integration drift. Independent replay determines acceptance of optimized and recovered trajectories.
+
+\subsection{Common Initialization and Relaxed Refinement}
+For each task, a tractor control sequence is constructed and validated before optimization. Its causal rollout supplies the common states and cable-mode sequence. Every strategy receives the same mesh, geometry, continuous initial values, and OBCA dual initialization. Initial dual multipliers represent polygon support directions using nonnegative local halfspace multipliers; the optimizer subsequently changes them freely.
+
+The first stage replaces only the product equality in~\eqref{eq:comp} by
+\begin{equation}\begin{aligned}
+ &W_k\geq0,\\
+ &W_k\geq\eta_k,\\
+ &W_k(W_k-\eta_k)\leq\varepsilon_c.
+\end{aligned}\label{eq:relax}\end{equation}
+The objective and geometric constraints are retained. This stage allows the initializer to move between switching schedules. Its controls are propagated causally from the initial state using~\eqref{eq:euler}--\eqref{eq:max}. The rollout restores the discrete cable relation, although obstacle clearance or terminal conditions can change. Before the next solve, control restoration searches toward the common feasible seed. It accepts a new initializer only when the complete physical validator passes and the original-grid clearance is at least $d_{\rm plan}$. Otherwise, the common seed initializes refinement. A physically validated anchor remains available throughout the pipeline.
+
+\subsection{Replay-Guided Clearance Reserves}
+Let $\bar\xx_k$ be the causal rollout on the optimization grid and $\widetilde\xx_k$ its finer Euler replay sampled at the same control boundaries. For local vertex $v_{b,j}$ of body $b$, let $V_{b,j}(\xx)$ denote its world position. Define
+\begin{equation}
+r_{k,b}=\max_j\|V_{b,j}(\bar\xx_k)-V_{b,j}(\widetilde\xx_k)\|_2.
+\label{eq:reserve}
+\end{equation}
+The corresponding convex combinations of vertices differ by at most $r_{k,b}$, so this quantity bounds the Hausdorff deviation of the two sampled polygons. Their distances to a fixed obstacle differ by at most the same amount; a two-body distance can change by the sum of the two reserves.
+
+The direct-max refinement uses $d_{\rm plan}+r_{k,b}$ against obstacles and walls, and $d_{\rm plan}+r_{k,1}+r_{k,2}$ between bodies. The reserves are fixed during the solve and change only the internal OBCA clearance requirements. Physical geometry and final required clearance remain unchanged. The initializer remains physically validated, although the additional reserves and initialized dual multipliers need not form a feasible point of the buffered nonlinear program.
+
+These measured deviations describe the initializer, and optimization can move away from it. Every result therefore undergoes the same independent validation. The proposed planner uses the measured reserves directly. Section~V isolates their effect by comparison with zero reserves and reserves capped by available clearance.
+
+The maximum is implemented directly, without smoothing. AMPL supplies the active-branch derivatives away from switching points to Ipopt. Actual feasibility is evaluated from the returned trajectory, including outputs produced at iteration or time limits.
+
+\subsection{Control Recovery and Terminal Restoration}
+Control recovery extracts useful route improvements from candidates that fail independent acceptance. It operates on signed tractor increments and yaw increments, $y_k=s_k\kappa_k$, and reconstructs every state causally to enforce the discrete kinematics.
+
+Let $(s^a,y^a)$ belong to the lowest-cost validated anchor available and $(s^c,y^c)$ to a candidate. A decreasing sequence of weights $\alpha\in(0,1]$ generates
+\begin{equation}\begin{aligned}
+ s_k(\alpha)&=(1-\alpha)s_k^a+\alpha s_k^c,\\
+ y_k(\alpha)&=(1-\alpha)y_k^a+\alpha y_k^c.
+\end{aligned}\label{eq:blend}\end{equation}
+Interpolating signed increments can change their signs, so yaw interpolation alone does not preserve curvature bounds. A scalar shift followed by clipping enforces the per-step yaw limits and the required terminal tractor heading. With $u_k=|s_k|/R_{\min}$ and positive weights $\omega_k$, the projection uses
+\begin{equation}\begin{aligned}
+ \widehat y_k&=\min\{u_k,\max\{-u_k,y_k+\lambda\omega_k\}\},\\
+ \sum_k\widehat y_k&=\phi_{\rm goal}-\phi_0.
+\end{aligned}\label{eq:yawprojection}\end{equation}
+The sum is monotone in $\lambda$, permitting bisection. If its target lies outside the attainable interval, the trial is skipped. Curvature is recovered as $\widehat y_k/s_k$ for nonzero increments and set to zero for a zero increment. Projection is applied to the candidate and again after interpolation.
+
+Control interpolation also changes the cart endpoint. A three-parameter shooting correction uses a fixed terminal window to restore its cart axle position and heading. One basis distributes a signed-travel adjustment along that window; two zero-sum yaw bases apply opposing pulses to adjacent thirds. Their zero sums preserve terminal tractor heading. A finite-difference Newton step with line search reduces the three cart endpoint residuals, subject to the original travel and curvature bounds. The window does not depend on the optimizer returning an exactly straight terminal segment. This correction changes controls only; all states and cable modes are recomputed using the same closure.
+
+Each trial is checked before terminal correction, so a valid causal rollout is preserved without unnecessary shooting. The exact-refinement candidate is processed before earlier candidates. Every recovered trial must reduce the anchor objective and pass the complete common validator. The first accepted weight for each candidate is retained, and the lowest-cost result is returned. Initial restoration additionally requires the planning clearance and uses a short, conservative weight sequence. Final recovery explores the full sequence. If either allowance is exhausted, the validated anchor remains available. Algorithm~\ref{alg:planner} shows the nested structure.
+
+\begin{algorithm}[!t]
+\caption{Trajectory refinement with validated control recovery}
+\label{alg:planner}
+\DontPrintSemicolon\SetAlgoVlined
+\SetKwInput{KwIn}{Input}\SetKwInput{KwOut}{Output}
+\KwIn{Geometry, task, validated seed $S_0$, nominal allowance $T$}
+\KwOut{Lowest-cost independently validated trajectory}
+Start elapsed-time clock; $A\gets S_0$\;
+$S_r\gets$ relaxed solve using~\eqref{eq:relax}\;
+$S_e\gets$ validated control restoration toward $S_0$, or $S_0$\;
+Compute finer replay and reserves~\eqref{eq:reserve}\;
+$S_*\gets$ direct-max refinement, reserving recovery time\;
+\ForEach{candidate $S$ in $\{S_r,S_e,S_*\}$}{
+ \If{$S$ passes validation and $J(S)<J(A)$}{$A\gets S$\;}
+}
+\ForEach{available candidate $S$ in $\{S_*,S_e,S_r\}$}{
+ \ForEach{decreasing recovery weight $\alpha$}{
+  \If{the remaining budget is exhausted}{stop recovery\;}
+  Blend and project controls using~\eqref{eq:blend}--\eqref{eq:yawprojection}\;
+  $S_\alpha\gets$ causal rollout of the projected controls\;
+  \If{$S_\alpha$ fails validation}{Apply terminal-window correction; roll out again\;}
+  \If{$J(S_\alpha)<J(A)$ and $S_\alpha$ passes validation}{
+   Retain $S_\alpha$; advance to the next candidate\;
+  }
+ }
+}
+\Return lowest-cost member of $\{A,\text{retained recovery trials}\}$\;
+\end{algorithm}
+
+\subsection{Independent Acceptance and Computational Accounting}
+Candidates are recursively replayed from the prescribed initial state without resetting to optimized nodes. The checks cover state consistency, control and grid-state bounds, initial-pose clearance, unilateral cable closure, the nonreversing cart rule, terminal conditions, body clearance, and a geometric cable route at the original-grid nodes. A second replay subdivides every interval using the same Euler rule and checks body clearance and the transport endpoint. Polygon distances are computed directly from primal geometry, independently of the OBCA multipliers. Finer replay assesses grid sensitivity; cable routing remains the per-node witness described in Section~III.
+
+We distinguish a newly validated planner output from retention of the common initial trajectory. Outputs from numerical optimization and control recovery are also reported separately. The retained objective can never exceed that of a valid common seed. Total backend time includes data preparation, process startup, all optimization and recovery stages, and validation. A final in-progress check can exceed the nominal allowance; reported wall-clock time includes that excess.
+
+\subsection{Comparison Methods and Matched Ablations}
+The comparisons cover three numerical choices. First, \emph{MAX}, \emph{LOGIC}, \emph{COMP}, and \emph{MINLP} implement the same cable graph using a direct maximum, a conditional expression, exact complementarity, and binary constraints, respectively. MAX is the direct formulation baseline of this paper. The proposed method also uses that maximum in its refinement and rollout. MINLP uses BONMIN branch-and-bound with Ipopt and the HSL sparse linear solver MA57 for nonlinear subproblems; the nonconvex solves provide no general global-optimality certificate.
+
+Second, \emph{FIX}, inspired by the mode-sequence strategy of~\cite{zhang2026}, holds the cable-mode sequence extracted from the common initial trajectory fixed. \emph{PORT}, adapted from the alternative-mode idea of~\cite{yang2022}, evaluates the initial schedule and two schedules with locally shifted switching labels. The source considers simultaneous modes of several cables over a prediction window; this single-cable adaptation enumerates temporal schedules. Duplicate schedules are removed before the remaining sequential branches share one total allowance and common continuous initialization. If the initial schedule has no switching event, this adaptation reduces to FIX. A three-branch comparison evaluates the effect of duplicate schedule removal.
+
+Third, a factorial comparison crosses initial restoration (on/off) with reserve setting (zero/measured/capped). Comparing rows that differ in one setting isolates that factor under a common overall allowance. A paired \emph{No final recovery} result uses the exact outputs recorded before final recovery in the proposed run, retaining initial restoration. A paired \emph{No terminal correction} replay removes only shooting from final recovery. \emph{MAX+recovery} applies the same final recovery mechanism to direct MAX. The first-stage output supplies a relaxed-only comparison.
+
+\emph{Replay-guided refinement (RGR)} combines relaxed initialization, causal rollout, and measured reserves, allocating the remaining allowance to direct refinement. \emph{Relaxed rollout planning (RRP)} removes only the reserves from RGR. These two strategies isolate reserve guidance in a solve-only workflow. The factorial and paired comparisons isolate the components of the complete proposed method. Numerical settings are specified with the experiments.

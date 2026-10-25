@@ -1,0 +1,267 @@
+{
+  "method": "minlp",
+  "options": {
+    "label": "confined_main_W07_minlp",
+    "timeLimit": 30,
+    "nlpTimeLimit": 28,
+    "epscomp": 0,
+    "beta": 100,
+    "maxIter": 3000,
+    "solutionLimit": 1.0E+6,
+    "disablePump": false
+  },
+  "seconds": 30.611228,
+  "exitCode": 0,
+  "P": {
+    "L": 1.335,
+    "a": 0.7,
+    "Lf": 0.4,
+    "front": [
+      0.6,
+      0,
+      0.35
+    ],
+    "rear": [
+      0.7,
+      0.35,
+      0.55
+    ],
+    "rho": 1,
+    "deltaMax": 0.78539816339744828,
+    "vMax": 0.5,
+    "aMax": 0.5,
+    "wMax": 0.8,
+    "clearance": 0.1,
+    "extra": 0.065,
+    "scale": 1,
+    "planBuffer": 0.02,
+    "B": 2.035,
+    "radius": 0.40000000000000008,
+    "left": 0,
+    "right": 16,
+    "ymin": 0,
+    "ymax": 16,
+    "pull": 9,
+    "sample": 0.01,
+    "obstacles": [
+      [
+        0.5,
+        2.5,
+        3.2,
+        6.6
+      ],
+      [
+        0.5,
+        2.5,
+        10.2,
+        14.6
+      ],
+      [
+        4.1999999999999993,
+        6.2,
+        3.2,
+        6.6
+      ],
+      [
+        4.1999999999999993,
+        6.2,
+        10.2,
+        14.6
+      ],
+      [
+        7.8999999999999995,
+        9.9,
+        3.2,
+        6.6
+      ],
+      [
+        7.8999999999999995,
+        9.9,
+        10.2,
+        14.6
+      ],
+      [
+        11.6,
+        13.6,
+        3.2,
+        6.6
+      ],
+      [
+        11.6,
+        13.6,
+        10.2,
+        14.6
+      ],
+      [
+        6.4,
+        7.6,
+        10.4,
+        11.6
+      ],
+      [
+        10,
+        11.2,
+        6.6,
+        7.6
+      ],
+      [
+        14.1,
+        15.3,
+        8.8,
+        9.8
+      ]
+    ],
+    "initial": [
+      7.1499999999999995,
+      3.6,
+      1.5707963267948966,
+      7.1499999999999995,
+      2.265,
+      1.5707963267948966
+    ],
+    "goalY": 6.1,
+    "goalAngle": 1.5707963267948966,
+    "goalTolerance": 0.008,
+    "taskGoalY": 6,
+    "taskGoalTolerance": 0.025,
+    "smax": 0.18,
+    "mesh": 100,
+    "regularization": 0.002,
+    "vertices": [
+      [
+        [
+          0.6,
+          0.35
+        ],
+        [
+          0,
+          0.35
+        ],
+        [
+          0,
+          -0.35
+        ],
+        [
+          0.6,
+          -0.35
+        ]
+      ],
+      [
+        [
+          0.7,
+          0.55
+        ],
+        [
+          -0.35,
+          0.55
+        ],
+        [
+          -0.35,
+          -0.55
+        ],
+        [
+          0.7,
+          -0.55
+        ]
+      ]
+    ],
+    "goalXYTolerance": [
+      0.12,
+      0.12
+    ],
+    "replayTolerance": 0.15,
+    "caseName": "W07",
+    "name": "Pallet staging bypass",
+    "goal": [
+      10.75989407169784,
+      11.466401672133269
+    ],
+    "obstacleKinds": [
+      "rack",
+      "rack",
+      "rack",
+      "rack",
+      "rack",
+      "rack",
+      "rack",
+      "rack",
+      "pallet",
+      "pallet",
+      "pallet"
+    ],
+    "layoutFamily": 7,
+    "zones": [
+      [
+        0.5,
+        6.2,
+        0.25,
+        2.6
+      ],
+      [
+        7,
+        15.3,
+        7.9,
+        10.7
+      ]
+    ],
+    "zoneNames": [
+      "Inbound",
+      "Staging access"
+    ],
+    "nominalAisleWidth": 1.7,
+    "layoutArea": 66.240000000000009
+  },
+  "rawVerified": false,
+  "status": "missing_output",
+  "cost": null,
+  "process": {
+    "budget": 30,
+    "wallSeconds": 30.3146177,
+    "timedOut": true,
+    "exitCode": []
+  },
+  "totalSeconds": 31.3614676,
+  "stageAudits": [
+    []
+  ],
+  "rawSolverAccepted": false,
+  "seedAudit": {
+    "accepted": true,
+    "stateAccepted": true,
+    "boundsViolation": 0,
+    "stateBoundsViolation": 1.5543122344752192E-15,
+    "initialClearance": 0.40000000000000036,
+    "cost": 13.071144746744316,
+    "travel": 13.052088471758314,
+    "cableAccepted": true,
+    "cableHits": 0,
+    "cableLengthError": 1.5543122344752192E-15,
+    "cableSideChanges": 0,
+    "fineStateAccepted": true,
+    "fineHeadingError": 0.014766390708836896,
+    "fineGoalError": [
+      0.022199473153774463,
+      0.00068382632078112238
+    ],
+    "fineNodeDifference": 0.043302607284029015,
+    "fineClearance": 0.11146918149772467,
+    "discreteNodeResidual": 0,
+    "modeResidual": 0,
+    "coarseClearance": 0.13984510026733779
+  },
+  "selectedSource": "search_seed",
+  "retainedVerified": true,
+  "retainedCost": 13.071144746744316,
+  "retainedTravel": 13.052088471758314,
+  "improved": false,
+  "recoverySelected": false,
+  "prefix": {
+    "seconds": 31.3614224,
+    "rawVerified": false,
+    "retainedVerified": true,
+    "retainedCost": 13.071144746744316,
+    "retainedTravel": 13.052088471758314,
+    "improved": false
+  },
+  "algorithmBudget": 30
+}

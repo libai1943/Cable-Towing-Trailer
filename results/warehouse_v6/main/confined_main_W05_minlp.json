@@ -1,0 +1,274 @@
+{
+  "method": "minlp",
+  "options": {
+    "label": "confined_main_W05_minlp",
+    "timeLimit": 30,
+    "nlpTimeLimit": 28,
+    "epscomp": 0,
+    "beta": 100,
+    "maxIter": 3000,
+    "solutionLimit": 1.0E+6,
+    "disablePump": false
+  },
+  "seconds": 30.6429389,
+  "exitCode": 0,
+  "P": {
+    "L": 1.335,
+    "a": 0.7,
+    "Lf": 0.4,
+    "front": [
+      0.6,
+      0,
+      0.35
+    ],
+    "rear": [
+      0.7,
+      0.35,
+      0.55
+    ],
+    "rho": 1,
+    "deltaMax": 0.78539816339744828,
+    "vMax": 0.5,
+    "aMax": 0.5,
+    "wMax": 0.8,
+    "clearance": 0.1,
+    "extra": 0.065,
+    "scale": 1,
+    "planBuffer": 0.02,
+    "B": 2.035,
+    "radius": 0.40000000000000008,
+    "left": 0,
+    "right": 16,
+    "ymin": 0,
+    "ymax": 16,
+    "pull": 9,
+    "sample": 0.01,
+    "obstacles": [
+      [
+        0.5,
+        2.5,
+        2.4,
+        4.4
+      ],
+      [
+        0.5,
+        2.5,
+        12.4,
+        15
+      ],
+      [
+        4.1999999999999993,
+        6.2,
+        2.4,
+        4.4
+      ],
+      [
+        4.1999999999999993,
+        6.2,
+        12.4,
+        15
+      ],
+      [
+        7.8999999999999995,
+        9.9,
+        2.4,
+        4.4
+      ],
+      [
+        7.8999999999999995,
+        9.9,
+        12.4,
+        15
+      ],
+      [
+        11.6,
+        13.6,
+        2.4,
+        4.4
+      ],
+      [
+        11.6,
+        13.6,
+        12.4,
+        15
+      ],
+      [
+        1.9500000000000002,
+        3.9500000000000006,
+        8,
+        9
+      ],
+      [
+        5.6499999999999995,
+        7.65,
+        8,
+        9
+      ],
+      [
+        9.35,
+        11.35,
+        8,
+        9
+      ],
+      [
+        13.049999999999999,
+        15.049999999999999,
+        8,
+        9
+      ]
+    ],
+    "initial": [
+      3.35,
+      3,
+      1.5707963267948966,
+      3.35,
+      1.665,
+      1.5707963267948966
+    ],
+    "goalY": 6.1,
+    "goalAngle": 1.5707963267948966,
+    "goalTolerance": 0.008,
+    "taskGoalY": 6,
+    "taskGoalTolerance": 0.025,
+    "smax": 0.18,
+    "mesh": 100,
+    "regularization": 0.002,
+    "vertices": [
+      [
+        [
+          0.6,
+          0.35
+        ],
+        [
+          0,
+          0.35
+        ],
+        [
+          0,
+          -0.35
+        ],
+        [
+          0.6,
+          -0.35
+        ]
+      ],
+      [
+        [
+          0.7,
+          0.55
+        ],
+        [
+          -0.35,
+          0.55
+        ],
+        [
+          -0.35,
+          -0.55
+        ],
+        [
+          0.7,
+          -0.55
+        ]
+      ]
+    ],
+    "goalXYTolerance": [
+      0.12,
+      0.12
+    ],
+    "replayTolerance": 0.15,
+    "caseName": "W05",
+    "name": "Offset storage blocks",
+    "goal": [
+      3.4468793197292782,
+      13.065793083265412
+    ],
+    "obstacleKinds": [
+      "rack",
+      "rack",
+      "rack",
+      "rack",
+      "rack",
+      "rack",
+      "rack",
+      "rack",
+      "rack",
+      "rack",
+      "rack",
+      "rack"
+    ],
+    "layoutFamily": 5,
+    "zones": [
+      [
+        0.5,
+        14,
+        0.25,
+        2.6
+      ],
+      [
+        0.5,
+        15.5,
+        7,
+        9
+      ]
+    ],
+    "zoneNames": [
+      "Inbound buffer",
+      "Transfer cross aisle"
+    ],
+    "nominalAisleWidth": 1.7,
+    "layoutArea": 44.800000000000011
+  },
+  "rawVerified": false,
+  "status": "missing_output",
+  "cost": null,
+  "process": {
+    "budget": 30,
+    "wallSeconds": 30.3254102,
+    "timedOut": true,
+    "exitCode": []
+  },
+  "totalSeconds": 31.4077082,
+  "stageAudits": [
+    []
+  ],
+  "rawSolverAccepted": false,
+  "seedAudit": {
+    "accepted": true,
+    "stateAccepted": true,
+    "boundsViolation": 0,
+    "stateBoundsViolation": 1.5543122344752192E-15,
+    "initialClearance": 0.49999999999999911,
+    "cost": 13.328135490398564,
+    "travel": 13.24752205799758,
+    "cableAccepted": true,
+    "cableHits": 0,
+    "cableLengthError": 1.5543122344752192E-15,
+    "cableSideChanges": 0,
+    "fineStateAccepted": true,
+    "fineHeadingError": 0.0097087924037246864,
+    "fineGoalError": [
+      0.020651695296078021,
+      0.0014933011099582671
+    ],
+    "fineNodeDifference": 0.030337647254818911,
+    "fineClearance": 0.10253318554404668,
+    "discreteNodeResidual": 0,
+    "modeResidual": 0,
+    "coarseClearance": 0.13711670407571197
+  },
+  "selectedSource": "search_seed",
+  "retainedVerified": true,
+  "retainedCost": 13.328135490398564,
+  "retainedTravel": 13.24752205799758,
+  "improved": false,
+  "recoverySelected": false,
+  "prefix": {
+    "seconds": 31.4076701,
+    "rawVerified": false,
+    "retainedVerified": true,
+    "retainedCost": 13.328135490398564,
+    "retainedTravel": 13.24752205799758,
+    "improved": false
+  },
+  "algorithmBudget": 30
+}

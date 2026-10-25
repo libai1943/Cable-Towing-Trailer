@@ -1,0 +1,16 @@
+\begin{table*}[!t]
+\centering\caption{Control-recovery ablations and solve-only strategy comparisons}
+\label{tab:ablation}
+\footnotesize\begin{tabular}{lrrrr}
+\toprule
+Variant & New & Impr. & $\Delta l$ (\%) & $t_{50}$ (s)\\
+\midrule
+Proposed & 9/9 & 9/9 & 4.36 & 31.03\\
+No final recovery (paired) & 9/9 & 9/9 & 2.68 & 27.91\\
+No terminal correction (paired) & 9/9 & 9/9 & 3.18 & --\\
+RGR & 7/9 & 6/9 & 2.92 & 33.01\\
+No reserves (RRP) & 0/9 & 0/9 & 0.00 & 31.78\\
+MAX + recovery & 9/9 & 9/9 & 1.07 & 24.90\\
+Relaxed stage only & 0/9 & 0/9 & 0.00 & --\\
+\bottomrule\end{tabular}
+\end{table*}

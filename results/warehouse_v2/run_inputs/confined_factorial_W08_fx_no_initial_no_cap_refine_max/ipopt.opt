@@ -1,0 +1,10 @@
+linear_solver ma57
+print_level 5
+max_iter 600
+max_cpu_time 18.4587
+tol 1e-7
+constr_viol_tol 1e-7
+acceptable_tol 1e-6
+acceptable_iter 8
+mu_strategy adaptive
+bound_relax_factor 0

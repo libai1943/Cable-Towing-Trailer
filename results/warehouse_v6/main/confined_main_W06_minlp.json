@@ -1,0 +1,265 @@
+{
+  "method": "minlp",
+  "options": {
+    "label": "confined_main_W06_minlp",
+    "timeLimit": 30,
+    "nlpTimeLimit": 28,
+    "epscomp": 0,
+    "beta": 100,
+    "maxIter": 3000,
+    "solutionLimit": 1.0E+6,
+    "disablePump": false
+  },
+  "seconds": 31.222744,
+  "exitCode": 0,
+  "P": {
+    "L": 1.335,
+    "a": 0.7,
+    "Lf": 0.4,
+    "front": [
+      0.6,
+      0,
+      0.35
+    ],
+    "rear": [
+      0.7,
+      0.35,
+      0.55
+    ],
+    "rho": 1,
+    "deltaMax": 0.78539816339744828,
+    "vMax": 0.5,
+    "aMax": 0.5,
+    "wMax": 0.8,
+    "clearance": 0.1,
+    "extra": 0.065,
+    "scale": 1,
+    "planBuffer": 0.02,
+    "B": 2.035,
+    "radius": 0.40000000000000008,
+    "left": 0,
+    "right": 16,
+    "ymin": 0,
+    "ymax": 16,
+    "pull": 9,
+    "sample": 0.01,
+    "obstacles": [
+      [
+        13.5,
+        15.5,
+        9.9,
+        11.2
+      ],
+      [
+        13.5,
+        15.5,
+        1.4000000000000004,
+        7
+      ],
+      [
+        9.8,
+        11.8,
+        9.9,
+        11.2
+      ],
+      [
+        9.8,
+        11.8,
+        1.4000000000000004,
+        7
+      ],
+      [
+        6.1,
+        8.1000000000000014,
+        9.9,
+        11.2
+      ],
+      [
+        6.1,
+        8.1000000000000014,
+        1.4000000000000004,
+        7
+      ],
+      [
+        2.4000000000000004,
+        4.4,
+        9.9,
+        11.2
+      ],
+      [
+        2.4000000000000004,
+        4.4,
+        1.4000000000000004,
+        7
+      ],
+      [
+        13,
+        15.4,
+        14.6,
+        15.5
+      ],
+      [
+        8.6,
+        11,
+        14.6,
+        15.5
+      ],
+      [
+        4.1999999999999993,
+        6.6,
+        14.6,
+        15.5
+      ],
+      [
+        0.59999999999999964,
+        3,
+        14.6,
+        15.5
+      ]
+    ],
+    "initial": [
+      5.35,
+      11.4,
+      -1.5707963267948966,
+      5.35,
+      12.735,
+      -1.5707963267948966
+    ],
+    "goalY": 6.1,
+    "goalAngle": 1.5707963267948948,
+    "goalTolerance": 0.008,
+    "taskGoalY": 6,
+    "taskGoalTolerance": 0.025,
+    "smax": 0.18,
+    "mesh": 100,
+    "regularization": 0.002,
+    "vertices": [
+      [
+        [
+          0.6,
+          0.35
+        ],
+        [
+          0,
+          0.35
+        ],
+        [
+          0,
+          -0.35
+        ],
+        [
+          0.6,
+          -0.35
+        ]
+      ],
+      [
+        [
+          0.7,
+          0.55
+        ],
+        [
+          -0.35,
+          0.55
+        ],
+        [
+          -0.35,
+          -0.55
+        ],
+        [
+          0.7,
+          -0.55
+        ]
+      ]
+    ],
+    "goalXYTolerance": [
+      0.12,
+      0.12
+    ],
+    "replayTolerance": 0.15,
+    "caseName": "W06",
+    "name": "Packing-area turn",
+    "goal": [
+      8.9322675823106437,
+      10.708844533381903
+    ],
+    "obstacleKinds": [
+      "rack",
+      "rack",
+      "rack",
+      "rack",
+      "rack",
+      "rack",
+      "rack",
+      "rack",
+      "station",
+      "station",
+      "station",
+      "station"
+    ],
+    "layoutFamily": 6,
+    "zones": [
+      0.59999999999999964,
+      15.5,
+      12.2,
+      14.3
+    ],
+    "zoneNames": [
+      "Packing / consolidation"
+    ],
+    "nominalAisleWidth": 1.7,
+    "layoutArea": 63.839999999999989
+  },
+  "rawVerified": false,
+  "status": "missing_output",
+  "cost": null,
+  "process": {
+    "budget": 30,
+    "wallSeconds": 30.608357599999998,
+    "timedOut": true,
+    "exitCode": []
+  },
+  "totalSeconds": 31.9208193,
+  "stageAudits": [
+    []
+  ],
+  "rawSolverAccepted": false,
+  "seedAudit": {
+    "accepted": true,
+    "stateAccepted": true,
+    "boundsViolation": 0,
+    "stateBoundsViolation": 1.3322676295501878E-15,
+    "initialClearance": 0.40000000000000036,
+    "cost": 12.276287642049304,
+    "travel": 12.229787271987442,
+    "cableAccepted": true,
+    "cableHits": 0,
+    "cableLengthError": 1.5543122344752192E-15,
+    "cableSideChanges": 0,
+    "fineStateAccepted": true,
+    "fineHeadingError": 0.021580043423855555,
+    "fineGoalError": [
+      0.030835717519011041,
+      0.052235662400677896
+    ],
+    "fineNodeDifference": 0.065409496928786837,
+    "fineClearance": 0.16158368804589074,
+    "discreteNodeResidual": 0,
+    "modeResidual": 0,
+    "coarseClearance": 0.16129740822819671
+  },
+  "selectedSource": "search_seed",
+  "retainedVerified": true,
+  "retainedCost": 12.276287642049304,
+  "retainedTravel": 12.229787271987442,
+  "improved": false,
+  "recoverySelected": false,
+  "prefix": {
+    "seconds": 31.9207782,
+    "rawVerified": false,
+    "retainedVerified": true,
+    "retainedCost": 12.276287642049304,
+    "retainedTravel": 12.229787271987442,
+    "improved": false
+  },
+  "algorithmBudget": 30
+}
