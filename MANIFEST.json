@@ -516,13 +516,13 @@
   },
   {
     "path": "paper/main.tex",
-    "bytes": 6099,
-    "sha256": "fa84fcca014e9d0a500230d72198300d48ea5cbd1dca02ce7505079c04c4c978"
+    "bytes": 6101,
+    "sha256": "e03b77b84bf4747e4200fb55d6bb4d4f69509365e4e78e516ac15adda81fe112"
   },
   {
     "path": "paper/manuscript.pdf",
-    "bytes": 763097,
-    "sha256": "f336b381a2f78a0f3986750b8c41bfbe0e41705d4e2621a4b60793a6eb96c265"
+    "bytes": 763142,
+    "sha256": "65feb8647c1c5588c79eab4a8c2f9fb52a29540e2166e7e4a5b416221c548ea2"
   },
   {
     "path": "paper/references.bib",
@@ -531,8 +531,8 @@
   },
   {
     "path": "paper/sections/experiments.tex",
-    "bytes": 13224,
-    "sha256": "3df7cf9bed37fa57c1ae9ac34bda3eedd3598dc10665f341f3a86f2bccde634f"
+    "bytes": 13265,
+    "sha256": "82051f04e35aebda257413201e1432865e358174f9f7cb703c137d4080818849"
   },
   {
     "path": "paper/sections/introduction.tex",
@@ -551,8 +551,8 @@
   },
   {
     "path": "paper/sections/solution.tex",
-    "bytes": 11341,
-    "sha256": "031aabfb14c672fc435ffd1474561d74e952fe4249b099d2b70858c55efb3ff8"
+    "bytes": 11265,
+    "sha256": "1453a27eb4914ee15240dffac51d0be5001f949064b2f559bc6e858e94cbb9fc"
   },
   {
     "path": "paper/tables/ablation.tex",
