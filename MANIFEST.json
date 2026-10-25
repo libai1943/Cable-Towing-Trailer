@@ -5,6 +5,11 @@
     "sha256": "9c2cffc4e3dee1b98161a2775c41d4838b32e23b39812d3dea5b7bba7e13367f"
   },
   {
+    "path": ".mailmap",
+    "bytes": 160,
+    "sha256": "437dd208fc778cc1410b100e72d95f2086628d14cbfa2530d54d098b34e89559"
+  },
+  {
     "path": "ampl/euler/mode_complementarity.mod",
     "bytes": 191,
     "sha256": "3ddb53477a8643ad1db77f792a853ad04c821edccb0cf5676f099d573efd64b1"
